@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ModUpdateData - LoversLab Mod Updates</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; padding: 1em 1.2em; background: #fafafa; color: #222; }
+  body[data-loading] .not-loading { display: none; }
+  body:not([data-loading]) .loading { display: none; }
+  h1 { font-size: 1.3em; margin: 0 0 0.3em; }
+  h1 small { font-weight: normal; color: #666; }
+  #meta { color: #666; font-size: 0.9em; margin-bottom: 1em; }
+  #search { padding: 6px 10px; width: 320px; max-width: 100%; border: 1px solid #ccc; border-radius: 6px; font-size: 0.95em; }
+  table { border-collapse: collapse; width: 100%; background: #fff; }
+  table td, table th { padding: 6px 8px; text-align: left; font-size: 0.92em; }
+  table th { background: #111; color: #fff; position: sticky; top: 0; white-space: nowrap; }
+  table th[data-sortable] { cursor: pointer; }
+  table th[data-sortable]:hover { background: #333; }
+  table tr + tr { border-top: 1px solid #e5e5e5; }
+  table tbody tr:hover { background: #eef !important; cursor: pointer; }
+  table tbody tr:nth-child(2n) { background: #f6f6f6; }
+  table tr.sort-hidden, table tr.filter-hidden { display: none; }
+  #details-popup { align-items: center; background: transparent; display: flex; flex-direction: column; left: 0; justify-content: center; min-height: 100vh; position: fixed; right: 0; top: 0; z-index: 10; padding: 1em; }
+  #details-popup:not(.visible) { display: none; }
+  #details-popup > div { background: #fff; padding: 1.2em 1.6em; border-radius: 10px; box-shadow: 0 10px 40px rgba(0,0,0,0.3); max-width: 720px; width: 100%; max-height: 85vh; overflow: auto; }
+  #details-popup-background { background: #000; opacity: 0.5; position: fixed; inset: 0; z-index: 9; }
+  #details-popup:not(.visible) + #details-popup-background { display: none; }
+  #details-popup-template { display: none; }
+  .badge { display: inline-block; padding: 1px 6px; border-radius: 10px; font-size: 0.8em; background: #eee; }
+  .muted { color: #777; }
+  a { color: #0b57d0; }
+  #stats { margin: 0.6em 0; font-size: 0.9em; color: #555; }
+</style>
+</head>
+<body data-loading>
+<h1>ModUpdateData <small>- LoversLab mod update tracker</small></h1>
+<p id="meta" class="loading">Loading...</p>
+<p id="meta" class="not-loading">
+  <span id="meta-text"></span>
+  &middot; <a href="https://github.com/GameModManager/ModUpdateData">GitHub</a>
+  &middot; <a href="../data/manifest.json">manifest</a>
+  &middot; <a href="../data/index.json">index</a>
+</p>
+<div class="not-loading" style="margin-bottom:0.8em">
+  <input id="search" type="search" placeholder="Filter by title, category, id...">
+  <span id="stats"></span>
+</div>
+<table id="table" class="not-loading">
+<thead>
+<tr>
+  <th>ID</th>
+  <th>SE Status</th>
+  <th>LL Category</th>
+  <th data-sortable>Mod</th>
+  <th data-sortable data-sortinv>Last Updated</th>
+</tr>
+</thead>
+</table>
+
+<div id="details-popup-template">
+  <h2 style="margin-top:0"><span data-template="mod.game"></span> &rsaquo; <span data-template="mod.category"></span> &rsaquo; <span data-template="mod.title"></span></h2>
+  <p><a data-template="mod.href ? (this.href='https://www.loverslab.com/files/file/'+mod.href+'/', this.textContent='View on LoversLab') : this.closest('p').remove()"></a> <span data-template="mod.automated ? (this.textContent=' [automated]', this.style.color='#c00') : ''"></span></p>
+  <table>
+    <tr><th>Status</th><td data-template="mod.status"></td></tr>
+    <tr><th>Game</th><td data-template="mod.game"></td></tr>
+    <tr><th>Version</th><td data-template="mod.version ? mod.version : this.closest('tr').remove()"></td></tr>
+    <tr><th>Tags</th><td data-template="mod.tags ? mod.tags.join(', ') : this.closest('tr').remove()"></td></tr>
+    <tr><th>Last Updated</th><td data-template="new Date(mod.updated).toDateString() + ' (' + mod.updated + ')'"></td></tr>
+    <tr><th>Update count</th><td data-template="String((mod.update_history||[]).length)"></td></tr>
+    <tr><th>Source</th><td data-template="mod.source + (mod.automated ? ' (automated)' : '')"></td></tr>
+  </table>
+  <ul class="notes"></ul>
+  <p class="muted" style="font-size:0.85em">ID <span data-template="String(mod.id)"></span> &middot; canonical <span data-template="String(mod.canonical)"></span></p>
+</div>
+<div id="details-popup"></div>
+<div id="details-popup-background"></div>
+
+<script>
+const MANIFEST_URLS = [
+  "../data/manifest.json",
+  "https://raw.githubusercontent.com/GameModManager/ModUpdateData/main/data/manifest.json",
+];
+
+function shardUrl(file) {
+  // file is "data/00000-00999.json"
+  const rawBase = "https://raw.githubusercontent.com/GameModManager/ModUpdateData/main/";
+  return rawBase + file;
+}
+
+function icon(game, status) {
+  if (status === "deleted") return "\u26AB";
+  if (game === "SE") return "\uD83D\uDFE2";
+  return ({compatible:"\uD83D\uDFE2",convertible:"\uD83D\uDD35",incompatible:"\uD83D\uDD34","legacy-compatible":"\uD83D\uDFE2",new:"\uD83D\uDFE2",obsolete:"\uD83D\uDFE4",ported:"\uD83D\uDFE2",unknown:"\u26AA"})[status] || "\u26AA";
+}
+
+function el(name, cb) {
+  const e = document.createElement(name);
+  if (cb) cb.call(e, e);
+  return e;
+}
+
+let allData = [];
+let canonicalMods = [];
+
+async function fetchJson(urls) {
+  let lastErr;
+  for (const u of urls) {
+    try {
+      const r = await fetch(u, {cache:"no-cache"});
+      if (!r.ok) throw new Error(r.status + " " + r.statusText);
+      return {data: await r.json(), url: u};
+    } catch(e) { lastErr = e; }
+  }
+  throw lastErr;
+}
+
+async function load() {
+  const meta = document.getElementById("meta");
+  // Try manifest
+  let manifest, manifestUrl;
+  try {
+    const res = await fetchJson(MANIFEST_URLS);
+    manifest = res.data; manifestUrl = res.url;
+  } catch(e) {
+    document.querySelector("h1").innerText = "Failed to load manifest: " + e;
+    throw e;
+  }
+  // Fetch shards - try relative first, fallback to raw
+  const baseIsRaw = manifestUrl.includes("raw.githubusercontent");
+  const shardFetches = manifest.shards.map(s => {
+    const url = baseIsRaw ? shardUrl(s.file) : "../" + s.file;
+    const fallback = shardUrl(s.file);
+    const urls = url === fallback ? [url] : [url, fallback];
+    return fetchJson(urls).then(r => r.data).catch(e => { console.warn("shard fetch failed", s.file, e); return []; });
+  });
+  const shardArrays = await Promise.all(shardFetches);
+  allData = shardArrays.flat();
+  // Sort like tasairis: by sortable
+  allData.sort((a,b) => (a.sortable||a.title||"").localeCompare(b.sortable||b.title||""));
+  canonicalMods = allData.filter(m => m.id === m.canonical);
+
+  document.getElementById("meta-text").textContent =
+    `${manifest.generated_at.slice(0,10)} - ${manifest.total_mods} mods in ${manifest.total_shards} shards - source ${manifest.source || ""}`;
+  document.getElementById("stats").textContent = `${canonicalMods.length} canonical mods shown`;
+
+  buildTable();
+  delete document.body.dataset.loading;
+  applySortable();
+  setupFilter();
+  setupPopup();
+}
+
+function buildTable() {
+  const tbody = el("TBODY");
+  let idx = 0;
+  for (const m of canonicalMods) {
+    const others = allData.filter(o => o.canonical === m.canonical && o.id !== m.id);
+    const tr = el("TR");
+    tr.id = String(m.id);
+    tr.dataset.index = String(idx);
+    tr.appendChild(el("TD", td => td.textContent = String(m.id)));
+    tr.appendChild(el("TD", td => {
+      if (m.status !== "deleted" && m.game === "SE" && !others.find(o => o.game === "LE")) {
+        const em = el("EM"); em.textContent = "(made for SE)"; td.appendChild(em);
+      } else td.textContent = m.status;
+    }));
+    tr.appendChild(el("TD", td => td.textContent = m.category));
+    tr.appendChild(el("TD", td => {
+      td.dataset.sort = m.sortable || m.title || "";
+      td.append(icon(m.game, m.status) + " ");
+      if (others.length) td.append(m.game + ": ");
+      if (m.href) {
+        const a = el("A"); a.href = "https://www.loverslab.com/files/file/" + m.href + "/"; a.textContent = m.title; a.target="_blank"; td.appendChild(a);
+      } else td.append(m.title);
+      if (m.obsolete_successor || m.obsolete_alternative || m.obsolete_reason) td.append(" \u2620\uFE0F");
+      if (m.note) td.append(" \uD83D\uDCDD");
+      if (m.other_link) td.append(" \uD83D\uDD17");
+      if (m.automated) { const b = el("SPAN"); b.className="badge"; b.textContent="automated"; b.style.background="#fde8e8"; td.append(" "); td.appendChild(b); }
+      for (const o of others) {
+        td.appendChild(el("BR"));
+        td.append(icon(o.game, o.status) + " " + o.game + ": ");
+        if (o.href) { const a = el("A"); a.href = "https://www.loverslab.com/files/file/" + o.href; a.textContent = o.title; a.target="_blank"; td.appendChild(a); }
+        else td.append(o.title);
+      }
+    }));
+    tr.appendChild(el("TD", td => { td.dataset.sort = m.updated; td.textContent = new Date(m.updated).toDateString(); }));
+    tbody.appendChild(tr);
+    idx++;
+  }
+  document.getElementById("table").appendChild(tbody);
+}
+
+function applySortable() {
+  const headers = [...document.querySelectorAll("#table thead th")];
+  const state = new Map(); let sortingBy;
+  headers.forEach((th,i) => {
+    if (!th.dataset.hasOwnProperty("sortable")) return;
+    const icon = el("SPAN"); icon.textContent = ""; th.textContent = "\uD83D\uDD03 " + th.textContent; th.appendChild(icon);
+    state.set(th, 0);
+    const dir = th.dataset.hasOwnProperty("sortinv") ? -1 : 1;
+    th.addEventListener("click", () => {
+      if (sortingBy && sortingBy !== th) { state.set(sortingBy,0); sortingBy.querySelector("span").textContent=""; }
+      sortingBy = th;
+      const s = (3 + state.get(th) + dir) % 3;
+      let cmp;
+      if (s===1) { icon.textContent=" \u2B06\uFE0F"; cmp=([a],[b])=>a.localeCompare(b); }
+      else if (s===2) { icon.textContent=" \u2B07\uFE0F"; cmp=([a],[b])=>b.localeCompare(a); }
+      else { icon.textContent=""; cmp=([a],[b])=>a-b; }
+      state.set(th,s);
+      const rows=[];
+      for (const row of document.querySelectorAll("#table tbody tr")) {
+        const comp = s===0 ? Number(row.dataset.index) : row.querySelectorAll("td").item(i).dataset.sort;
+        if (comp !== undefined && comp !== "") { row.classList.remove("sort-hidden"); rows.push([comp,row]); }
+        else row.classList.add("sort-hidden");
+      }
+      const tbody=document.querySelector("#table tbody");
+      rows.sort(cmp).forEach(([,tr])=>tbody.appendChild(tr));
+    });
+  });
+}
+
+function setupFilter() {
+  const inp = document.getElementById("search");
+  inp.addEventListener("input", () => {
+    const q = inp.value.trim().toLowerCase();
+    let visible=0;
+    for (const row of document.querySelectorAll("#table tbody tr")) {
+      if (!q) { row.classList.remove("filter-hidden"); visible++; continue; }
+      const txt = row.textContent.toLowerCase();
+      const hide = !txt.includes(q);
+      row.classList.toggle("filter-hidden", hide);
+      if (!hide) visible++;
+    }
+    document.getElementById("stats").textContent = visible + " shown / " + canonicalMods.length + " total";
+  });
+}
+
+function setupPopup() {
+  const popup = document.getElementById("details-popup");
+  popup.addEventListener("click", e => { if (e.target===popup) popup.classList.remove("visible"); });
+  document.getElementById("details-popup-background").addEventListener("click", ()=>popup.classList.remove("visible"));
+  document.getElementById("table").addEventListener("click", e => {
+    if (e.target.closest("a[href]")) return;
+    const id = e.target.closest("tr[id]")?.id;
+    if (!id) return;
+    const relevant = allData.filter(m => String(m.canonical)===String(id));
+    if (!relevant.length) return;
+    relevant.sort((a,b)=> String(a.id)===String(id)?-1: String(b.id)===String(id)?1: (a.sortable||"").localeCompare(b.sortable||""));
+    while (popup.firstChild) popup.firstChild.remove();
+    const tpl = document.getElementById("details-popup-template");
+    relevant.forEach(mod => {
+      const details = tpl.cloneNode(true);
+      details.removeAttribute("id"); details.style.display="block";
+      details.querySelectorAll("[data-template]").forEach(elem => {
+        const v = (function(mod){ return eval(this.dataset.template); }).call(elem, mod);
+        if (v !== undefined && v !== null) elem.textContent = String(v);
+      });
+      details.querySelectorAll("ul.notes").forEach(ul => {
+        const add = (label, arr) => { if (!arr) return; const li=el("LI"); li.textContent=label+": "+arr.join("; "); ul.appendChild(li); };
+        add("Obsolete reason", mod.obsolete_reason);
+        add("Successor", mod.obsolete_successor);
+        add("Alternative", mod.obsolete_alternative);
+        if (mod.note) mod.note.forEach(n=>{ const li=el("LI"); li.textContent=n; ul.appendChild(li); });
+        if (mod.other_link) mod.other_link.forEach(l=>{ const li=el("LI"); const a=el("A"); a.href=l.href; a.textContent=l.text||l.href; a.target="_blank"; li.appendChild(a); ul.appendChild(li); });
+        if (!ul.children.length) ul.remove();
+      });
+      popup.appendChild(details);
+    });
+    popup.classList.add("visible");
+  });
+}
+
+load().catch(e => { console.error(e); document.body.innerHTML += "<pre>"+String(e)+"</pre>"; });
+</script>
+</body>
+</html>

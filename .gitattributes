@@ -1,0 +1,2 @@
+data/*.json linguist-language=JSON
+data/*.json diff=json

@@ -1,0 +1,4318 @@
+[
+  {
+    "id": 19005,
+    "canonical": 19005,
+    "title": "TW3 Triss Gown Retouched",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19005-tw3-triss-gown-retouched",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-08-27T15:32:58Z",
+    "sortable": "tw3 triss gown retouched",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-08-27T15:32:58Z"
+    ]
+  },
+  {
+    "id": 19007,
+    "canonical": 19007,
+    "title": "MODERN FIRE ARMS EXTENSIVE MOD LE",
+    "category": "Weapons & Spells",
+    "game": "LE",
+    "href": "19007-modern-fire-arms-extensive-mod-le",
+    "status": "incompatible",
+    "version": "3.0",
+    "updated": "2021-10-19T16:45:01Z",
+    "sortable": "modern fire arms extensive mod",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-19T16:45:01Z"
+    ]
+  },
+  {
+    "id": 19023,
+    "canonical": 19023,
+    "title": "The Forgotten Island",
+    "category": "Quest",
+    "game": "LE",
+    "href": "19023-the-forgotten-island",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-08-28T06:31:02Z",
+    "sortable": "forgotten island",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-08-28T06:31:02Z"
+    ]
+  },
+  {
+    "id": 19030,
+    "canonical": 19030,
+    "title": "[WIP] Vampire Peel",
+    "category": "Armor & Clothing",
+    "game": "LE",
+    "href": "19030-wip-vampire-peel",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-08-28T19:32:57Z",
+    "sortable": "vampire peel",
+    "tags": [
+      "vampire"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-08-28T19:32:57Z"
+    ]
+  },
+  {
+    "id": 19039,
+    "canonical": 19039,
+    "title": "TRX - Futanari Addon (WIP)",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19039-trx-futanari-addon-wip",
+    "status": "incompatible",
+    "version": "1.2.4",
+    "updated": "2022-05-13T21:17:23Z",
+    "sortable": "trx - futanari addon",
+    "tags": [
+      "cbbe se",
+      "futa",
+      "futanari",
+      "futanari sex",
+      "sos addon",
+      "sos se"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-05-13T21:17:23Z"
+    ]
+  },
+  {
+    "id": 19044,
+    "canonical": 19044,
+    "title": "Suspicious Gold Starter (A Devious Quest) [SSE Port]",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19044-suspicious-gold-starter-a-devious-quest-sse-port",
+    "status": "incompatible",
+    "version": "v1.4.0a",
+    "updated": "2021-08-29T15:33:07Z",
+    "sortable": "suspicious gold starter (a devious quest) [sse port]",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-08-29T15:33:07Z"
+    ]
+  },
+  {
+    "id": 19045,
+    "canonical": 19045,
+    "title": "SunJeong's Ninirim armor patches for Chastity Belts and Baka Aroused keywords",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19045-sunjeongs-ninirim-armor-patches-for-chastity-belts-and-baka-aroused-keywords",
+    "status": "incompatible",
+    "version": "v1.2",
+    "updated": "2022-01-31T13:51:49Z",
+    "sortable": "sunjeong's ninirim armor patches for chastity belts and baka aroused keywords",
+    "tags": [
+      "armor",
+      "aroused",
+      "baka",
+      "chasity",
+      "chastity belt",
+      "keywords",
+      "monsta88",
+      "ninirim",
+      "patch",
+      "sunjeong"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-01-31T13:51:49Z"
+    ]
+  },
+  {
+    "id": 19047,
+    "canonical": 19047,
+    "title": "Bad Ends Revived: Windhelm",
+    "category": "Quest",
+    "game": "LE",
+    "href": "19047-bad-ends-revived-windhelm",
+    "status": "compatible",
+    "version": "1.1",
+    "updated": "2023-12-28T16:23:49Z",
+    "sortable": "bad ends revived: windhelm",
+    "tags": [
+      "death",
+      "execution",
+      "hanging",
+      "prison",
+      "prisoner",
+      "zap"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2023-12-28T16:23:49Z"
+    ]
+  },
+  {
+    "id": 19049,
+    "canonical": 19049,
+    "title": "Bloodforge Crom Armor",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19049-bloodforge-crom-armor",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-08-29T19:25:29Z",
+    "sortable": "bloodforge crom armor",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-08-29T19:25:29Z"
+    ]
+  },
+  {
+    "id": 19050,
+    "canonical": 19050,
+    "title": "SOS Female Pubic Hairs colored for NPCs - BHUNP Bodyslide addon",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19050-sos-female-pubic-hairs-colored-for-npcs-bhunp-bodyslide-addon",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-08-29T19:43:59Z",
+    "sortable": "sos female pubic hairs colored for npcs - bhunp bodyslide addon",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-08-29T19:43:59Z"
+    ]
+  },
+  {
+    "id": 19052,
+    "canonical": 19052,
+    "title": "MORTARBALL THE FIRST BASKETBALL GAME FOR SKYRIM PHYSICS",
+    "category": "Other",
+    "game": "LE",
+    "href": "19052-mortarball-the-first-basketball-game-for-skyrim-physics",
+    "status": "incompatible",
+    "version": "1.1",
+    "updated": "2021-08-29T20:16:03Z",
+    "sortable": "mortarball the first basketball game for skyrim physics",
+    "tags": [
+      "basketball",
+      "creation engine",
+      "indie game",
+      "lore unfriendly",
+      "modern mods",
+      "skyrim legendary"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-08-29T20:16:03Z"
+    ]
+  },
+  {
+    "id": 19053,
+    "canonical": 19053,
+    "title": "Thoughts.json",
+    "category": "Dialog Sex",
+    "game": "SE",
+    "href": "19053-thoughtsjson",
+    "status": "incompatible",
+    "version": "1.0.1",
+    "updated": "2021-09-09T14:50:34Z",
+    "sortable": "thoughts.json",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-09T14:50:34Z"
+    ]
+  },
+  {
+    "id": 19054,
+    "canonical": 19054,
+    "title": "OSouls + Immersive Wenches Patch",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19054-osouls-immersive-wenches-patch",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-08-29T21:09:39Z",
+    "sortable": "osouls + immersive wenches patch",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-08-29T21:09:39Z"
+    ]
+  },
+  {
+    "id": 19056,
+    "canonical": 19056,
+    "title": "Daedric Pei/SexyBono style horn pack",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19056-daedric-peisexybono-style-horn-pack",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-08-29T21:35:57Z",
+    "sortable": "daedric pei/sexybono style horn pack",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-08-29T21:35:57Z"
+    ]
+  },
+  {
+    "id": 19058,
+    "canonical": 0,
+    "title": "NL4 U NPC 2",
+    "category": "Other",
+    "game": "LE",
+    "status": "deleted",
+    "version": "126.1",
+    "updated": "2022-04-21T19:26:52Z",
+    "sortable": "nl4 u npc",
+    "tags": [
+      "npc"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-04-21T19:26:52Z"
+    ]
+  },
+  {
+    "id": 19059,
+    "canonical": 19059,
+    "title": "The Bone",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19059-the-bone",
+    "status": "unknown",
+    "version": "3.1",
+    "updated": "2021-09-02T14:09:36Z",
+    "sortable": "bone",
+    "tags": [
+      "weapon"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-02T14:09:36Z"
+    ]
+  },
+  {
+    "id": 19060,
+    "canonical": 0,
+    "title": "NL4 U NPC 2",
+    "category": "Regular Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "126.2",
+    "updated": "2022-04-21T19:29:36Z",
+    "sortable": "nl4 u npc",
+    "tags": [
+      "npc"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-04-21T19:29:36Z"
+    ]
+  },
+  {
+    "id": 19062,
+    "canonical": 19062,
+    "title": "Gossip | A fame framework",
+    "category": "WIP / Beta",
+    "game": "SE",
+    "href": "19062-gossip-a-fame-framework",
+    "status": "incompatible",
+    "version": "2c1",
+    "updated": "2024-05-29T21:22:59Z",
+    "sortable": "gossip | a fame framework",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2024-05-29T21:22:59Z"
+    ]
+  },
+  {
+    "id": 19064,
+    "canonical": 19064,
+    "title": "Seduce and feed  / MindWipe",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19064-seduce-and-feed-mindwipe",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-08-30T10:20:55Z",
+    "sortable": "seduce and feed/ mindwipe",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-08-30T10:20:55Z"
+    ]
+  },
+  {
+    "id": 19067,
+    "canonical": 19067,
+    "title": "Dwemmer female voice for SexLab Extra Voices Expanded (agree and disagree)",
+    "category": "Sex Effects",
+    "game": "LE",
+    "href": "19067-dwemmer-female-voice-for-sexlab-extra-voices-expanded-agree-and-disagree",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-08-30T15:16:15Z",
+    "sortable": "dwemmer female voice for sexlab extra voices expanded (agree and disagree",
+    "tags": [
+      "custom voices",
+      "dwarven",
+      "dwemer",
+      "voice"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-08-30T15:16:15Z"
+    ]
+  },
+  {
+    "id": 19074,
+    "canonical": 19074,
+    "title": "[Tobi] Console Binder",
+    "category": "Regular Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "2",
+    "updated": "2022-01-15T22:49:00Z",
+    "sortable": "console binder",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-01-15T22:49:00Z"
+    ]
+  },
+  {
+    "id": 19075,
+    "canonical": 19075,
+    "title": "type 2b follower SE",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19075-type-2b-follower-se",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-08-31T00:43:32Z",
+    "sortable": "type 2b follower",
+    "tags": [
+      "skyrimse"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-08-31T00:43:32Z"
+    ]
+  },
+  {
+    "id": 19076,
+    "canonical": 19076,
+    "title": "Sex With Thieves: Dominant Edition",
+    "category": "Dialog Sex",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.2.0",
+    "updated": "2021-09-20T03:21:27Z",
+    "sortable": "sex with thieves: dominant edition",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-20T03:21:27Z"
+    ]
+  },
+  {
+    "id": 19077,
+    "canonical": 19077,
+    "title": "Feederism SlaveTats Pack",
+    "category": "Models & Textures",
+    "game": "LE",
+    "href": "19077-feederism-slavetats-pack",
+    "status": "compatible",
+    "version": "1.0.0",
+    "updated": "2021-08-31T04:20:28Z",
+    "sortable": "feederism slavetats pack",
+    "tags": [
+      "slavetats",
+      "tattoos",
+      "weight gain"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-08-31T04:20:28Z"
+    ]
+  },
+  {
+    "id": 19078,
+    "canonical": 19078,
+    "title": "Litia Nord Preset",
+    "category": "Models & Textures",
+    "game": "LE",
+    "href": "19078-litia-nord-preset",
+    "status": "compatible",
+    "version": "1.0.0",
+    "updated": "2021-08-31T14:47:31Z",
+    "sortable": "litia nord preset",
+    "tags": [
+      "cbbe",
+      "character",
+      "load",
+      "nord",
+      "pc",
+      "preset",
+      "preset-load",
+      "racemenu"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-08-31T14:47:31Z"
+    ]
+  },
+  {
+    "id": 19085,
+    "canonical": 19085,
+    "title": "Succulent Skin - UNP/CBBE Skin Texture with UNP performance option for outdated rigs",
+    "category": "Models & Textures",
+    "game": "LE",
+    "status": "deleted",
+    "version": "1.0",
+    "updated": "2021-09-08T21:03:37Z",
+    "sortable": "succulent skin - unp/cbbe skin texture with unp performance option for outdated rigs",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-08T21:03:37Z"
+    ]
+  },
+  {
+    "id": 19093,
+    "canonical": 19093,
+    "title": "Ultimate Body Enhancer – UBE SE",
+    "category": "Adult Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.1",
+    "updated": "2023-01-04T10:39:48Z",
+    "sortable": "ultimate body enhancer – ube",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2023-01-04T10:39:48Z"
+    ]
+  },
+  {
+    "id": 19094,
+    "canonical": 19094,
+    "title": "Physical Characteristics Framework",
+    "category": "Modders Resources",
+    "game": "LE",
+    "href": "19094-physical-characteristics-framework",
+    "status": "compatible",
+    "version": "1.1",
+    "updated": "2021-09-03T09:43:15Z",
+    "sortable": "physical characteristics framework",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-03T09:43:15Z"
+    ]
+  },
+  {
+    "id": 19096,
+    "canonical": 0,
+    "title": "DDWardrobe - Nu-Goth Outfit #1 (WIP)",
+    "category": "Armor & Clothing",
+    "game": "LE",
+    "status": "deleted",
+    "version": "1.0.0",
+    "updated": "2021-09-02T03:47:13Z",
+    "sortable": "ddwardrobe - nu-goth outfit #1",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-02T03:47:13Z"
+    ]
+  },
+  {
+    "id": 19100,
+    "canonical": 0,
+    "title": "DDWardrobe - Nu-Goth Outfit #1 (WIP)",
+    "category": "Regular Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.0.0",
+    "updated": "2021-09-02T03:49:50Z",
+    "sortable": "ddwardrobe - nu-goth outfit #1",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-02T03:49:50Z"
+    ]
+  },
+  {
+    "id": 19101,
+    "canonical": 19101,
+    "title": "Dragon Age II Champion Mage Armor",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19101-dragon-age-ii-champion-mage-armor",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-09-02T15:51:33Z",
+    "sortable": "dragon age ii champion mage armor",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-02T15:51:33Z"
+    ]
+  },
+  {
+    "id": 19106,
+    "canonical": 19106,
+    "title": "Hybrid race mod",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19106-hybrid-race-mod",
+    "status": "unknown",
+    "version": "1.2.5",
+    "updated": "2021-09-02T17:52:34Z",
+    "sortable": "hybrid race mod",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-02T17:52:34Z"
+    ]
+  },
+  {
+    "id": 19107,
+    "canonical": 19107,
+    "title": "Hybrid Race 1.2.6",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19107-hybrid-race-126",
+    "status": "unknown",
+    "version": "1.2.6",
+    "updated": "2021-09-02T17:52:36Z",
+    "sortable": "hybrid race",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-02T17:52:36Z"
+    ]
+  },
+  {
+    "id": 19109,
+    "canonical": 19109,
+    "title": "All vanilla Skyrim+DLC headwear invisible",
+    "category": "Regular Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.0",
+    "updated": "2021-09-08T15:04:45Z",
+    "sortable": "all vanilla skyrim+dlc headwear invisible",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-08T15:04:45Z"
+    ]
+  },
+  {
+    "id": 19111,
+    "canonical": 19111,
+    "title": "Mortarball The First Basketball Game For Skyrim Physics",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19111-mortarball-the-first-basketball-game-for-skyrim-physics",
+    "status": "incompatible",
+    "version": "1.1.0",
+    "updated": "2021-09-02T23:31:48Z",
+    "sortable": "mortarball the first basketball game for skyrim physics",
+    "tags": [
+      "basketball",
+      "minigame"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-02T23:31:48Z"
+    ]
+  },
+  {
+    "id": 19115,
+    "canonical": 19115,
+    "title": "TBBP Dragonfly animations(as seen in SeveNBase)- without twirling idle",
+    "category": "Regular Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.0.0",
+    "updated": "2021-09-03T15:26:33Z",
+    "sortable": "tbbp dragonfly animations(as seen in sevenbase)- without twirling idle",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-03T15:26:33Z"
+    ]
+  },
+  {
+    "id": 19119,
+    "canonical": 19119,
+    "title": "aries sheep LE",
+    "category": "Companions",
+    "game": "LE",
+    "href": "19119-aries-sheep-le",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-09-03T23:37:42Z",
+    "sortable": "aries sheep",
+    "tags": [
+      "skyrimle"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-03T23:37:42Z"
+    ]
+  },
+  {
+    "id": 19120,
+    "canonical": 19120,
+    "title": "Phillipa Eilhart dress from The Witcher 2 with BHUNP and other options",
+    "category": "Regular Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.0",
+    "updated": "2021-09-04T00:24:15Z",
+    "sortable": "phillipa eilhart dress from the witcher 2 with bhunp and other options",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-04T00:24:15Z"
+    ]
+  },
+  {
+    "id": 19122,
+    "canonical": 19122,
+    "title": "Schlongs of Skyrim Uncloaked",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19122-schlongs-of-skyrim-uncloaked",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-09-04T18:36:47Z",
+    "sortable": "schlongs of skyrim uncloaked",
+    "tags": [
+      "sos se"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-04T18:36:47Z"
+    ]
+  },
+  {
+    "id": 19129,
+    "canonical": 19129,
+    "title": "Amor's Arrow",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19129-amors-arrow",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-09-04T16:00:24Z",
+    "sortable": "amor's arrow",
+    "tags": [
+      "arrows",
+      "enchanted"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-04T16:00:24Z"
+    ]
+  },
+  {
+    "id": 19131,
+    "canonical": 19131,
+    "title": "Royal Daedric weapons and armor standalone",
+    "category": "Regular Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.0",
+    "updated": "2021-09-04T17:52:53Z",
+    "sortable": "royal daedric weapons and armor standalone",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-04T17:52:53Z"
+    ]
+  },
+  {
+    "id": 19148,
+    "canonical": 19148,
+    "title": "SL Widgets",
+    "category": "WIP / Beta",
+    "game": "SE",
+    "href": "19148-sl-widgets",
+    "status": "compatible",
+    "version": "Version 2.0.15",
+    "updated": "2024-01-25T20:56:44Z",
+    "sortable": "sl widgets",
+    "tags": [
+      "apropos2",
+      "fill her up baka",
+      "iwant",
+      "pregnancy",
+      "sla",
+      "ui",
+      "widgets"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2024-01-25T20:56:44Z"
+    ]
+  },
+  {
+    "id": 19149,
+    "canonical": 19149,
+    "title": "SL DEFEAT PTBR",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19149-sl-defeat-ptbr",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-09-06T00:06:57Z",
+    "sortable": "sl defeat ptbr",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-06T00:06:57Z"
+    ]
+  },
+  {
+    "id": 19155,
+    "canonical": 19155,
+    "title": "Incaendo's Overlays",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19155-incaendos-overlays",
+    "status": "unknown",
+    "version": "1.0",
+    "updated": "2021-09-06T07:08:55Z",
+    "sortable": "incaendo's overlays",
+    "tags": [
+      "racemenu",
+      "racemenuoverlays",
+      "tattoo",
+      "tattoos"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-06T07:08:55Z"
+    ]
+  },
+  {
+    "id": 19157,
+    "canonical": 19157,
+    "title": "New Statue of Meridia SE Demo",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19157-new-statue-of-meridia-se-demo",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-09-06T09:30:22Z",
+    "sortable": "new statue of meridia se demo",
+    "tags": [
+      "skyrimse"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-06T09:30:22Z"
+    ]
+  },
+  {
+    "id": 19158,
+    "canonical": 19158,
+    "title": "SL HorribleHarassment",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19158-sl-horribleharassment",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-09-06T15:33:22Z",
+    "sortable": "sl horribleharassment",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-06T15:33:22Z"
+    ]
+  },
+  {
+    "id": 19159,
+    "canonical": 19159,
+    "title": "Sl Drunk PTBR",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19159-sl-drunk-ptbr",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-09-06T15:37:17Z",
+    "sortable": "sl drunk ptbr",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-06T15:37:17Z"
+    ]
+  },
+  {
+    "id": 19160,
+    "canonical": 19161,
+    "title": "doa marie rose bhunp body",
+    "category": "Companions",
+    "game": "LE",
+    "href": "19160-doa-marie-rose-bhunp-body",
+    "status": "ported",
+    "version": "1.0.0",
+    "updated": "2021-09-06T18:51:24Z",
+    "sortable": "doa marie rose bhunp body",
+    "tags": [
+      "skyrimle"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-06T18:51:24Z"
+    ]
+  },
+  {
+    "id": 19161,
+    "canonical": 19161,
+    "title": "doa marie rose bhunp body SE",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19161-doa-marie-rose-bhunp-body-se",
+    "status": "ported",
+    "version": "1.0.0",
+    "updated": "2021-09-06T18:54:52Z",
+    "sortable": "doa marie rose bhunp body",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-06T18:54:52Z"
+    ]
+  },
+  {
+    "id": 19162,
+    "canonical": 19162,
+    "title": "Rashen 1.1",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19162-rashen-11",
+    "status": "incompatible",
+    "version": "1.1",
+    "updated": "2021-10-18T21:53:09Z",
+    "sortable": "rashen",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-18T21:53:09Z"
+    ]
+  },
+  {
+    "id": 19170,
+    "canonical": 19170,
+    "title": "SC Followers Nicoletta Goldstein - Nude Body Replacer",
+    "category": "Body Replacers",
+    "game": "LE",
+    "href": "19170-sc-followers-nicoletta-goldstein-nude-body-replacer",
+    "status": "incompatible",
+    "version": "0.69",
+    "updated": "2021-09-07T13:16:01Z",
+    "sortable": "sc followers nicoletta goldstein - nude body replacer",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-07T13:16:01Z"
+    ]
+  },
+  {
+    "id": 19171,
+    "canonical": 19171,
+    "title": "Dynamic Cumshots - All The Way Through Extreme",
+    "category": "Sex Effects",
+    "game": "LE",
+    "href": "19171-dynamic-cumshots-all-the-way-through-extreme",
+    "status": "incompatible",
+    "version": "0,69",
+    "updated": "2021-09-10T06:25:55Z",
+    "sortable": "dynamic cumshots - all the way through extreme",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-10T06:25:55Z"
+    ]
+  },
+  {
+    "id": 19176,
+    "canonical": 19176,
+    "title": "Eyebrows for High Poly Head SSE",
+    "category": "Regular Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.0",
+    "updated": "2021-10-17T17:06:07Z",
+    "sortable": "eyebrows for high poly head",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-17T17:06:07Z"
+    ]
+  },
+  {
+    "id": 19179,
+    "canonical": 19179,
+    "title": "Ingrid Bodysuit CBBE Beta",
+    "category": "Armor & Clothing",
+    "game": "LE",
+    "href": "19179-ingrid-bodysuit-cbbe-beta",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-09-08T03:15:58Z",
+    "sortable": "ingrid bodysuit cbbe beta",
+    "tags": [
+      "dark knight",
+      "ingrid",
+      "nind"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-08T03:15:58Z"
+    ]
+  },
+  {
+    "id": 19181,
+    "canonical": 19181,
+    "title": "Vanilla eyes crushed into alchemy dust",
+    "category": "Regular Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.0",
+    "updated": "2021-09-08T22:53:00Z",
+    "sortable": "vanilla eyes crushed into alchemy dust",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-08T22:53:00Z"
+    ]
+  },
+  {
+    "id": 19187,
+    "canonical": 19187,
+    "title": "Fox46 Armor CBBE - 3BBB - Light Armor Variant",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19187-fox46-armor-cbbe-3bbb-light-armor-variant",
+    "status": "incompatible",
+    "version": "1.1",
+    "updated": "2021-09-09T18:22:56Z",
+    "sortable": "fox46 armor cbbe - 3bbb - light armor variant",
+    "tags": [
+      "3bbb",
+      "armor",
+      "cbbe",
+      "clothing",
+      "fox46",
+      "sexy",
+      "skyrim se"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-09T18:22:56Z"
+    ]
+  },
+  {
+    "id": 19195,
+    "canonical": 19195,
+    "title": "Sexlab Slut shout sse - 2.5c",
+    "category": "Misc Sex",
+    "game": "SE",
+    "href": "19195-sexlab-slut-shout-sse-25c",
+    "status": "ported",
+    "version": "1.0.0",
+    "updated": "2021-09-09T16:42:04Z",
+    "sortable": "sexlab slut shout sse",
+    "tags": [
+      "orgy",
+      "shout",
+      "skyim"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-09T16:42:04Z"
+    ]
+  },
+  {
+    "id": 19206,
+    "canonical": 19206,
+    "title": "Spell PUBS",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19206-spell-pubs",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-09-09T21:22:45Z",
+    "sortable": "spell pubs",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-09T21:22:45Z"
+    ]
+  },
+  {
+    "id": 19209,
+    "canonical": 19209,
+    "title": "Realistic Natural Skin Tones by Asherz ESL",
+    "category": "Regular Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.0",
+    "updated": "2021-09-10T00:36:08Z",
+    "sortable": "realistic natural skin tones by asherz esl",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-10T00:36:08Z"
+    ]
+  },
+  {
+    "id": 19229,
+    "canonical": 19229,
+    "title": "Harvald's Mead Hall",
+    "category": "Other",
+    "game": "LE",
+    "href": "19229-harvalds-mead-hall",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-10-31T15:01:21Z",
+    "sortable": "harvald's mead hall",
+    "tags": [
+      "playerhome"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-31T15:01:21Z"
+    ]
+  },
+  {
+    "id": 19231,
+    "canonical": 19231,
+    "title": "No Loading Screen Breezehome",
+    "category": "Other",
+    "game": "LE",
+    "href": "19231-no-loading-screen-breezehome",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-09-12T00:15:38Z",
+    "sortable": "no loading screen breezehome",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-12T00:15:38Z"
+    ]
+  },
+  {
+    "id": 19234,
+    "canonical": 19234,
+    "title": "The Exotic Adventures of Nikita Sky",
+    "category": "Quest",
+    "game": "LE",
+    "status": "deleted",
+    "version": "1.0.0",
+    "updated": "2021-09-12T03:15:36Z",
+    "sortable": "exotic adventures of nikita sky",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-12T03:15:36Z"
+    ]
+  },
+  {
+    "id": 19238,
+    "canonical": 19238,
+    "title": "BDOR Rosa Cassius SSE 3BA",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19238-bdor-rosa-cassius-sse-3ba",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-09-12T19:18:09Z",
+    "sortable": "bdor rosa cassius sse 3ba",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-12T19:18:09Z"
+    ]
+  },
+  {
+    "id": 19254,
+    "canonical": 19254,
+    "title": "YARM - Yet Another Random Matchmaker",
+    "category": "Misc Sex",
+    "game": "LE",
+    "href": "19254-yarm-yet-another-random-matchmaker",
+    "status": "compatible",
+    "version": "1.1",
+    "updated": "2021-11-11T00:06:16Z",
+    "sortable": "yarm - yet another random matchmaker",
+    "tags": [
+      "match",
+      "matchmaker",
+      "orgy",
+      "random",
+      "sex",
+      "sexlab"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-11T00:06:16Z"
+    ]
+  },
+  {
+    "id": 19257,
+    "canonical": 19257,
+    "title": "Kats smelt everything 2.0",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19257-kats-smelt-everything-20",
+    "status": "incompatible",
+    "version": "2.0.1",
+    "updated": "2021-09-14T16:25:37Z",
+    "sortable": "kats smelt everything",
+    "tags": [
+      "crafting",
+      "lorefriendly"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-14T16:25:37Z"
+    ]
+  },
+  {
+    "id": 19260,
+    "canonical": 19260,
+    "title": "Delete Orphan Save Files",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19260-delete-orphan-save-files",
+    "status": "compatible",
+    "version": "1.0.1",
+    "updated": "2021-09-18T04:17:54Z",
+    "sortable": "delete orphan save files",
+    "tags": [
+      "app",
+      "executable"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-18T04:17:54Z"
+    ]
+  },
+  {
+    "id": 19269,
+    "canonical": 19269,
+    "title": "Taylor Swift for COtR",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19269-taylor-swift-for-cotr",
+    "status": "compatible",
+    "version": "1.0.0",
+    "updated": "2021-09-15T17:52:16Z",
+    "sortable": "taylor swift for cotr",
+    "tags": [
+      "celebrity",
+      "cotr",
+      "customrace",
+      "preset",
+      "racememu"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-15T17:52:16Z"
+    ]
+  },
+  {
+    "id": 19274,
+    "canonical": 19274,
+    "title": "Molag Bal's Gift and Amulet",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19274-molag-bals-gift-and-amulet",
+    "status": "unknown",
+    "version": "2.0.0",
+    "updated": "2021-09-20T10:36:21Z",
+    "sortable": "molag bal's gift and amulet",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-20T10:36:21Z"
+    ]
+  },
+  {
+    "id": 19278,
+    "canonical": 19278,
+    "title": "ODefeat - Defeat Reborn",
+    "category": "Combat Sex",
+    "game": "SE",
+    "href": "19278-odefeat-defeat-reborn",
+    "status": "incompatible",
+    "version": "1.1.0",
+    "updated": "2021-09-19T17:05:37Z",
+    "sortable": "odefeat - defeat reborn",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-19T17:05:37Z"
+    ]
+  },
+  {
+    "id": 19281,
+    "canonical": 19281,
+    "title": "Bodyslide Preset - Sally Charles",
+    "category": "Framework & Resources",
+    "game": "SE",
+    "href": "19281-bodyslide-preset-sally-charles",
+    "status": "compatible",
+    "version": "1.0.0",
+    "updated": "2021-09-16T19:10:34Z",
+    "sortable": "bodyslide preset - sally charles",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-16T19:10:34Z"
+    ]
+  },
+  {
+    "id": 19290,
+    "canonical": 19290,
+    "title": "Armana - Daughter Of Dibella (High Poly Follower - Default - CBBE - CBBE-3BA - BHUNP)",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19290-armana-daughter-of-dibella-high-poly-follower-default-cbbe-cbbe-3ba-bhunp",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-09-26T04:18:49Z",
+    "sortable": "armana - daughter of dibella (high poly follower - default - cbbe - cbbe-3ba - bhunp",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-26T04:18:49Z"
+    ]
+  },
+  {
+    "id": 19300,
+    "canonical": 19300,
+    "title": "Rev's Clockwork - Lost Valley Patch",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19300-revs-clockwork-lost-valley-patch",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-09-18T19:03:04Z",
+    "sortable": "rev's clockwork - lost valley patch",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-18T19:03:04Z"
+    ]
+  },
+  {
+    "id": 19301,
+    "canonical": 19301,
+    "title": "[Abandoned] Red Sonja goes to Insmouth V1.1.2 (small edits, plugins reorganization , removed DD requirement) - Fixes, voiced dialogues add-on, misc. for Delzaron's From the Deeps",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19301-abandoned-red-sonja-goes-to-insmouth-v112-small-edits-plugins-reorganization-removed-dd-requirement-fixes-voiced-dialogues-add-on-misc-for-delzarons-from-the-deeps",
+    "status": "incompatible",
+    "version": "1.1.2",
+    "updated": "2023-10-15T00:02:22Z",
+    "sortable": "red sonja goes to insmouth v1.1.2 (small edits, plugins reorganization , removed dd requirement) - fixes, voiced dialogues add-on, misc. for delzaron's from the deeps",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2023-10-15T00:02:22Z"
+    ]
+  },
+  {
+    "id": 19304,
+    "canonical": 19304,
+    "title": "Arsenic Conversion - Orge Armor - TBD LE & SE",
+    "category": "Armor & Clothing",
+    "game": "LE",
+    "href": "19304-arsenic-conversion-orge-armor-tbd-le-se",
+    "status": "compatible",
+    "version": "1.1.0",
+    "updated": "2021-09-21T02:13:16Z",
+    "sortable": "arsenic conversion - orge armor - tbd le &",
+    "tags": [
+      "armor",
+      "daz3d conversion",
+      "skyrim",
+      "tbd"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-21T02:13:16Z"
+    ]
+  },
+  {
+    "id": 19305,
+    "canonical": 19305,
+    "title": "Dreaming",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19305-dreaming",
+    "status": "unknown",
+    "version": "2.0.1",
+    "updated": "2021-09-21T14:32:45Z",
+    "sortable": "dreaming",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-21T14:32:45Z"
+    ]
+  },
+  {
+    "id": 19315,
+    "canonical": 19315,
+    "title": "Invisible Boots Replacer",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19315-invisible-boots-replacer",
+    "status": "unknown",
+    "version": "2.0.0",
+    "updated": "2021-09-21T21:16:48Z",
+    "sortable": "invisible boots replacer",
+    "tags": [
+      "armor",
+      "replacer"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-21T21:16:48Z"
+    ]
+  },
+  {
+    "id": 19320,
+    "canonical": 19320,
+    "title": "Spartan - HIMBO Bodyslide preset",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19320-spartan-himbo-bodyslide-preset",
+    "status": "incompatible",
+    "version": "1.0.1",
+    "updated": "2021-09-23T19:03:43Z",
+    "sortable": "spartan - himbo bodyslide preset",
+    "tags": [
+      "bodyslide preset",
+      "greek",
+      "himbo",
+      "himbo 4",
+      "muscular",
+      "strongman"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-23T19:03:43Z"
+    ]
+  },
+  {
+    "id": 19333,
+    "canonical": 19333,
+    "title": "Predator Pose Pack",
+    "category": "Animation",
+    "game": "LE",
+    "href": "19333-predator-pose-pack",
+    "status": "compatible",
+    "version": "0.0.6",
+    "updated": "2022-03-06T03:58:48Z",
+    "sortable": "predator pose pack",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-03-06T03:58:48Z"
+    ]
+  },
+  {
+    "id": 19334,
+    "canonical": 19334,
+    "title": "Pornstar Voices",
+    "category": "Other",
+    "game": "LE",
+    "href": "19334-pornstar-voices",
+    "status": "compatible",
+    "version": "1.5.0",
+    "updated": "2023-11-16T06:21:30Z",
+    "sortable": "pornstar voices",
+    "tags": [
+      "voices"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2023-11-16T06:21:30Z"
+    ]
+  },
+  {
+    "id": 19338,
+    "canonical": 19338,
+    "title": "Akama Sekiro Outfit.rar",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19338-akama-sekiro-outfitrar",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-09-23T11:42:36Z",
+    "sortable": "akama sekiro outfit.rar",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-23T11:42:36Z"
+    ]
+  },
+  {
+    "id": 19340,
+    "canonical": 19340,
+    "title": "Sekiro Fire Outfit",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19340-sekiro-fire-outfit",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-09-23T11:47:32Z",
+    "sortable": "sekiro fire outfit",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-23T11:47:32Z"
+    ]
+  },
+  {
+    "id": 19341,
+    "canonical": 19341,
+    "title": "Flower Sekiro Outfit",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19341-flower-sekiro-outfit",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-09-23T11:53:33Z",
+    "sortable": "flower sekiro outfit",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-23T11:53:33Z"
+    ]
+  },
+  {
+    "id": 19343,
+    "canonical": 19343,
+    "title": "Desert Dancer HDT CBBE Bodyslide Conversion",
+    "category": "Armor & Clothing",
+    "game": "LE",
+    "href": "19343-desert-dancer-hdt-cbbe-bodyslide-conversion",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-09-23T18:18:14Z",
+    "sortable": "desert dancer hdt cbbe bodyslide conversion",
+    "tags": [
+      "armor",
+      "cbbe",
+      "clothing",
+      "conversion",
+      "deset dancer",
+      "le"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-23T18:18:14Z"
+    ]
+  },
+  {
+    "id": 19346,
+    "canonical": 19346,
+    "title": "CBBE Seamless textures for Wet Function Redux",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19346-cbbe-seamless-textures-for-wet-function-redux",
+    "status": "compatible",
+    "version": "1.1.0",
+    "updated": "2021-09-24T01:08:07Z",
+    "sortable": "cbbe seamless textures for wet function redux",
+    "tags": [
+      "bc7 compression",
+      "textures",
+      "wetfunction redux"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-24T01:08:07Z"
+    ]
+  },
+  {
+    "id": 19347,
+    "canonical": 19347,
+    "title": "Nier Automata Fists",
+    "category": "Armor & Clothing",
+    "game": "LE",
+    "href": "19347-nier-automata-fists",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-09-24T03:51:46Z",
+    "sortable": "nier automata fists",
+    "tags": [
+      "nierautomata",
+      "skyrimle"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-24T03:51:46Z"
+    ]
+  },
+  {
+    "id": 19349,
+    "canonical": 19349,
+    "title": "wireless2 - SlaveTats",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19349-wireless2-slavetats",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-09-24T12:13:41Z",
+    "sortable": "wireless2 - slavetats",
+    "tags": [
+      "slavetats",
+      "tats"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-24T12:13:41Z"
+    ]
+  },
+  {
+    "id": 19350,
+    "canonical": 19350,
+    "title": "Aja and Kaida",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19350-aja-and-kaida",
+    "status": "unknown",
+    "version": "4.2",
+    "updated": "2022-08-20T10:03:45Z",
+    "sortable": "aja and kaida",
+    "tags": [
+      "enchanted",
+      "follower",
+      "spell",
+      "twin",
+      "weapon"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-08-20T10:03:45Z"
+    ]
+  },
+  {
+    "id": 19360,
+    "canonical": 19360,
+    "title": "Liliana Destruction Mage Follower",
+    "category": "Companions",
+    "game": "LE",
+    "status": "deleted",
+    "version": "1.0",
+    "updated": "2021-10-03T13:52:21Z",
+    "sortable": "liliana destruction mage follower",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-03T13:52:21Z"
+    ]
+  },
+  {
+    "id": 19365,
+    "canonical": 19365,
+    "title": "[IDY] Skimpy Jiang-Shi Robe",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19365-idy-skimpy-jiang-shi-robe",
+    "status": "unknown",
+    "version": "1.0.2",
+    "updated": "2022-07-10T12:31:35Z",
+    "sortable": "skimpy jiang-shi robe",
+    "tags": [
+      "3ba",
+      "3bbb",
+      "adult",
+      "equipment",
+      "outfits",
+      "skyrimse"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-07-10T12:31:35Z"
+    ]
+  },
+  {
+    "id": 19369,
+    "canonical": 19369,
+    "title": "!Cheesecake 3BA bodyslide presets",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19369-cheesecake-3ba-bodyslide-presets",
+    "status": "incompatible",
+    "version": "1.1.0",
+    "updated": "2024-01-20T20:18:56Z",
+    "sortable": "cheesecake 3ba bodyslide presets",
+    "tags": [
+      "3ba",
+      "bodyslide",
+      "busty",
+      "cbbe",
+      "female",
+      "preset",
+      "presets"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2024-01-20T20:18:56Z"
+    ]
+  },
+  {
+    "id": 19370,
+    "canonical": 19370,
+    "title": "Ayane Follower Armors CBBE Bodyslide",
+    "category": "Armor & Clothing",
+    "game": "LE",
+    "href": "19370-ayane-follower-armors-cbbe-bodyslide",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-09-25T17:57:52Z",
+    "sortable": "ayane follower armors cbbe bodyslide",
+    "tags": [
+      "armor",
+      "ayane",
+      "bodyslide",
+      "cbbe",
+      "clothing",
+      "conversion",
+      "deadoralive",
+      "le",
+      "skyrim"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-25T17:57:52Z"
+    ]
+  },
+  {
+    "id": 19372,
+    "canonical": 19372,
+    "title": "Sex Lab Anim Starter",
+    "category": "Other",
+    "game": "SE",
+    "href": "19372-sex-lab-anim-starter",
+    "status": "unknown",
+    "version": "3.0.0",
+    "updated": "2021-09-25T23:53:16Z",
+    "sortable": "sex lab anim starter",
+    "tags": [
+      "match maker"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-25T23:53:16Z"
+    ]
+  },
+  {
+    "id": 19373,
+    "canonical": 19373,
+    "title": "TRX - UBE Conversion",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19373-trx-ube-conversion",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-09-26T01:19:44Z",
+    "sortable": "trx - ube conversion",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-26T01:19:44Z"
+    ]
+  },
+  {
+    "id": 19375,
+    "canonical": 19375,
+    "title": "UBE SOS Female Pubic Hairs",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19375-ube-sos-female-pubic-hairs",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-09-26T01:54:58Z",
+    "sortable": "ube sos female pubic hairs",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-26T01:54:58Z"
+    ]
+  },
+  {
+    "id": 19381,
+    "canonical": 19381,
+    "title": "All Shapes BodyGen V2 - 3BA and HIMBO Edition",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19381-all-shapes-bodygen-v2-3ba-and-himbo-edition",
+    "status": "incompatible",
+    "version": "2.0.0",
+    "updated": "2021-10-24T08:32:57Z",
+    "sortable": "all shapes bodygen v2 - 3ba and himbo edition",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-24T08:32:57Z"
+    ]
+  },
+  {
+    "id": 19392,
+    "canonical": 19392,
+    "title": "Levitation animations by LinkzyZeus",
+    "category": "Animation",
+    "game": "LE",
+    "href": "19392-levitation-animations-by-linkzyzeus",
+    "status": "compatible",
+    "version": "1.0.0",
+    "updated": "2021-09-26T23:41:34Z",
+    "sortable": "levitation animations by linkzyzeus",
+    "tags": [
+      "aerial",
+      "flight",
+      "float",
+      "floating",
+      "flying",
+      "hover",
+      "hovering",
+      "levitate",
+      "levitation"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-26T23:41:34Z"
+    ]
+  },
+  {
+    "id": 19400,
+    "canonical": 19400,
+    "title": "throw magical bottle",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19400-throw-magical-bottle",
+    "status": "unknown",
+    "version": "V2.2.2.3",
+    "updated": "2021-10-10T18:59:32Z",
+    "sortable": "throw magical bottle",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-10T18:59:32Z"
+    ]
+  },
+  {
+    "id": 19405,
+    "canonical": 19405,
+    "title": "SC Followers - Mama - NSFW Body Addon",
+    "category": "Body Replacers",
+    "game": "LE",
+    "href": "19405-sc-followers-mama-nsfw-body-addon",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-09-27T18:49:13Z",
+    "sortable": "sc followers - mama - nsfw body addon",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-27T18:49:13Z"
+    ]
+  },
+  {
+    "id": 19406,
+    "canonical": 19406,
+    "title": "SexLab MatchMaker",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19406-sexlab-matchmaker",
+    "status": "ported",
+    "version": "2021-09-27",
+    "updated": "2021-10-02T05:15:09Z",
+    "sortable": "sexlab matchmaker",
+    "tags": [
+      "maker",
+      "match",
+      "match maker",
+      "sexlab"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-02T05:15:09Z"
+    ]
+  },
+  {
+    "id": 19414,
+    "canonical": 19414,
+    "title": "SSEB - Fixed ESP for DynDOLOD 3",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19414-sseb-fixed-esp-for-dyndolod-3",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-09-28T07:24:50Z",
+    "sortable": "sseb - fixed esp for dyndolod",
+    "tags": [
+      "sseb"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-28T07:24:50Z"
+    ]
+  },
+  {
+    "id": 19419,
+    "canonical": 19419,
+    "title": "TRX Spider Web Tattoo Pack",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19419-trx-spider-web-tattoo-pack",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2022-02-02T11:52:40Z",
+    "sortable": "trx spider web tattoo pack",
+    "tags": [
+      "cbbe se",
+      "tattoo",
+      "textures"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-02-02T11:52:40Z"
+    ]
+  },
+  {
+    "id": 19420,
+    "canonical": 19420,
+    "title": "YoRHa 2B for COtR",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19420-yorha-2b-for-cotr",
+    "status": "compatible",
+    "version": "1.0.0",
+    "updated": "2021-09-29T18:22:22Z",
+    "sortable": "yorha 2b for cotr",
+    "tags": [
+      "2b",
+      "celebrities game",
+      "cotr",
+      "customrace",
+      "preset",
+      "racememu"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-29T18:22:22Z"
+    ]
+  },
+  {
+    "id": 19444,
+    "canonical": 19444,
+    "title": "Maelstrom RU",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19444-maelstrom-ru",
+    "status": "incompatible",
+    "version": "1.03",
+    "updated": "2021-09-29T21:11:24Z",
+    "sortable": "maelstrom ru",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-29T21:11:24Z"
+    ]
+  },
+  {
+    "id": 19448,
+    "canonical": 19448,
+    "title": "Taratha Commander Outfit SMP 3BA",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19448-taratha-commander-outfit-smp-3ba",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-09-30T08:10:49Z",
+    "sortable": "taratha commander outfit smp 3ba",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-09-30T08:10:49Z"
+    ]
+  },
+  {
+    "id": 19463,
+    "canonical": 19463,
+    "title": "FlufyFox SLAL Pack Update 27/05/2024",
+    "category": "Animation",
+    "game": "LE",
+    "href": "19463-flufyfox-slal-pack-update-27052024",
+    "status": "compatible",
+    "version": "3.2",
+    "updated": "2024-05-28T19:51:29Z",
+    "sortable": "flufyfox slal pack update 27/05/2024",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2024-05-28T19:51:29Z"
+    ]
+  },
+  {
+    "id": 19508,
+    "canonical": 19508,
+    "title": "Ahlalia Standalone Redguard Follower",
+    "category": "Regular Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.0",
+    "updated": "2021-10-03T12:23:26Z",
+    "sortable": "ahlalia standalone redguard follower",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-03T12:23:26Z"
+    ]
+  },
+  {
+    "id": 19514,
+    "canonical": 19514,
+    "title": "SexLab SexLife SE Voiced",
+    "category": "Misc Sex",
+    "game": "SE",
+    "href": "19514-sexlab-sexlife-se-voiced",
+    "status": "incompatible",
+    "version": "3-3",
+    "updated": "2023-11-13T01:51:32Z",
+    "sortable": "sexlab sexlife se voiced",
+    "tags": [
+      "npc-npc sex"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2023-11-13T01:51:32Z"
+    ]
+  },
+  {
+    "id": 19515,
+    "canonical": 19515,
+    "title": "The Mysterious Breeding Rooms SE Voiced",
+    "category": "Quests",
+    "game": "SE",
+    "href": "19515-the-mysterious-breeding-rooms-se-voiced",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-10-03T09:48:29Z",
+    "sortable": "mysterious breeding rooms se voiced",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-03T09:48:29Z"
+    ]
+  },
+  {
+    "id": 19519,
+    "canonical": 19519,
+    "title": "Apothecary- An Alchemy Overhaul(by Simon Magnus)",
+    "category": "Regular Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.0",
+    "updated": "2021-10-03T18:09:42Z",
+    "sortable": "apothecary- an alchemy overhaul(by simon magnus",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-03T18:09:42Z"
+    ]
+  },
+  {
+    "id": 19525,
+    "canonical": 19525,
+    "title": "SOS VectorPlexus Dawnguard Snow Elf Patch",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19525-sos-vectorplexus-dawnguard-snow-elf-patch",
+    "status": "incompatible",
+    "version": "1",
+    "updated": "2021-10-04T01:48:53Z",
+    "sortable": "sos vectorplexus dawnguard snow elf patch",
+    "tags": [
+      "dawnguard",
+      "schlong",
+      "snow elf",
+      "sos"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-04T01:48:53Z"
+    ]
+  },
+  {
+    "id": 19527,
+    "canonical": 19527,
+    "title": "K Feet",
+    "category": "Adult Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.6.0",
+    "updated": "2021-11-13T20:24:51Z",
+    "sortable": "k feet",
+    "tags": [
+      "bhunp",
+      "feet",
+      "foot fetish",
+      "replacer",
+      "skyrim se"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-13T20:24:51Z"
+    ]
+  },
+  {
+    "id": 19528,
+    "canonical": 19528,
+    "title": "Dwarven Bone",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19528-dwarven-bone",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-10-04T14:15:32Z",
+    "sortable": "dwarven bone",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-04T14:15:32Z"
+    ]
+  },
+  {
+    "id": 19530,
+    "canonical": 19530,
+    "title": "Relationship Dialogue System (04/10/2021)",
+    "category": "Dialog Sex",
+    "game": "SE",
+    "href": "19530-relationship-dialogue-system-04102021",
+    "status": "incompatible",
+    "version": "2.6",
+    "updated": "2021-10-04T15:59:55Z",
+    "sortable": "relationship dialogue system (04/10/2021",
+    "tags": [
+      "blackmail",
+      "boyfriend",
+      "cheating",
+      "dialolgue",
+      "drinking",
+      "flirting",
+      "girlfriend",
+      "interaction",
+      "kidnapping",
+      "persuasion",
+      "talking"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-04T15:59:55Z"
+    ]
+  },
+  {
+    "id": 19532,
+    "canonical": 19532,
+    "title": "Bodyslide UUNP-HDT Body With Breast-Arm-Pose-Dependency",
+    "category": "BodySlide",
+    "game": "LE",
+    "href": "19532-bodyslide-uunp-hdt-body-with-breast-arm-pose-dependency",
+    "status": "incompatible",
+    "version": "0.1",
+    "updated": "2021-10-04T19:05:49Z",
+    "sortable": "bodyslide uunp-hdt body with breast-arm-pose-dependency",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-04T19:05:49Z"
+    ]
+  },
+  {
+    "id": 19533,
+    "canonical": 19533,
+    "title": "Queen of Amarna Full pack!!!!!",
+    "category": "Companions",
+    "game": "LE",
+    "status": "deleted",
+    "version": "1.0.0",
+    "updated": "2021-10-05T23:24:07Z",
+    "sortable": "queen of amarna full pack!!!!!",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-05T23:24:07Z"
+    ]
+  },
+  {
+    "id": 19544,
+    "canonical": 19544,
+    "title": "[Ashtoreth] Castel Dimirescu SE & LE",
+    "category": "Regular Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.0.0",
+    "updated": "2022-03-29T17:35:16Z",
+    "sortable": "castel dimirescu se &",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-03-29T17:35:16Z"
+    ]
+  },
+  {
+    "id": 19545,
+    "canonical": 19545,
+    "title": "Soul Extractor tweak - Legacy of the Dragonborn",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19545-soul-extractor-tweak-legacy-of-the-dragonborn",
+    "status": "unknown",
+    "version": "1.0.1 SP",
+    "updated": "2022-06-16T22:33:35Z",
+    "sortable": "soul extractor tweak - legacy of the dragonborn",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-06-16T22:33:35Z"
+    ]
+  },
+  {
+    "id": 19546,
+    "canonical": 19546,
+    "title": "Polymorphic Armor - A PC Exclusive Armor Path (LE Edition) V1.0",
+    "category": "Armor & Clothing",
+    "game": "LE",
+    "href": "19546-polymorphic-armor-a-pc-exclusive-armor-path-le-edition-v10",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-10-06T01:10:10Z",
+    "sortable": "polymorphic armor - a pc exclusive armor path (le edition",
+    "tags": [
+      "armor replacer"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-06T01:10:10Z"
+    ]
+  },
+  {
+    "id": 19547,
+    "canonical": 19547,
+    "title": "Polymorphic Armor - A PC Exclusive Armor Path (SE Edition) V1.1",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19547-polymorphic-armor-a-pc-exclusive-armor-path-se-edition-v11",
+    "status": "incompatible",
+    "version": "1.1.1",
+    "updated": "2023-01-03T18:06:37Z",
+    "sortable": "polymorphic armor - a pc exclusive armor path (se edition",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2023-01-03T18:06:37Z"
+    ]
+  },
+  {
+    "id": 19554,
+    "canonical": 19554,
+    "title": "Ana Bray - Outfit and Cosplay PLUS Follower",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19554-ana-bray-outfit-and-cosplay-plus-follower",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-10-11T12:41:53Z",
+    "sortable": "ana bray - outfit and cosplay plus follower",
+    "tags": [
+      "bodyslide",
+      "cosplay",
+      "follower",
+      "outfit",
+      "racemenu preset"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-11T12:41:53Z"
+    ]
+  },
+  {
+    "id": 19565,
+    "canonical": 19565,
+    "title": "Real__Whip_Sounds",
+    "category": "Adult Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "2.0",
+    "updated": "2021-11-25T23:30:00Z",
+    "sortable": "real__whip_sounds",
+    "tags": [
+      "effects",
+      "sound",
+      "violence",
+      "whip",
+      "zap"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-25T23:30:00Z"
+    ]
+  },
+  {
+    "id": 19567,
+    "canonical": 19567,
+    "title": "( LE / SE ) BOF Poser",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19567-le-se-bof-poser",
+    "status": "compatible",
+    "version": "0.4.1",
+    "updated": "2023-08-19T17:20:47Z",
+    "sortable": "bof poser",
+    "tags": [
+      "animation",
+      "animations",
+      "le",
+      "pose",
+      "poser",
+      "poser hotkeys plus",
+      "se"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2023-08-19T17:20:47Z"
+    ]
+  },
+  {
+    "id": 19569,
+    "canonical": 19569,
+    "title": "Fertility Mode+ - Immersive Effects",
+    "category": "WIP / Beta",
+    "game": "SE",
+    "href": "19569-fertility-mode-immersive-effects",
+    "status": "incompatible",
+    "version": "0.8 Pre-Release",
+    "updated": "2022-03-02T05:28:04Z",
+    "sortable": "fertility mode+ - immersive effects",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-03-02T05:28:04Z"
+    ]
+  },
+  {
+    "id": 19571,
+    "canonical": 19571,
+    "title": "TrueWolf: A Werewolf Playthrough Mod",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19571-truewolf-a-werewolf-playthrough-mod",
+    "status": "unknown",
+    "version": "1.0",
+    "updated": "2021-11-17T21:38:13Z",
+    "sortable": "truewolf: a werewolf playthrough mod",
+    "tags": [
+      "challenge",
+      "werewolf"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-17T21:38:13Z"
+    ]
+  },
+  {
+    "id": 19587,
+    "canonical": 19587,
+    "title": "Sycorax the Sorceress Follower SE ESP-FE by Sursed",
+    "category": "Regular Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.0",
+    "updated": "2021-10-09T18:13:39Z",
+    "sortable": "sycorax the sorceress follower se esp-fe by sursed",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-09T18:13:39Z"
+    ]
+  },
+  {
+    "id": 19589,
+    "canonical": 19589,
+    "title": "Sex Girl AVA DEVINE for COtR",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19589-sex-girl-ava-devine-for-cotr",
+    "status": "compatible",
+    "version": "1.0.0",
+    "updated": "2021-10-09T16:51:05Z",
+    "sortable": "sex girl ava devine for cotr",
+    "tags": [
+      "cotr",
+      "customrace",
+      "pornstar",
+      "preset",
+      "racememu"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-09T16:51:05Z"
+    ]
+  },
+  {
+    "id": 19592,
+    "canonical": 19592,
+    "title": "Real_Breath_and_Moaning_for_DW",
+    "category": "Adult Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "2.0",
+    "updated": "2021-11-25T23:31:11Z",
+    "sortable": "real_breath_and_moaning_for_dw",
+    "tags": [
+      "breath",
+      "dripping when wet",
+      "moan",
+      "sound"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-25T23:31:11Z"
+    ]
+  },
+  {
+    "id": 19593,
+    "canonical": 19593,
+    "title": "TDF Enhanced  Prostitution",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19593-tdf-enhanced-prostitution",
+    "status": "new",
+    "version": "2.4.1",
+    "updated": "2024-03-15T18:11:52Z",
+    "sortable": "tdf enhancedprostitution",
+    "tags": [
+      "hooker",
+      "pimp",
+      "prostitution",
+      "whore"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2024-03-15T18:11:52Z"
+    ]
+  },
+  {
+    "id": 19601,
+    "canonical": 19601,
+    "title": "Sex Girl LUCIE WILDE for COtR",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19601-sex-girl-lucie-wilde-for-cotr",
+    "status": "compatible",
+    "version": "1.0.0",
+    "updated": "2021-10-10T16:07:23Z",
+    "sortable": "sex girl lucie wilde for cotr",
+    "tags": [
+      "cotr",
+      "customrace",
+      "pornstar",
+      "preset",
+      "racememu",
+      "skyrim se"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-10T16:07:23Z"
+    ]
+  },
+  {
+    "id": 19609,
+    "canonical": 19609,
+    "title": "Easy Containers",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19609-easy-containers",
+    "status": "incompatible",
+    "version": "1.0.1",
+    "updated": "2021-10-12T09:01:30Z",
+    "sortable": "easy containers",
+    "tags": [
+      "skyrim platform"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-12T09:01:30Z"
+    ]
+  },
+  {
+    "id": 19612,
+    "canonical": 19612,
+    "title": "Mikan Eyes - SE",
+    "category": "Regular Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.0",
+    "updated": "2021-10-12T01:07:03Z",
+    "sortable": "mikan eyes",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-12T01:07:03Z"
+    ]
+  },
+  {
+    "id": 19615,
+    "canonical": 19615,
+    "title": "Monster Hunter Weapons pack",
+    "category": "Weapons & Spells",
+    "game": "LE",
+    "href": "19615-monster-hunter-weapons-pack",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-10-11T22:59:15Z",
+    "sortable": "monster hunter weapons pack",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-11T22:59:15Z"
+    ]
+  },
+  {
+    "id": 19617,
+    "canonical": 19617,
+    "title": "TRX - Futa Armor Addon WIP",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19617-trx-futa-armor-addon-wip",
+    "status": "incompatible",
+    "version": "1.0.1",
+    "updated": "2021-10-12T15:50:28Z",
+    "sortable": "trx - futa armor addon wip",
+    "tags": [
+      "armor",
+      "cbbe se",
+      "futanari sex"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-12T15:50:28Z"
+    ]
+  },
+  {
+    "id": 19618,
+    "canonical": 19618,
+    "title": "Serana Sneak Bug Fix",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19618-serana-sneak-bug-fix",
+    "status": "compatible",
+    "version": "V5.4",
+    "updated": "2022-01-14T13:57:32Z",
+    "sortable": "serana sneak bug fix",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-01-14T13:57:32Z"
+    ]
+  },
+  {
+    "id": 19624,
+    "canonical": 19624,
+    "title": "Lady Dimitrescu for COtR",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19624-lady-dimitrescu-for-cotr",
+    "status": "compatible",
+    "version": "1.0.0",
+    "updated": "2021-10-12T16:31:13Z",
+    "sortable": "lady dimitrescu for cotr",
+    "tags": [
+      "cotr",
+      "customrace",
+      "game celebrities",
+      "preset",
+      "racememu",
+      "skyrim se"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-12T16:31:13Z"
+    ]
+  },
+  {
+    "id": 19627,
+    "canonical": 19627,
+    "title": "SC Race Tris NewBody",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19627-sc-race-tris-newbody",
+    "status": "compatible",
+    "version": "2.0.0",
+    "updated": "2022-07-06T12:52:53Z",
+    "sortable": "sc race tris newbody",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-07-06T12:52:53Z"
+    ]
+  },
+  {
+    "id": 19636,
+    "canonical": 19636,
+    "title": "Skill Based Muscle",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19636-skill-based-muscle",
+    "status": "unknown",
+    "version": "5.4",
+    "updated": "2022-09-01T05:30:47Z",
+    "sortable": "skill based muscle",
+    "tags": [
+      "3ba",
+      "bodymorph",
+      "cbbe",
+      "mcm",
+      "muscle",
+      "normalmap",
+      "skill"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-09-01T05:30:47Z"
+    ]
+  },
+  {
+    "id": 19637,
+    "canonical": 19637,
+    "title": "TRX  - Flesh eater",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19637-trx-flesh-eater",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-10-13T15:28:55Z",
+    "sortable": "trx- flesh eater",
+    "tags": [
+      "gameplay",
+      "magic"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-13T15:28:55Z"
+    ]
+  },
+  {
+    "id": 19644,
+    "canonical": 19644,
+    "title": "No Kids",
+    "category": "Other",
+    "game": "LE",
+    "href": "19644-no-kids",
+    "status": "incompatible",
+    "version": "v1.2.1",
+    "updated": "2021-11-14T20:40:10Z",
+    "sortable": "no kids",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-14T20:40:10Z"
+    ]
+  },
+  {
+    "id": 19647,
+    "canonical": 19647,
+    "title": "Undress For Bed SE",
+    "category": "Adult Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.0",
+    "updated": "2021-10-14T00:27:14Z",
+    "sortable": "undress for bed",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-14T00:27:14Z"
+    ]
+  },
+  {
+    "id": 19650,
+    "canonical": 19650,
+    "title": "NiOPA Hotkeys and Skeletons",
+    "category": "Other",
+    "game": "LE",
+    "href": "19650-niopa-hotkeys-and-skeletons",
+    "status": "compatible",
+    "version": "1.0.0",
+    "updated": "2021-10-14T17:09:09Z",
+    "sortable": "niopa hotkeys and skeletons",
+    "tags": [
+      "posing",
+      "screenshooting",
+      "skeleton"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-14T17:09:09Z"
+    ]
+  },
+  {
+    "id": 19655,
+    "canonical": 19655,
+    "title": "Meat Farm - Reupload",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19655-meat-farm-reupload",
+    "status": "unknown",
+    "version": "1.3.1",
+    "updated": "2022-01-17T18:09:18Z",
+    "sortable": "meat farm - reupload",
+    "tags": [
+      "bad end",
+      "consensual"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-01-17T18:09:18Z"
+    ]
+  },
+  {
+    "id": 19660,
+    "canonical": 19660,
+    "title": "JK'S Skyrim + Milk Mod Economy Patch",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19660-jks-skyrim-milk-mod-economy-patch",
+    "status": "unknown",
+    "version": "1.0.1",
+    "updated": "2021-10-16T14:41:09Z",
+    "sortable": "jk's skyrim + milk mod economy patch",
+    "tags": [
+      "3ba",
+      "bodyslide",
+      "hdtsmp",
+      "jksskyrim",
+      "milkmodeconomy",
+      "sexlab",
+      "sse"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-16T14:41:09Z"
+    ]
+  },
+  {
+    "id": 19673,
+    "canonical": 19673,
+    "title": "Sex Girl  JASMINE JAE for COtR",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19673-sex-girl-jasmine-jae-for-cotr",
+    "status": "compatible",
+    "version": "1.0.0",
+    "updated": "2021-10-16T16:46:19Z",
+    "sortable": "sex girljasmine jae for cotr",
+    "tags": [
+      "cotr",
+      "customrace",
+      "pornstar",
+      "preset",
+      "racememu",
+      "skyrim se"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-16T16:46:19Z"
+    ]
+  },
+  {
+    "id": 19682,
+    "canonical": 19682,
+    "title": "SexLab Madness",
+    "category": "Misc Sex",
+    "game": "SE",
+    "href": "19682-sexlab-madness",
+    "status": "incompatible",
+    "version": "0.0.8",
+    "updated": "2021-12-21T22:47:07Z",
+    "sortable": "sexlab madness",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-12-21T22:47:07Z"
+    ]
+  },
+  {
+    "id": 19684,
+    "canonical": 19684,
+    "title": "[DKnight13] Palutena Outfit SMP",
+    "category": "Armor & Clothing",
+    "game": "LE",
+    "href": "19684-dknight13-palutena-outfit-smp",
+    "status": "compatible",
+    "version": "1.0.0",
+    "updated": "2021-10-17T09:24:25Z",
+    "sortable": "palutena outfit smp",
+    "tags": [
+      "3bbb",
+      "bhunp",
+      "cbbe",
+      "hdt",
+      "nintendo",
+      "skyrim",
+      "smp",
+      "uunp"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-17T09:24:25Z"
+    ]
+  },
+  {
+    "id": 19686,
+    "canonical": 19686,
+    "title": "[DKnight13] Palutena Outfit SMP SE",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19686-dknight13-palutena-outfit-smp-se",
+    "status": "compatible",
+    "version": "1.0.1",
+    "updated": "2022-05-08T23:04:37Z",
+    "sortable": "palutena outfit smp",
+    "tags": [
+      "3ba",
+      "bhunp",
+      "bodyslide",
+      "hdt",
+      "nintendo",
+      "skyrim",
+      "smp",
+      "tbd"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-05-08T23:04:37Z"
+    ]
+  },
+  {
+    "id": 19689,
+    "canonical": 19689,
+    "title": "​Evagurin \"Evy\" Kamotsusen - Selachii Follower SE",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19689-%E2%80%8Bevagurin-evy-kamotsusen-selachii-follower-se",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-10-18T02:07:35Z",
+    "sortable": "​evagurin \"evy\" kamotsusen - selachii follower",
+    "tags": [
+      "companion",
+      "follower",
+      "selachii",
+      "shark"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-18T02:07:35Z"
+    ]
+  },
+  {
+    "id": 19698,
+    "canonical": 19698,
+    "title": "Auto unequip ammo",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19698-auto-unequip-ammo",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-10-18T21:19:33Z",
+    "sortable": "auto unequip ammo",
+    "tags": [
+      "skyrim platform"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-18T21:19:33Z"
+    ]
+  },
+  {
+    "id": 19708,
+    "canonical": 19708,
+    "title": "TRX Statues - Сhampion (futa)",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19708-trx-statues-%D1%81hampion-futa",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-10-19T21:53:43Z",
+    "sortable": "trx statues - сhampion (futa",
+    "tags": [
+      "futanari",
+      "statue"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-19T21:53:43Z"
+    ]
+  },
+  {
+    "id": 19709,
+    "canonical": 19709,
+    "title": "Nether's Eola",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19709-nethers-eola",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-10-20T00:04:38Z",
+    "sortable": "nether's eola",
+    "tags": [
+      "cannibal",
+      "companions",
+      "followers",
+      "horror",
+      "necromancy",
+      "sse"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-20T00:04:38Z"
+    ]
+  },
+  {
+    "id": 19710,
+    "canonical": 19710,
+    "title": "Papyrus-2-Typescript",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19710-papyrus-2-typescript",
+    "status": "incompatible",
+    "version": "0.1.2-beta",
+    "updated": "2021-11-22T19:11:30Z",
+    "sortable": "papyrus-2-typescript",
+    "tags": [
+      "modders resource",
+      "skyrim platform",
+      "typescript"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-22T19:11:30Z"
+    ]
+  },
+  {
+    "id": 19719,
+    "canonical": 19719,
+    "title": "M'Ress",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19719-mress",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-10-21T04:50:38Z",
+    "sortable": "m'ress",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-21T04:50:38Z"
+    ]
+  },
+  {
+    "id": 19729,
+    "canonical": 19729,
+    "title": "Adult book series: Beautiful Girls",
+    "category": "Other",
+    "game": "LE",
+    "href": "19729-adult-book-series-beautiful-girls",
+    "status": "unknown",
+    "version": "free",
+    "updated": "2021-10-25T06:26:34Z",
+    "sortable": "adult book series: beautiful girls",
+    "tags": [
+      "book",
+      "girls",
+      "legendary edition",
+      "skyrim"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-25T06:26:34Z"
+    ]
+  },
+  {
+    "id": 19735,
+    "canonical": 19735,
+    "title": "Transformative Elixirs",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19735-transformative-elixirs",
+    "status": "incompatible",
+    "version": "1.3.0",
+    "updated": "2023-12-16T18:17:36Z",
+    "sortable": "transformative elixirs",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2023-12-16T18:17:36Z"
+    ]
+  },
+  {
+    "id": 19745,
+    "canonical": 19745,
+    "title": "RohZIma New SLAL Animations - For 2021 & Beyond",
+    "category": "Animation",
+    "game": "LE",
+    "href": "19745-rohzima-new-slal-animations-for-2021-beyond",
+    "status": "compatible",
+    "version": "0.70",
+    "updated": "2022-07-30T10:25:59Z",
+    "sortable": "rohzima new slal animations - for 2021 & beyond",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-07-30T10:25:59Z"
+    ]
+  },
+  {
+    "id": 19752,
+    "canonical": 19752,
+    "title": "Adult book series: Sexy Girls",
+    "category": "Other",
+    "game": "LE",
+    "href": "19752-adult-book-series-sexy-girls",
+    "status": "unknown",
+    "version": "free",
+    "updated": "2021-10-25T06:27:28Z",
+    "sortable": "adult book series: sexy girls",
+    "tags": [
+      "book",
+      "girls",
+      "legendary edition",
+      "skyrim"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-25T06:27:28Z"
+    ]
+  },
+  {
+    "id": 19753,
+    "canonical": 19753,
+    "title": "Alluring Throw Voice Replacer",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19753-alluring-throw-voice-replacer",
+    "status": "compatible",
+    "version": "1.0.0",
+    "updated": "2021-10-23T12:33:56Z",
+    "sortable": "alluring throw voice replacer",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-23T12:33:56Z"
+    ]
+  },
+  {
+    "id": 19762,
+    "canonical": 19762,
+    "title": "Spectator Crowds Ultra Edition (for Skyrim LE, SE, and VR)",
+    "category": "Sex Effects",
+    "game": "SE",
+    "href": "19762-spectator-crowds-ultra-edition-for-skyrim-le-se-and-vr",
+    "status": "ported",
+    "version": "0.99 beta 6",
+    "updated": "2021-10-26T12:06:39Z",
+    "sortable": "spectator crowds ultra edition (for skyrim le, se, and vr",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-26T12:06:39Z"
+    ]
+  },
+  {
+    "id": 19769,
+    "canonical": 19769,
+    "title": "Adult book series: Hot Erotica",
+    "category": "Other",
+    "game": "LE",
+    "href": "19769-adult-book-series-hot-erotica",
+    "status": "unknown",
+    "version": "free",
+    "updated": "2021-10-25T06:27:49Z",
+    "sortable": "adult book series: hot erotica",
+    "tags": [
+      "book",
+      "girls",
+      "legendary edition",
+      "skyrim"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-25T06:27:49Z"
+    ]
+  },
+  {
+    "id": 19770,
+    "canonical": 19770,
+    "title": "Futa Femboy and derogatory SlaveTats pack( Eternal wip possibly )",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19770-futa-femboy-and-derogatory-slavetats-pack-eternal-wip-possibly",
+    "status": "incompatible",
+    "version": "1.6.7",
+    "updated": "2024-03-25T21:35:16Z",
+    "sortable": "futa femboy and derogatory slavetats pack( eternal wip possibly",
+    "tags": [
+      "femboi",
+      "femboy",
+      "futa",
+      "futanari",
+      "slavetats"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2024-03-25T21:35:16Z"
+    ]
+  },
+  {
+    "id": 19778,
+    "canonical": 19778,
+    "title": "Vera Skin -CBBE 8K- Darker",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19778-vera-skin-cbbe-8k-darker",
+    "status": "unknown",
+    "version": "1.0",
+    "updated": "2021-11-25T10:31:48Z",
+    "sortable": "vera skin -cbbe 8k- darker",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-25T10:31:48Z"
+    ]
+  },
+  {
+    "id": 19784,
+    "canonical": 19784,
+    "title": "Zombie Waifu - playable race, follower, and summon spell",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19784-zombie-waifu-playable-race-follower-and-summon-spell",
+    "status": "incompatible",
+    "version": "1.5",
+    "updated": "2021-11-02T16:56:16Z",
+    "sortable": "zombie waifu - playable race, follower, and summon spell",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-02T16:56:16Z"
+    ]
+  },
+  {
+    "id": 19785,
+    "canonical": 19785,
+    "title": "Succubus Waifu - playable race, follower, and summon spell (with 3BA bodyslide)",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19785-succubus-waifu-playable-race-follower-and-summon-spell-with-3ba-bodyslide",
+    "status": "incompatible",
+    "version": "1.7",
+    "updated": "2021-11-02T16:55:38Z",
+    "sortable": "succubus waifu - playable race, follower, and summon spell (with 3ba bodyslide",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-02T16:55:38Z"
+    ]
+  },
+  {
+    "id": 19789,
+    "canonical": 19789,
+    "title": "Damsels in Distress - SE (0) - Follower Collection",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19789-damsels-in-distress-se-0-follower-collection",
+    "status": "compatible",
+    "version": "2.3",
+    "updated": "2022-10-02T19:23:34Z",
+    "sortable": "damsels in distress - se (0) - follower collection",
+    "tags": [
+      "beta",
+      "damsel",
+      "distress",
+      "esl",
+      "follower",
+      "rescue",
+      "se",
+      "sexlab",
+      "zaz"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-10-02T19:23:34Z"
+    ]
+  },
+  {
+    "id": 19790,
+    "canonical": 19790,
+    "title": "Meatslave SlaveTats Pack",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19790-meatslave-slavetats-pack",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-11-17T21:37:17Z",
+    "sortable": "meatslave slavetats pack",
+    "tags": [
+      "cannibalism",
+      "dolcett"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-17T21:37:17Z"
+    ]
+  },
+  {
+    "id": 19794,
+    "canonical": 19794,
+    "title": "[SunJeong] Ninirim Collection 6.0 (Kitsune Miko Ear SMP)",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19794-sunjeong-ninirim-collection-60-kitsune-miko-ear-smp",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-10-31T04:27:50Z",
+    "sortable": "ninirim collection 6.0 (kitsune miko ear smp",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-31T04:27:50Z"
+    ]
+  },
+  {
+    "id": 19795,
+    "canonical": 19795,
+    "title": "Paragaon Fey CBBE SE (SMP Skirt)",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19795-paragaon-fey-cbbe-se-smp-skirt",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-11-03T21:24:46Z",
+    "sortable": "paragaon fey cbbe se (smp skirt",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-03T21:24:46Z"
+    ]
+  },
+  {
+    "id": 19802,
+    "canonical": 19802,
+    "title": "Master Arrows",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19802-master-arrows",
+    "status": "unknown",
+    "version": "V3.1",
+    "updated": "2022-01-23T00:24:54Z",
+    "sortable": "master arrows",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-01-23T00:24:54Z"
+    ]
+  },
+  {
+    "id": 19820,
+    "canonical": 19820,
+    "title": "Harvesting Humans 2: Organs Addon",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19820-harvesting-humans-2-organs-addon",
+    "status": "unknown",
+    "version": "1.0",
+    "updated": "2021-11-21T20:45:07Z",
+    "sortable": "harvesting humans 2: organs addon",
+    "tags": [
+      "cannibalism"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-21T20:45:07Z"
+    ]
+  },
+  {
+    "id": 19821,
+    "canonical": 19821,
+    "title": "Harvesting Humans 2: Remake",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19821-harvesting-humans-2-remake",
+    "status": "unknown",
+    "version": "1.0",
+    "updated": "2022-01-03T18:40:19Z",
+    "sortable": "harvesting humans 2: remake",
+    "tags": [
+      "cannibalism"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-01-03T18:40:19Z"
+    ]
+  },
+  {
+    "id": 19823,
+    "canonical": 19823,
+    "title": "DatBoi Futa WarDrobe",
+    "category": "Adult Mods",
+    "game": "SE",
+    "status": "deleted",
+    "version": "1.0.4",
+    "updated": "2021-12-06T04:10:01Z",
+    "sortable": "datboi futa wardrobe",
+    "tags": [
+      "futa",
+      "sos"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-12-06T04:10:01Z"
+    ]
+  },
+  {
+    "id": 19839,
+    "canonical": 19839,
+    "title": "TRX Statues - Sanguine (futa)",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19839-trx-statues-sanguine-futa",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-10-31T18:08:54Z",
+    "sortable": "trx statues - sanguine (futa",
+    "tags": [
+      "futanari",
+      "statue"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-31T18:08:54Z"
+    ]
+  },
+  {
+    "id": 19841,
+    "canonical": 19841,
+    "title": "TRX Statues - Dibella (futa)",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19841-trx-statues-dibella-futa",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-10-31T22:01:08Z",
+    "sortable": "trx statues - dibella (futa",
+    "tags": [
+      "futanari",
+      "statue"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-31T22:01:08Z"
+    ]
+  },
+  {
+    "id": 19842,
+    "canonical": 19842,
+    "title": "Deviously Cursed Loot SE FaceGen with KSHair",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19842-deviously-cursed-loot-se-facegen-with-kshair",
+    "status": "incompatible",
+    "version": "1",
+    "updated": "2021-10-31T23:14:28Z",
+    "sortable": "deviously cursed loot se facegen with kshair",
+    "tags": [
+      "cursed loot se",
+      "kshair",
+      "kshairdos"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-10-31T23:14:28Z"
+    ]
+  },
+  {
+    "id": 19845,
+    "canonical": 19845,
+    "title": "Sexy Werewolf vocal mod",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19845-sexy-werewolf-vocal-mod",
+    "status": "ported",
+    "version": "1.0",
+    "updated": "2022-10-15T05:26:40Z",
+    "sortable": "sexy werewolf vocal mod",
+    "tags": [
+      "sound fx",
+      "voice mod"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-10-15T05:26:40Z"
+    ]
+  },
+  {
+    "id": 19846,
+    "canonical": 19845,
+    "title": "Sexy Werewolf vocal mod",
+    "category": "Dialog Sex",
+    "game": "LE",
+    "href": "19846-sexy-werewolf-vocal-mod",
+    "status": "ported",
+    "version": "1.0",
+    "updated": "2022-10-15T05:26:03Z",
+    "sortable": "sexy werewolf vocal mod",
+    "tags": [
+      "sound fx",
+      "voice mod"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-10-15T05:26:03Z"
+    ]
+  },
+  {
+    "id": 19850,
+    "canonical": 19850,
+    "title": "Hentai book series 2D: Furry #1",
+    "category": "Other",
+    "game": "LE",
+    "href": "19850-hentai-book-series-2d-furry-1",
+    "status": "unknown",
+    "version": "free",
+    "updated": "2021-11-01T15:04:51Z",
+    "sortable": "hentai book series 2d: furry #1",
+    "tags": [
+      "book",
+      "furry",
+      "hentai",
+      "legendary edition",
+      "skyrim"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-01T15:04:51Z"
+    ]
+  },
+  {
+    "id": 19860,
+    "canonical": 19860,
+    "title": "SL Aroused keywords for various armors",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19860-sl-aroused-keywords-for-various-armors",
+    "status": "incompatible",
+    "version": "v1.5",
+    "updated": "2024-04-18T08:45:15Z",
+    "sortable": "sl aroused keywords for various armors",
+    "tags": [
+      "armor",
+      "baka",
+      "keywords",
+      "osl aroused",
+      "patch",
+      "sl aroused"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2024-04-18T08:45:15Z"
+    ]
+  },
+  {
+    "id": 19861,
+    "canonical": 19861,
+    "title": "RAID Madame Serris Costume 3BA V2 HDT-SMP",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19861-raid-madame-serris-costume-3ba-v2-hdt-smp",
+    "status": "incompatible",
+    "version": "1.0",
+    "updated": "2021-11-02T13:30:28Z",
+    "sortable": "raid madame serris costume 3ba v2 hdt-smp",
+    "tags": [
+      "3bav2",
+      "halloween",
+      "hdt-smp"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-02T13:30:28Z"
+    ]
+  },
+  {
+    "id": 19864,
+    "canonical": 19864,
+    "title": "Iron Bull Custom race - SOS genitalia patch",
+    "category": "Models & Textures",
+    "game": "LE",
+    "href": "19864-iron-bull-custom-race-sos-genitalia-patch",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-11-02T17:20:08Z",
+    "sortable": "iron bull custom race - sos genitalia patch",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-02T17:20:08Z"
+    ]
+  },
+  {
+    "id": 19867,
+    "canonical": 19867,
+    "title": "Avatar of Dibella Bodyslide Preset",
+    "category": "BodySlide",
+    "game": "LE",
+    "href": "19867-avatar-of-dibella-bodyslide-preset",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-11-19T03:18:18Z",
+    "sortable": "avatar of dibella bodyslide preset",
+    "tags": [
+      "beauty",
+      "body",
+      "bodyslide",
+      "dibella",
+      "nude",
+      "preset"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-19T03:18:18Z"
+    ]
+  },
+  {
+    "id": 19869,
+    "canonical": 19869,
+    "title": "Collectable Anal Toys",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19869-collectable-anal-toys",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-11-03T23:06:39Z",
+    "sortable": "collectable anal toys",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-03T23:06:39Z"
+    ]
+  },
+  {
+    "id": 19870,
+    "canonical": 19870,
+    "title": "Compatibility patch ESL - Prison Overhaul Patched with JK's Skyrim",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19870-compatibility-patch-esl-prison-overhaul-patched-with-jks-skyrim",
+    "status": "incompatible",
+    "version": "1",
+    "updated": "2021-11-04T02:46:42Z",
+    "sortable": "compatibility patch esl - prison overhaul patched with jk's skyrim",
+    "tags": [
+      "compatiblity",
+      "jksskyrim",
+      "patch",
+      "prisonoverhaul"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-04T02:46:42Z"
+    ]
+  },
+  {
+    "id": 19874,
+    "canonical": 19874,
+    "title": "Devious Devices: Follower Escape LE/SE",
+    "category": "Sexual Content",
+    "game": "LE",
+    "href": "19874-devious-devices-follower-escape-lese",
+    "status": "compatible",
+    "version": "1.0",
+    "updated": "2021-11-04T22:53:03Z",
+    "sortable": "devious devices: follower escape le/se",
+    "tags": [
+      "devious devices",
+      "followers"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-04T22:53:03Z"
+    ]
+  },
+  {
+    "id": 19876,
+    "canonical": 19876,
+    "title": "Character Class System Restoration",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19876-character-class-system-restoration",
+    "status": "compatible",
+    "version": "0.6.0",
+    "updated": "2021-11-20T07:36:05Z",
+    "sortable": "character class system restoration",
+    "tags": [
+      "fair and balanced",
+      "gameplay",
+      "lore friendly"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-20T07:36:05Z"
+    ]
+  },
+  {
+    "id": 19883,
+    "canonical": 19883,
+    "title": "Aradia Living Armor (CBBE) FIXED (With Tentacles) for Skyrim Special Edition",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19883-aradia-living-armor-cbbe-fixed-with-tentacles-for-skyrim-special-edition",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-11-05T01:37:59Z",
+    "sortable": "aradia living armor (cbbe) fixed (with tentacles) for skyrim",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-05T01:37:59Z"
+    ]
+  },
+  {
+    "id": 19891,
+    "canonical": 19891,
+    "title": "ScRappies Matchmaker",
+    "category": "Misc Sex",
+    "game": "SE",
+    "href": "19891-scrappies-matchmaker",
+    "status": "compatible",
+    "version": "1.5.1.1",
+    "updated": "2023-03-11T21:11:33Z",
+    "sortable": "scrappies matchmaker",
+    "tags": [
+      "matchmaker",
+      "ostim",
+      "sexlab"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2023-03-11T21:11:33Z"
+    ]
+  },
+  {
+    "id": 19899,
+    "canonical": 19899,
+    "title": "High Poly NPCs (Patches)",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19899-high-poly-npcs-patches",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-11-06T12:58:46Z",
+    "sortable": "high poly npcs (patches",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-06T12:58:46Z"
+    ]
+  },
+  {
+    "id": 19902,
+    "canonical": 19902,
+    "title": "Acadia CBBE Body Preset",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19902-acadia-cbbe-body-preset",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-11-06T14:21:11Z",
+    "sortable": "acadia cbbe body preset",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-06T14:21:11Z"
+    ]
+  },
+  {
+    "id": 19905,
+    "canonical": 19905,
+    "title": "TRX Statues - Sanguine Futa",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19905-trx-statues-sanguine-futa",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-11-06T16:15:14Z",
+    "sortable": "trx statues - sanguine futa",
+    "tags": [
+      "futanari",
+      "statue"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-06T16:15:14Z"
+    ]
+  },
+  {
+    "id": 19906,
+    "canonical": 19906,
+    "title": "TRX Statues - Sanguine Regular (non futa)",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19906-trx-statues-sanguine-regular-non-futa",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-11-06T16:14:27Z",
+    "sortable": "trx statues - sanguine regular (non futa",
+    "tags": [
+      "statues"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-06T16:14:27Z"
+    ]
+  },
+  {
+    "id": 19908,
+    "canonical": 19908,
+    "title": "Compatibility patch ESL - Deviously Cursed Loot with JK's Skyrim",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19908-compatibility-patch-esl-deviously-cursed-loot-with-jks-skyrim",
+    "status": "incompatible",
+    "version": "1",
+    "updated": "2021-11-06T19:11:10Z",
+    "sortable": "compatibility patch esl - deviously cursed loot with jk's skyrim",
+    "tags": [
+      "compatiblity",
+      "cursed loot se",
+      "jksskyrim",
+      "patch"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-06T19:11:10Z"
+    ]
+  },
+  {
+    "id": 19909,
+    "canonical": 19909,
+    "title": "Female Breton Racemenu preset",
+    "category": "Models & Textures",
+    "game": "LE",
+    "href": "19909-female-breton-racemenu-preset",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-11-27T09:12:56Z",
+    "sortable": "female breton racemenu preset",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-27T09:12:56Z"
+    ]
+  },
+  {
+    "id": 19910,
+    "canonical": 19910,
+    "title": "UUNP Special bodyslide preset",
+    "category": "BodySlide",
+    "game": "LE",
+    "href": "19910-uunp-special-bodyslide-preset",
+    "status": "unknown",
+    "version": "1.0.1",
+    "updated": "2022-07-04T18:41:15Z",
+    "sortable": "uunp special bodyslide preset",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-07-04T18:41:15Z"
+    ]
+  },
+  {
+    "id": 19911,
+    "canonical": 19911,
+    "title": "Adventurers Guild",
+    "category": "Other",
+    "game": "LE",
+    "href": "19911-adventurers-guild",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-11-06T20:39:16Z",
+    "sortable": "adventurers guild",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-06T20:39:16Z"
+    ]
+  },
+  {
+    "id": 19912,
+    "canonical": 19912,
+    "title": "TRX Statues - Dibella Rev 2 (futa)",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19912-trx-statues-dibella-rev-2-futa",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-11-06T22:24:45Z",
+    "sortable": "trx statues - dibella rev 2 (futa",
+    "tags": [
+      "futanari",
+      "statue"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-06T22:24:45Z"
+    ]
+  },
+  {
+    "id": 19913,
+    "canonical": 19913,
+    "title": "TRX Statues - Dibella Rev 2 (non futa)",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19913-trx-statues-dibella-rev-2-non-futa",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-11-06T22:22:30Z",
+    "sortable": "trx statues - dibella rev 2 (non futa",
+    "tags": [
+      "statue"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-06T22:22:30Z"
+    ]
+  },
+  {
+    "id": 19915,
+    "canonical": 19915,
+    "title": "No Kids",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19915-no-kids",
+    "status": "incompatible",
+    "version": "v1.2.1",
+    "updated": "2021-11-14T20:40:50Z",
+    "sortable": "no kids",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-14T20:40:50Z"
+    ]
+  },
+  {
+    "id": 19917,
+    "canonical": 19917,
+    "title": "Arachnophobia CACO.esp",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19917-arachnophobia-cacoesp",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-11-07T03:13:27Z",
+    "sortable": "arachnophobia caco.esp",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-07T03:13:27Z"
+    ]
+  },
+  {
+    "id": 19918,
+    "canonical": 19918,
+    "title": "Estrus Chaurus CACO.esp",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19918-estrus-chaurus-cacoesp",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-11-07T03:11:03Z",
+    "sortable": "estrus chaurus caco.esp",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-07T03:11:03Z"
+    ]
+  },
+  {
+    "id": 19919,
+    "canonical": 19919,
+    "title": "Arach + EC + CACO.esp",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19919-arach-ec-cacoesp",
+    "status": "unknown",
+    "version": "1.0.0",
+    "updated": "2021-11-07T03:08:32Z",
+    "sortable": "arach + ec + caco.esp",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-07T03:08:32Z"
+    ]
+  },
+  {
+    "id": 19921,
+    "canonical": 19921,
+    "title": "Skydraenei Miscellanea SSE - Textures & (possibly) More",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19921-skydraenei-miscellanea-sse-textures-possibly-more",
+    "status": "incompatible",
+    "version": "1.1",
+    "updated": "2021-11-07T11:27:38Z",
+    "sortable": "skydraenei miscellanea sse - textures & (possibly) more",
+    "tags": [
+      "draenei",
+      "futa mod",
+      "horse penis",
+      "horsecock"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-07T11:27:38Z"
+    ]
+  },
+  {
+    "id": 19927,
+    "canonical": 19927,
+    "title": "Follower Niku",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19927-follower-niku",
+    "status": "incompatible",
+    "version": "Version 1.5 (New Appearance)",
+    "updated": "2022-05-09T15:34:47Z",
+    "sortable": "follower niku",
+    "tags": [
+      "family",
+      "hearthfires",
+      "incest",
+      "sexlab",
+      "xvasynth"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-05-09T15:34:47Z"
+    ]
+  },
+  {
+    "id": 19941,
+    "canonical": 19941,
+    "title": "Trinity for COtR",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19941-trinity-for-cotr",
+    "status": "compatible",
+    "version": "1.0.0",
+    "updated": "2021-11-08T14:50:21Z",
+    "sortable": "trinity for cotr",
+    "tags": [
+      "celebrity",
+      "cotr",
+      "customrace",
+      "matrix",
+      "preset",
+      "racememu",
+      "skyrim"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-08T14:50:21Z"
+    ]
+  },
+  {
+    "id": 19943,
+    "canonical": 19943,
+    "title": "xyzfs patches",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19943-xyzfs-patches",
+    "status": "incompatible",
+    "version": "1.1.0",
+    "updated": "2022-01-01T21:01:39Z",
+    "sortable": "xyzfs patches",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-01-01T21:01:39Z"
+    ]
+  },
+  {
+    "id": 19951,
+    "canonical": 19951,
+    "title": "TRX Sanguine Regular Statues in Skyrim",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19951-trx-sanguine-regular-statues-in-skyrim",
+    "status": "incompatible",
+    "version": "1.0.1",
+    "updated": "2021-11-11T21:11:50Z",
+    "sortable": "trx sanguine regular statues in skyrim",
+    "tags": [
+      "sse",
+      "statue"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-11T21:11:50Z"
+    ]
+  },
+  {
+    "id": 19956,
+    "canonical": 19956,
+    "title": "Fresh Women Darkness - TAWOBA patch",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19956-fresh-women-darkness-tawoba-patch",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-11-10T07:02:23Z",
+    "sortable": "fresh women darkness - tawoba patch",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-10T07:02:23Z"
+    ]
+  },
+  {
+    "id": 19960,
+    "canonical": 19960,
+    "title": "3BA Ebonic Wasteland Addon",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19960-3ba-ebonic-wasteland-addon",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-11-16T06:28:34Z",
+    "sortable": "ba ebonic wasteland addon",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-16T06:28:34Z"
+    ]
+  },
+  {
+    "id": 19964,
+    "canonical": 19964,
+    "title": "Snake Hair",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19964-snake-hair",
+    "status": "incompatible",
+    "version": "1.1",
+    "updated": "2021-11-11T16:36:34Z",
+    "sortable": "snake hair",
+    "tags": [
+      "hdt smp",
+      "snake",
+      "snakes"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-11T16:36:34Z"
+    ]
+  },
+  {
+    "id": 19967,
+    "canonical": 19967,
+    "title": "Aela's and Serana's mixed blood",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19967-aelas-and-seranas-mixed-blood",
+    "status": "unknown",
+    "version": "1.61",
+    "updated": "2022-04-18T14:46:31Z",
+    "sortable": "aela's and serana's mixed blood",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-04-18T14:46:31Z"
+    ]
+  },
+  {
+    "id": 19971,
+    "canonical": 19971,
+    "title": "Skimpy Jiang-Shi Robe BHUNP conversion",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19971-skimpy-jiang-shi-robe-bhunp-conversion",
+    "status": "incompatible",
+    "version": "1.0.0",
+    "updated": "2021-11-12T01:35:17Z",
+    "sortable": "skimpy jiang-shi robe bhunp conversion",
+    "tags": [
+      "bhunp"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-12T01:35:17Z"
+    ]
+  },
+  {
+    "id": 19972,
+    "canonical": 19972,
+    "title": "Absolutely No Naked Comments",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19972-absolutely-no-naked-comments",
+    "status": "incompatible",
+    "version": "1.0",
+    "updated": "2021-11-12T04:02:19Z",
+    "sortable": "absolutely no naked comments",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-12T04:02:19Z"
+    ]
+  },
+  {
+    "id": 19975,
+    "canonical": 19975,
+    "title": "[SE/LE] Dissidia Materia Xing",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19975-sele-dissidia-materia-xing",
+    "status": "compatible",
+    "version": "1.0.0",
+    "updated": "2021-11-12T14:33:39Z",
+    "sortable": "dissidia materia xing",
+    "tags": [
+      "animation",
+      "le",
+      "se",
+      "smp",
+      "weapon"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-12T14:33:39Z"
+    ]
+  },
+  {
+    "id": 19985,
+    "canonical": 19985,
+    "title": "Conditional Expressions Extended",
+    "category": "Sex Effects",
+    "game": "SE",
+    "href": "19985-conditional-expressions-extended",
+    "status": "incompatible",
+    "version": "2.0.5",
+    "updated": "2024-07-21T15:08:29Z",
+    "sortable": "conditional expressions extended",
+    "tags": [
+      "apropos2",
+      "bathing",
+      "expressions",
+      "mfg"
+    ],
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2024-07-21T15:08:29Z"
+    ]
+  },
+  {
+    "id": 19986,
+    "canonical": 19986,
+    "title": "TRX Diverse Sanguine Statues",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19986-trx-diverse-sanguine-statues",
+    "status": "unknown",
+    "version": "1.0a",
+    "updated": "2021-11-13T19:55:24Z",
+    "sortable": "trx diverse sanguine statues",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-13T19:55:24Z"
+    ]
+  },
+  {
+    "id": 19996,
+    "canonical": 19996,
+    "title": "Simple JukeBox",
+    "category": "Regular Mods",
+    "game": "SE",
+    "href": "19996-simple-jukebox",
+    "status": "unknown",
+    "version": "1.1.0",
+    "updated": "2022-01-16T07:08:03Z",
+    "sortable": "simple jukebox",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2022-01-16T07:08:03Z"
+    ]
+  },
+  {
+    "id": 19999,
+    "canonical": 19999,
+    "title": "OC:s Nurse Outfit with morphable hood and SMP",
+    "category": "Adult Mods",
+    "game": "SE",
+    "href": "19999-ocs-nurse-outfit-with-morphable-hood-and-smp",
+    "status": "incompatible",
+    "version": "1.1",
+    "updated": "2021-11-15T23:01:16Z",
+    "sortable": "oc:s nurse outfit with morphable hood and smp",
+    "source": "tasairis",
+    "automated": false,
+    "update_history": [
+      "2021-11-15T23:01:16Z"
+    ]
+  }
+]
