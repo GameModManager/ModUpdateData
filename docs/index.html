@@ -21,7 +21,6 @@
   table tr + tr { border-top: 1px solid #e5e5e5; }
   table tbody tr:hover { background: #eef !important; cursor: pointer; }
   table tbody tr:nth-child(2n) { background: #f6f6f6; }
-  table tr.sort-hidden, table tr.filter-hidden { display: none; }
   #details-popup { align-items: center; background: transparent; display: flex; flex-direction: column; left: 0; justify-content: center; min-height: 100vh; position: fixed; right: 0; top: 0; z-index: 10; padding: 1em; }
   #details-popup:not(.visible) { display: none; }
   #details-popup > div { background: #fff; padding: 1.2em 1.6em; border-radius: 10px; box-shadow: 0 10px 40px rgba(0,0,0,0.3); max-width: 720px; width: 100%; max-height: 85vh; overflow: auto; }
@@ -32,6 +31,11 @@
   .muted { color: #777; }
   a { color: #0b57d0; }
   #stats { margin: 0.6em 0; font-size: 0.9em; color: #555; }
+  #pagination { display: flex; align-items: center; gap: 0.8em; margin: 0.8em 0; font-size: 0.9em; }
+  #pagination button { padding: 6px 12px; border: 1px solid #ccc; border-radius: 6px; background: #fff; cursor: pointer; }
+  #pagination button:disabled { opacity: 0.5; cursor: default; }
+  #pagination button:not(:disabled):hover { background: #eee; }
+  #page-info { color: #555; }
 </style>
 </head>
 <body data-loading>
@@ -58,6 +62,11 @@
 </tr>
 </thead>
 </table>
+<div id="pagination" class="not-loading">
+  <button id="prev-page">Previous</button>
+  <span id="page-info"></span>
+  <button id="next-page">Next</button>
+</div>
 
 <div id="details-popup-template">
   <h2 style="margin-top:0"><span data-template="mod.game"></span> &rsaquo; <span data-template="mod.category"></span> &rsaquo; <span data-template="mod.title"></span></h2>
@@ -103,6 +112,12 @@ function el(name, cb) {
 
 let allData = [];
 let canonicalMods = [];
+let filteredMods = [];
+let currentPage = 1;
+const PAGE_SIZE = 100; // configurable: mods per page
+const canonicalIndexMap = new Map(); // id -> original index for stable sort reset
+let currentQuery = "";
+let sortInfo = { thIndex: -1, state: 0, asc: true }; // active sort for re-apply after filter
 
 async function fetchJson(urls) {
   let lastErr;
@@ -117,8 +132,6 @@ async function fetchJson(urls) {
 }
 
 async function load() {
-  const meta = document.getElementById("meta");
-  // Try manifest
   let manifest, manifestUrl;
   try {
     const res = await fetchJson(MANIFEST_URLS);
@@ -140,100 +153,200 @@ async function load() {
   // Sort like tasairis: by sortable
   allData.sort((a,b) => (a.sortable||a.title||"").localeCompare(b.sortable||b.title||""));
   canonicalMods = allData.filter(m => m.id === m.canonical);
+  canonicalMods.forEach((m, i) => canonicalIndexMap.set(m.id, i));
+  filteredMods = canonicalMods.slice();
 
   document.getElementById("meta-text").textContent =
     `${manifest.generated_at.slice(0,10)} - ${manifest.total_mods} mods in ${manifest.total_shards} shards - source ${manifest.source || ""}`;
-  document.getElementById("stats").textContent = `${canonicalMods.length} canonical mods shown`;
 
-  buildTable();
+  ensureTbody();
+  renderPage(1);
   delete document.body.dataset.loading;
   applySortable();
   setupFilter();
+  setupPagination();
   setupPopup();
 }
 
-function buildTable() {
-  const tbody = el("TBODY");
-  let idx = 0;
-  for (const m of canonicalMods) {
-    const others = allData.filter(o => o.canonical === m.canonical && o.id !== m.id);
-    const tr = el("TR");
-    tr.id = String(m.id);
-    tr.dataset.index = String(idx);
-    tr.appendChild(el("TD", td => td.textContent = String(m.id)));
-    tr.appendChild(el("TD", td => {
-      if (m.status !== "deleted" && m.game === "SE" && !others.find(o => o.game === "LE")) {
-        const em = el("EM"); em.textContent = "(made for SE)"; td.appendChild(em);
-      } else td.textContent = m.status;
-    }));
-    tr.appendChild(el("TD", td => td.textContent = m.category));
-    tr.appendChild(el("TD", td => {
-      td.dataset.sort = m.sortable || m.title || "";
-      td.append(icon(m.game, m.status) + " ");
-      if (others.length) td.append(m.game + ": ");
-      if (m.href) {
-        const a = el("A"); a.href = "https://www.loverslab.com/files/file/" + m.href + "/"; a.textContent = m.title; a.target="_blank"; td.appendChild(a);
-      } else td.append(m.title);
-      if (m.obsolete_successor || m.obsolete_alternative || m.obsolete_reason) td.append(" \u2620\uFE0F");
-      if (m.note) td.append(" \uD83D\uDCDD");
-      if (m.other_link) td.append(" \uD83D\uDD17");
-      if (m.automated) { const b = el("SPAN"); b.className="badge"; b.textContent="automated"; b.style.background="#fde8e8"; td.append(" "); td.appendChild(b); }
-      for (const o of others) {
-        td.appendChild(el("BR"));
-        td.append(icon(o.game, o.status) + " " + o.game + ": ");
-        if (o.href) { const a = el("A"); a.href = "https://www.loverslab.com/files/file/" + o.href; a.textContent = o.title; a.target="_blank"; td.appendChild(a); }
-        else td.append(o.title);
-      }
-    }));
-    tr.appendChild(el("TD", td => { td.dataset.sort = m.updated; td.textContent = new Date(m.updated).toDateString(); }));
-    tbody.appendChild(tr);
-    idx++;
+function ensureTbody() {
+  let tbody = document.querySelector("#table tbody");
+  if (!tbody) {
+    tbody = el("TBODY");
+    document.getElementById("table").appendChild(tbody);
   }
-  document.getElementById("table").appendChild(tbody);
+  return tbody;
+}
+
+function createRow(m) {
+  const others = allData.filter(o => o.canonical === m.canonical && o.id !== m.id);
+  const tr = el("TR");
+  tr.id = String(m.id);
+  tr.dataset.index = String(canonicalIndexMap.get(m.id) ?? 0);
+  tr.appendChild(el("TD", td => td.textContent = String(m.id)));
+  tr.appendChild(el("TD", td => {
+    if (m.status !== "deleted" && m.game === "SE" && !others.find(o => o.game === "LE")) {
+      const em = el("EM"); em.textContent = "(made for SE)"; td.appendChild(em);
+    } else td.textContent = m.status;
+  }));
+  tr.appendChild(el("TD", td => td.textContent = m.category));
+  tr.appendChild(el("TD", td => {
+    td.dataset.sort = m.sortable || m.title || "";
+    td.append(icon(m.game, m.status) + " ");
+    if (others.length) td.append(m.game + ": ");
+    if (m.href) {
+      const a = el("A"); a.href = "https://www.loverslab.com/files/file/" + m.href + "/"; a.textContent = m.title; a.target="_blank"; td.appendChild(a);
+    } else td.append(m.title);
+    if (m.obsolete_successor || m.obsolete_alternative || m.obsolete_reason) td.append(" \u2620\uFE0F");
+    if (m.note) td.append(" \uD83D\uDCDD");
+    if (m.other_link) td.append(" \uD83D\uDD17");
+    if (m.automated) { const b = el("SPAN"); b.className="badge"; b.textContent="automated"; b.style.background="#fde8e8"; td.append(" "); td.appendChild(b); }
+    for (const o of others) {
+      td.appendChild(el("BR"));
+      td.append(icon(o.game, o.status) + " " + o.game + ": ");
+      if (o.href) { const a = el("A"); a.href = "https://www.loverslab.com/files/file/" + o.href; a.textContent = o.title; a.target="_blank"; td.appendChild(a); }
+      else td.append(o.title);
+    }
+  }));
+  tr.appendChild(el("TD", td => { td.dataset.sort = m.updated; td.textContent = new Date(m.updated).toDateString(); }));
+  return tr;
+}
+
+function getPageCount() {
+  return Math.max(1, Math.ceil(filteredMods.length / PAGE_SIZE));
+}
+
+function updateStats() {
+  const total = canonicalMods.length;
+  const shown = filteredMods.length;
+  const start = shown === 0 ? 0 : (currentPage - 1) * PAGE_SIZE + 1;
+  const end = Math.min(currentPage * PAGE_SIZE, shown);
+  const range = shown === 0 ? "0" : `${start}-${end}`;
+  // keep existing expectation: "X shown / Y total" plus page range for pagination context
+  if (shown === total && currentQuery === "") {
+    document.getElementById("stats").textContent = `${total} canonical mods shown - page ${currentPage} of ${getPageCount()} (${range})`;
+  } else {
+    document.getElementById("stats").textContent = `${shown} shown / ${total} total - page ${currentPage} of ${getPageCount()} (${range})`;
+  }
+}
+
+function updatePaginationControls() {
+  const pageCount = getPageCount();
+  const prev = document.getElementById("prev-page");
+  const next = document.getElementById("next-page");
+  const info = document.getElementById("page-info");
+  if (prev) prev.disabled = currentPage <= 1;
+  if (next) next.disabled = currentPage >= pageCount || filteredMods.length === 0;
+  if (info) {
+    if (filteredMods.length === 0) info.textContent = "No results - Page 0 of 0";
+    else info.textContent = `Page ${currentPage} of ${pageCount}`;
+  }
+}
+
+function renderPage(page) {
+  const pageCount = getPageCount();
+  if (page < 1) page = 1;
+  if (page > pageCount) page = pageCount;
+  currentPage = page;
+  const tbody = ensureTbody();
+  // efficient rendering: build DocumentFragment for current page only
+  const frag = document.createDocumentFragment();
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const end = Math.min(start + PAGE_SIZE, filteredMods.length);
+  for (let i = start; i < end; i++) {
+    frag.appendChild(createRow(filteredMods[i]));
+  }
+  // replace tbody contents in one DOM operation
+  tbody.replaceChildren(frag);
+  updateStats();
+  updatePaginationControls();
+}
+
+function setupPagination() {
+  document.getElementById("prev-page").addEventListener("click", () => {
+    if (currentPage > 1) renderPage(currentPage - 1);
+  });
+  document.getElementById("next-page").addEventListener("click", () => {
+    if (currentPage < getPageCount()) renderPage(currentPage + 1);
+  });
 }
 
 function applySortable() {
   const headers = [...document.querySelectorAll("#table thead th")];
-  const state = new Map(); let sortingBy;
-  headers.forEach((th,i) => {
+  const state = new Map();
+  let sortingBy = null;
+  headers.forEach((th, i) => {
     if (!th.dataset.hasOwnProperty("sortable")) return;
-    const icon = el("SPAN"); icon.textContent = ""; th.textContent = "\uD83D\uDD03 " + th.textContent; th.appendChild(icon);
+    const label = th.textContent.trim();
+    th.textContent = "\uD83D\uDD03 " + label;
+    const iconEl = el("SPAN");
+    iconEl.textContent = "";
+    th.appendChild(iconEl);
     state.set(th, 0);
     const dir = th.dataset.hasOwnProperty("sortinv") ? -1 : 1;
     th.addEventListener("click", () => {
-      if (sortingBy && sortingBy !== th) { state.set(sortingBy,0); sortingBy.querySelector("span").textContent=""; }
+      if (sortingBy && sortingBy !== th) { state.set(sortingBy, 0); sortingBy.querySelector("span").textContent = ""; }
       sortingBy = th;
       const s = (3 + state.get(th) + dir) % 3;
-      let cmp;
-      if (s===1) { icon.textContent=" \u2B06\uFE0F"; cmp=([a],[b])=>a.localeCompare(b); }
-      else if (s===2) { icon.textContent=" \u2B07\uFE0F"; cmp=([a],[b])=>b.localeCompare(a); }
-      else { icon.textContent=""; cmp=([a],[b])=>a-b; }
-      state.set(th,s);
-      const rows=[];
-      for (const row of document.querySelectorAll("#table tbody tr")) {
-        const comp = s===0 ? Number(row.dataset.index) : row.querySelectorAll("td").item(i).dataset.sort;
-        if (comp !== undefined && comp !== "") { row.classList.remove("sort-hidden"); rows.push([comp,row]); }
-        else row.classList.add("sort-hidden");
+      state.set(th, s);
+      if (s === 0) {
+        iconEl.textContent = "";
+        sortInfo = { thIndex: i, state: 0, asc: true };
+        // reset to original order (stable by canonicalIndexMap) but keep current filter
+        filteredMods.sort((a, b) => (canonicalIndexMap.get(a.id) ?? 0) - (canonicalIndexMap.get(b.id) ?? 0));
+      } else {
+        const asc = s === 1;
+        iconEl.textContent = asc ? " \u2B06\uFE0F" : " \u2B07\uFE0F";
+        sortInfo = { thIndex: i, state: s, asc };
+        // column 3 = Mod (sortable), column 4 = Last Updated (updated)
+        const isModCol = i === 3;
+        filteredMods.sort((a, b) => {
+          const av = isModCol ? (a.sortable || a.title || "") : (a.updated || "");
+          const bv = isModCol ? (b.sortable || b.title || "") : (b.updated || "");
+          const cmp = av.localeCompare(bv);
+          return asc ? cmp : -cmp;
+        });
       }
-      const tbody=document.querySelector("#table tbody");
-      rows.sort(cmp).forEach(([,tr])=>tbody.appendChild(tr));
+      renderPage(1);
     });
   });
 }
 
+function matchesFilter(mod, q) {
+  // filter on data array by title, id, category, status (case-insensitive)
+  const hay = `${mod.title || ""} ${mod.id} ${mod.category || ""} ${mod.status || ""}`.toLowerCase();
+  return hay.includes(q);
+}
+
+function applyFilter(q) {
+  currentQuery = q;
+  if (!q) {
+    filteredMods = canonicalMods.slice();
+  } else {
+    filteredMods = canonicalMods.filter(m => matchesFilter(m, q));
+  }
+  // re-apply current sort if header is in sorted state
+  if (sortInfo.state !== 0) {
+    const isModCol = sortInfo.thIndex === 3;
+    filteredMods.sort((a, b) => {
+      const av = isModCol ? (a.sortable || a.title || "") : (a.updated || "");
+      const bv = isModCol ? (b.sortable || b.title || "") : (b.updated || "");
+      const cmp = av.localeCompare(bv);
+      return sortInfo.asc ? cmp : -cmp;
+    });
+  }
+  renderPage(1);
+}
+
 function setupFilter() {
   const inp = document.getElementById("search");
+  let debounceTimer = null;
+  const DEBOUNCE_MS = 300;
   inp.addEventListener("input", () => {
-    const q = inp.value.trim().toLowerCase();
-    let visible=0;
-    for (const row of document.querySelectorAll("#table tbody tr")) {
-      if (!q) { row.classList.remove("filter-hidden"); visible++; continue; }
-      const txt = row.textContent.toLowerCase();
-      const hide = !txt.includes(q);
-      row.classList.toggle("filter-hidden", hide);
-      if (!hide) visible++;
-    }
-    document.getElementById("stats").textContent = visible + " shown / " + canonicalMods.length + " total";
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
+      const q = inp.value.trim().toLowerCase();
+      applyFilter(q);
+    }, DEBOUNCE_MS);
   });
 }
 
