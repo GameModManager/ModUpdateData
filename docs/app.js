@@ -12,7 +12,7 @@ function shardUrl(file) {
 function icon(game, status) {
   if (status === "deleted") return "\u26AB";
   if (game === "SE") return "\uD83D\uDFE2";
-  return ({compatible:"\uD83D\uDFE2",convertible:"\uD83D\uDD35",incompatible:"\uD83D\uDD34","legacy-compatible":"\uD83D\uDFE2",new:"\uD83D\uDFE2",obsolete:"\uD83D\uDFE4",ported:"\uD83D\uDFE2",unknown:"\u26AA"})[status] || "\u26AA";
+  return ({ compatible: "\uD83D\uDFE2", convertible: "\uD83D\uDD35", incompatible: "\uD83D\uDD34", "legacy-compatible": "\uD83D\uDFE2", new: "\uD83D\uDFE2", obsolete: "\uD83D\uDFE4", ported: "\uD83D\uDFE2", unknown: "\u26AA" })[status] || "\u26AA";
 }
 
 function el(name, cb) {
@@ -35,10 +35,10 @@ async function fetchJson(urls) {
   let lastErr;
   for (const u of urls) {
     try {
-      const r = await fetch(u, {cache:"no-cache"});
+      const r = await fetch(u, { cache: "no-cache" });
       if (!r.ok) throw new Error(r.status + " " + r.statusText);
-      return {data: await r.json(), url: u};
-    } catch(e) { lastErr = e; }
+      return { data: await r.json(), url: u };
+    } catch (e) { lastErr = e; }
   }
   throw lastErr;
 }
@@ -48,7 +48,7 @@ async function load() {
   try {
     const res = await fetchJson(MANIFEST_URLS);
     manifest = res.data; manifestUrl = res.url;
-  } catch(e) {
+  } catch (e) {
     document.querySelector("h1").innerText = "Failed to load manifest: " + e;
     throw e;
   }
@@ -63,13 +63,13 @@ async function load() {
   const shardArrays = await Promise.all(shardFetches);
   allData = shardArrays.flat();
   // Sort like tasairis: by sortable
-  allData.sort((a,b) => (a.sortable||a.title||"").localeCompare(b.sortable||b.title||""));
+  allData.sort((a, b) => (a.sortable || a.title || "").localeCompare(b.sortable || b.title || ""));
   canonicalMods = allData.filter(m => m.id === m.canonical);
   canonicalMods.forEach((m, i) => canonicalIndexMap.set(m.id, i));
   filteredMods = canonicalMods.slice();
 
   document.getElementById("meta-text").textContent =
-    `${manifest.generated_at.slice(0,10)} - ${manifest.total_mods} mods in ${manifest.total_shards} shards - source ${manifest.source || ""}`;
+    `${manifest.generated_at.slice(0, 10)} - ${manifest.total_mods} mods in ${manifest.total_shards} shards - source ${manifest.source || ""}`;
 
   ensureTbody();
   renderPage(1);
@@ -106,16 +106,16 @@ function createRow(m) {
     td.append(icon(m.game, m.status) + " ");
     if (others.length) td.append(m.game + ": ");
     if (m.href) {
-      const a = el("A"); a.href = "https://www.loverslab.com/files/file/" + m.href + "/"; a.textContent = m.title; a.target="_blank"; td.appendChild(a);
+      const a = el("A"); a.href = "https://www.loverslab.com/files/file/" + m.href + "/"; a.textContent = m.title; a.target = "_blank"; td.appendChild(a);
     } else td.append(m.title);
     if (m.obsolete_successor || m.obsolete_alternative || m.obsolete_reason) td.append(" \u2620\uFE0F");
     if (m.note) td.append(" \uD83D\uDCDD");
     if (m.other_link) td.append(" \uD83D\uDD17");
-    if (m.automated) { const b = el("SPAN"); b.className="badge"; b.textContent="automated"; b.style.background="#fde8e8"; td.append(" "); td.appendChild(b); }
+    if (m.automated) { const b = el("SPAN"); b.className = "badge"; b.textContent = "automated"; b.style.background = "#fde8e8"; td.append(" "); td.appendChild(b); }
     for (const o of others) {
       td.appendChild(el("BR"));
       td.append(icon(o.game, o.status) + " " + o.game + ": ");
-      if (o.href) { const a = el("A"); a.href = "https://www.loverslab.com/files/file/" + o.href; a.textContent = o.title; a.target="_blank"; td.appendChild(a); }
+      if (o.href) { const a = el("A"); a.href = "https://www.loverslab.com/files/file/" + o.href; a.textContent = o.title; a.target = "_blank"; td.appendChild(a); }
       else td.append(o.title);
     }
   }));
@@ -305,31 +305,31 @@ function setupFilter() {
 
 function setupPopup() {
   const popup = document.getElementById("details-popup");
-  popup.addEventListener("click", e => { if (e.target===popup) popup.classList.remove("visible"); });
-  document.getElementById("details-popup-background").addEventListener("click", ()=>popup.classList.remove("visible"));
+  popup.addEventListener("click", e => { if (e.target === popup) popup.classList.remove("visible"); });
+  document.getElementById("details-popup-background").addEventListener("click", () => popup.classList.remove("visible"));
   document.getElementById("table").addEventListener("click", e => {
     if (e.target.closest("a[href]")) return;
     const id = e.target.closest("tr[id]")?.id;
     if (!id) return;
-    const relevant = allData.filter(m => String(m.canonical)===String(id));
+    const relevant = allData.filter(m => String(m.canonical) === String(id));
     if (!relevant.length) return;
-    relevant.sort((a,b)=> String(a.id)===String(id)?-1: String(b.id)===String(id)?1: (a.sortable||"").localeCompare(b.sortable||""));
+    relevant.sort((a, b) => String(a.id) === String(id) ? -1 : String(b.id) === String(id) ? 1 : (a.sortable || "").localeCompare(b.sortable || ""));
     while (popup.firstChild) popup.firstChild.remove();
     const tpl = document.getElementById("details-popup-template");
     relevant.forEach(mod => {
       const details = tpl.cloneNode(true);
-      details.removeAttribute("id"); details.style.display="block";
+      details.removeAttribute("id"); details.style.display = "block";
       details.querySelectorAll("[data-template]").forEach(elem => {
-        const v = (function(mod){ return eval(this.dataset.template); }).call(elem, mod);
+        const v = (function (mod) { return eval(this.dataset.template); }).call(elem, mod);
         if (v !== undefined && v !== null) elem.textContent = String(v);
       });
       details.querySelectorAll("ul.notes").forEach(ul => {
-        const add = (label, arr) => { if (!arr) return; const li=el("LI"); li.textContent=label+": "+arr.join("; "); ul.appendChild(li); };
+        const add = (label, arr) => { if (!arr) return; const li = el("LI"); li.textContent = label + ": " + arr.join("; "); ul.appendChild(li); };
         add("Obsolete reason", mod.obsolete_reason);
         add("Successor", mod.obsolete_successor);
         add("Alternative", mod.obsolete_alternative);
-        if (mod.note) mod.note.forEach(n=>{ const li=el("LI"); li.textContent=n; ul.appendChild(li); });
-        if (mod.other_link) mod.other_link.forEach(l=>{ const li=el("LI"); const a=el("A"); a.href=l.href; a.textContent=l.text||l.href; a.target="_blank"; li.appendChild(a); ul.appendChild(li); });
+        if (mod.note) mod.note.forEach(n => { const li = el("LI"); li.textContent = n; ul.appendChild(li); });
+        if (mod.other_link) mod.other_link.forEach(l => { const li = el("LI"); const a = el("A"); a.href = l.href; a.textContent = l.text || l.href; a.target = "_blank"; li.appendChild(a); ul.appendChild(li); });
         if (!ul.children.length) ul.remove();
       });
       popup.appendChild(details);
@@ -338,4 +338,4 @@ function setupPopup() {
   });
 }
 
-load().catch(e => { console.error(e); document.body.innerHTML += "<pre>"+String(e)+"</pre>"; });
+load().catch(e => { console.error(e); document.body.innerHTML += "<pre>" + String(e) + "</pre>"; });

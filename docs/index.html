@@ -1,60 +1,100 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ModUpdateData - LoversLab Mod Updates</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ModUpdateData - LoversLab Mod Updates</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body data-loading>
-<h1>ModUpdateData <small>- LoversLab mod update tracker</small></h1>
-<p id="meta" class="loading">Loading...</p>
-<p id="meta" class="not-loading">
-  <span id="meta-text"></span>
-  &middot; <a href="https://github.com/GameModManager/ModUpdateData">GitHub</a>
-  &middot; <a href="../data/manifest.json">manifest</a>
-  &middot; <a href="../data/index.json">index</a>
-</p>
-<div class="not-loading" style="margin-bottom:0.8em">
-  <input id="search" type="search" placeholder="Filter by title, category, id...">
-  <span id="stats"></span>
-</div>
-<table id="table" class="not-loading">
-<thead>
-<tr>
-  <th>ID</th>
-  <th>SE Status</th>
-  <th>LL Category</th>
-  <th data-sortable>Mod</th>
-  <th data-sortable data-sortinv>Last Updated</th>
-</tr>
-</thead>
-</table>
-<div id="pagination" class="not-loading">
-  <button id="prev-page">Previous</button>
-  <span id="page-info"></span>
-  <button id="next-page">Next</button>
-  <label style="margin-left:1em;display:inline-flex;align-items:center;gap:0.35em;cursor:pointer;"><input type="checkbox" id="show-all"> Show all</label>
-</div>
+  <!-- Page header -->
+  <div id="header">
+    <div id="left-column">
+      <h1>ModUpdateData <small>- LoversLab mod update tracker</small></h1>
+      <p id="meta" class="loading">Loading...</p>
+      <p id="meta" class="not-loading">
+        <span id="meta-text"></span>
+        &middot; <a href="https://github.com/GameModManager/ModUpdateData">GitHub</a>
+        &middot; <a href="../data/manifest.json">manifest</a>
+        &middot; <a href="../data/index.json">index</a>
+      </p>
+      <div class="not-loading" style="margin-bottom:0.8em">
+        <input id="search" type="search" placeholder="Filter by title, category, id...">
+        <span id="stats"></span>
+      </div>
+    </div>
+    <div id="right-column">
+      Legend
 
-<div id="details-popup-template">
-  <h2 style="margin-top:0"><span data-template="mod.game"></span> &rsaquo; <span data-template="mod.category"></span> &rsaquo; <span data-template="mod.title"></span></h2>
-  <p><a data-template="mod.href ? (this.href='https://www.loverslab.com/files/file/'+mod.href+'/', this.textContent='View on LoversLab') : this.closest('p').remove()"></a> <span data-template="mod.automated ? (this.textContent=' [automated]', this.style.color='#c00') : ''"></span></p>
-  <table>
-    <tr><th>Status</th><td data-template="mod.status"></td></tr>
-    <tr><th>Game</th><td data-template="mod.game"></td></tr>
-    <tr><th>Version</th><td data-template="mod.version ? mod.version : this.closest('tr').remove()"></td></tr>
-    <tr><th>Tags</th><td data-template="mod.tags ? mod.tags.join(', ') : this.closest('tr').remove()"></td></tr>
-    <tr><th>Last Updated</th><td data-template="new Date(mod.updated).toDateString() + ' (' + mod.updated + ')'"></td></tr>
-    <tr><th>Update count</th><td data-template="String((mod.update_history||[]).length)"></td></tr>
-    <tr><th>Source</th><td data-template="mod.source + (mod.automated ? ' (automated)' : '')"></td></tr>
+    </div>
+  </div>
+  <!---->
+  <table id="table" class="not-loading">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>SE Status</th>
+        <th>LL Category</th>
+        <th data-sortable>Mod</th>
+        <th data-sortable data-sortinv>Last Updated</th>
+      </tr>
+    </thead>
   </table>
-  <ul class="notes"></ul>
-  <p class="muted" style="font-size:0.85em">ID <span data-template="String(mod.id)"></span> &middot; canonical <span data-template="String(mod.canonical)"></span></p>
-</div>
-<div id="details-popup"></div>
-<div id="details-popup-background"></div>
+  <div id="pagination" class="not-loading">
+    <button id="prev-page">Previous</button>
+    <span id="page-info"></span>
+    <button id="next-page">Next</button>
+    <label style="margin-left:1em;display:inline-flex;align-items:center;gap:0.35em;cursor:pointer;"><input
+        type="checkbox" id="show-all"> Show all</label>
+  </div>
 
-<script src="app.js"></script>
+  <div id="details-popup-template">
+    <h2 style="margin-top:0"><span data-template="mod.game"></span> &rsaquo; <span data-template="mod.category"></span>
+      &rsaquo; <span data-template="mod.title"></span></h2>
+    <p><a
+        data-template="mod.href ? (this.href='https://www.loverslab.com/files/file/'+mod.href+'/', this.textContent='View on LoversLab') : this.closest('p').remove()"></a>
+      <span data-template="mod.automated ? (this.textContent=' [automated]', this.style.color='#c00') : ''"></span>
+    </p>
+    <table>
+      <tr>
+        <th>Status</th>
+        <td data-template="mod.status"></td>
+      </tr>
+      <tr>
+        <th>Game</th>
+        <td data-template="mod.game"></td>
+      </tr>
+      <tr>
+        <th>Version</th>
+        <td data-template="mod.version ? mod.version : this.closest('tr').remove()"></td>
+      </tr>
+      <tr>
+        <th>Tags</th>
+        <td data-template="mod.tags ? mod.tags.join(', ') : this.closest('tr').remove()"></td>
+      </tr>
+      <tr>
+        <th>Last Updated</th>
+        <td data-template="new Date(mod.updated).toDateString() + ' (' + mod.updated + ')'"></td>
+      </tr>
+      <tr>
+        <th>Update count</th>
+        <td data-template="String((mod.update_history||[]).length)"></td>
+      </tr>
+      <tr>
+        <th>Source</th>
+        <td data-template="mod.source + (mod.automated ? ' (automated)' : '')"></td>
+      </tr>
+    </table>
+    <ul class="notes"></ul>
+    <p class="muted" style="font-size:0.85em">ID <span data-template="String(mod.id)"></span> &middot; canonical <span
+        data-template="String(mod.canonical)"></span></p>
+  </div>
+  <div id="details-popup"></div>
+  <div id="details-popup-background"></div>
+
+  <script src="app.js"></script>
 </body>
+
 </html>
