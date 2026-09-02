@@ -66,6 +66,7 @@
   <button id="prev-page">Previous</button>
   <span id="page-info"></span>
   <button id="next-page">Next</button>
+  <label style="margin-left:1em;display:inline-flex;align-items:center;gap:0.35em;cursor:pointer;"><input type="checkbox" id="show-all"> Show all</label>
 </div>
 
 <div id="details-popup-template">
@@ -118,6 +119,7 @@ const PAGE_SIZE = 100; // configurable: mods per page
 const canonicalIndexMap = new Map(); // id -> original index for stable sort reset
 let currentQuery = "";
 let sortInfo = { thIndex: -1, state: 0, asc: true }; // active sort for re-apply after filter
+let showAll = false;
 
 async function fetchJson(urls) {
   let lastErr;
@@ -212,12 +214,23 @@ function createRow(m) {
 }
 
 function getPageCount() {
+  if (showAll) return 1;
   return Math.max(1, Math.ceil(filteredMods.length / PAGE_SIZE));
 }
 
 function updateStats() {
   const total = canonicalMods.length;
   const shown = filteredMods.length;
+  if (showAll) {
+    if (shown === 0) {
+      document.getElementById("stats").textContent = `0 shown / ${total} total (all on one page)`;
+    } else if (shown === total && currentQuery === "") {
+      document.getElementById("stats").textContent = `${total} canonical mods shown (all on one page)`;
+    } else {
+      document.getElementById("stats").textContent = `${shown} shown / ${total} total (all on one page)`;
+    }
+    return;
+  }
   const start = shown === 0 ? 0 : (currentPage - 1) * PAGE_SIZE + 1;
   const end = Math.min(currentPage * PAGE_SIZE, shown);
   const range = shown === 0 ? "0" : `${start}-${end}`;
@@ -234,6 +247,18 @@ function updatePaginationControls() {
   const prev = document.getElementById("prev-page");
   const next = document.getElementById("next-page");
   const info = document.getElementById("page-info");
+  if (showAll) {
+    if (prev) { prev.disabled = true; prev.style.display = "none"; }
+    if (next) { next.disabled = true; next.style.display = "none"; }
+    if (info) {
+      if (filteredMods.length === 0) info.textContent = "No results";
+      else info.textContent = "All on one page";
+    }
+    return;
+  } else {
+    if (prev) prev.style.display = "";
+    if (next) next.style.display = "";
+  }
   if (prev) prev.disabled = currentPage <= 1;
   if (next) next.disabled = currentPage >= pageCount || filteredMods.length === 0;
   if (info) {
@@ -243,11 +268,22 @@ function updatePaginationControls() {
 }
 
 function renderPage(page) {
+  const tbody = ensureTbody();
+  if (showAll) {
+    currentPage = 1;
+    const frag = document.createDocumentFragment();
+    for (let i = 0; i < filteredMods.length; i++) {
+      frag.appendChild(createRow(filteredMods[i]));
+    }
+    tbody.replaceChildren(frag);
+    updateStats();
+    updatePaginationControls();
+    return;
+  }
   const pageCount = getPageCount();
   if (page < 1) page = 1;
   if (page > pageCount) page = pageCount;
   currentPage = page;
-  const tbody = ensureTbody();
   // efficient rendering: build DocumentFragment for current page only
   const frag = document.createDocumentFragment();
   const start = (currentPage - 1) * PAGE_SIZE;
@@ -268,6 +304,13 @@ function setupPagination() {
   document.getElementById("next-page").addEventListener("click", () => {
     if (currentPage < getPageCount()) renderPage(currentPage + 1);
   });
+  const showAllEl = document.getElementById("show-all");
+  if (showAllEl) {
+    showAllEl.addEventListener("change", () => {
+      showAll = showAllEl.checked;
+      renderPage(1);
+    });
+  }
 }
 
 function applySortable() {
