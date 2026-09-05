@@ -204,7 +204,8 @@
     color: var(--gray2);
   }
 
-  #pagination {
+  #pagination,
+  #pagination-bottom {
     display: flex;
     align-items: center;
     gap: 0.8em;
@@ -212,7 +213,8 @@
     font-size: 0.9em;
   }
 
-  #pagination button {
+  #pagination button,
+  #pagination-bottom button {
     padding: 6px 12px;
     border: 1px solid var(--border);
     border-radius: 6px;
@@ -220,16 +222,19 @@
     cursor: pointer;
   }
 
-  #pagination button:disabled {
+  #pagination button:disabled,
+  #pagination-bottom button:disabled {
     opacity: 0.5;
     cursor: default;
   }
 
-  #pagination button:not(:disabled):hover {
+  #pagination button:not(:disabled):hover,
+  #pagination-bottom button:not(:disabled):hover {
     background: var(--border);
   }
 
-  #page-info {
+  #page-info,
+  #page-info-bottom {
     color: var(--gray2);
   }
 
