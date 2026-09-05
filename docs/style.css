@@ -1,4 +1,4 @@
-:root{
+:root {
   --text: #222;
   --subtext: #666;
   --border: #ccc;
@@ -13,7 +13,8 @@
   --gray2: #666;
   --gray3: #999;
   --gray4: #ccc;
-  @media (prefers-color-scheme: dark){
+
+  @media (prefers-color-scheme: dark) {
     --text: #efefef;
     --subtext: #afafaf;
     --border: #555;
@@ -31,214 +32,220 @@
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    margin: 0;
-    padding: 1em 1.2em;
-    background: var(--background);
-    color: var(--text);
-  }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 1em 1.2em;
+  background: var(--background);
+  color: var(--text);
+}
 
-  body[data-loading] .not-loading {
-    display: none;
-  }
+body[data-loading] .not-loading {
+  display: none;
+}
 
-  body:not([data-loading]) .loading {
-    display: none;
-  }
+body:not([data-loading]) .loading {
+  display: none;
+}
 
-  h1 {
-    font-size: 1.3em;
-    margin: 0 0 0.3em;
-  }
+h1 {
+  font-size: 1.3em;
+  margin: 0 0 0.3em;
+}
 
-  h1 small {
-    font-weight: normal;
-    color: var(--gray2);
-  }
+h1 small {
+  font-weight: normal;
+  color: var(--gray2);
+}
 
-  #header {
-    display: flex;
-    flex-direction: row;
-  }
+#header {
+  display: flex;
+  flex-direction: row;
+}
 
-  #left-column {
-    display: flex;
-    flex-direction: column;
-    border-right: 1px var(--gray4) solid;
-    padding-right: 20px;
-  }
+#left-column {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px var(--gray4) solid;
+  padding-right: 20px;
+}
 
-  #right-column {
-    display: flex;
-    flex-direction: column;
-    padding-left: 20px;
-  }
+#right-column {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
 
-  #meta {
-    color: var(--gray2);
-    font-size: 0.9em;
-    margin-bottom: 1em;
-  }
+#meta {
+  color: var(--gray2);
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
 
-  #search {
-    padding: 6px 10px;
-    width: 320px;
-    max-width: 100%;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    font-size: 0.95em;
-  }
+#search {
+  padding: 6px 10px;
+  width: 320px;
+  max-width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.95em;
+}
 
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    background: var(--white);
-  }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: var(--white);
+}
 
-  table td,
-  table th {
-    padding: 6px 8px;
-    text-align: left;
-    font-size: 0.92em;
-  }
+table td,
+table th {
+  padding: 6px 8px;
+  text-align: left;
+  font-size: 0.92em;
+}
 
-  table th {
-    background: var(--background-header);
-    color: var(--header-text);
-    position: sticky;
-    top: 0;
-    white-space: nowrap;
-  }
+table th {
+  background: var(--background-header);
+  color: var(--header-text);
+  position: sticky;
+  top: 0;
+  white-space: nowrap;
+}
 
-  table th[data-sortable] {
-    cursor: pointer;
-  }
+table th[data-sortable] {
+  cursor: pointer;
+}
 
-  table th[data-sortable]:hover {
-    background: var(--header-hover);
-    color: var(--text)
-  }
+table th[data-sortable]:hover {
+  background: var(--header-hover);
+  color: var(--text)
+}
 
-  table tr+tr {
-    border-top: 1px solid var(--background-alt);
-  }
+table tr+tr {
+  border-top: 1px solid var(--background-alt);
+}
 
-  table tbody tr:hover {
-    background: var(--background) !important;
-    cursor: pointer;
-  }
+table tbody tr:hover {
+  background: var(--background) !important;
+  cursor: pointer;
+}
 
-  table tbody tr:nth-child(2n) {
-    background: var(--background-alt);
-  }
+table tbody tr:nth-child(2n) {
+  background: var(--background-alt);
+}
 
-  #details-popup {
-    align-items: center;
-    background: transparent;
-    display: flex;
-    flex-direction: column;
-    left: 0;
-    justify-content: center;
-    min-height: 100vh;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 10;
-    padding: 1em;
-  }
+#details-popup {
+  align-items: center;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  justify-content: center;
+  min-height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  padding: 1em;
+}
 
-  #details-popup:not(.visible) {
-    display: none;
-  }
+#details-popup:not(.visible) {
+  display: none;
+}
 
-  #details-popup>div {
-    background: var(--white);
-    padding: 1.2em 1.6em;
-    border-radius: 10px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-    max-width: 720px;
-    width: 100%;
-    max-height: 85vh;
-    overflow: auto;
-  }
+#details-popup>div {
+  background: var(--white);
+  padding: 1.2em 1.6em;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  max-width: 720px;
+  width: 100%;
+  max-height: 85vh;
+  overflow: auto;
+}
 
-  #details-popup-background {
-    background: var(--text);
-    opacity: 0.5;
-    position: fixed;
-    inset: 0;
-    z-index: 9;
-  }
+#details-popup-background {
+  background: var(--text);
+  opacity: 0.5;
+  position: fixed;
+  inset: 0;
+  z-index: 9;
+}
 
-  #details-popup:not(.visible)+#details-popup-background {
-    display: none;
-  }
+#details-popup:not(.visible)+#details-popup-background {
+  display: none;
+}
 
-  #details-popup-template {
-    display: none;
-  }
+#details-popup-template {
+  display: none;
+}
 
-  .badge {
-    display: inline-block;
-    padding: 1px 6px;
-    border-radius: 10px;
-    font-size: 0.8em;
-    background: var(--border);
-  }
+.badge {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 10px;
+  font-size: 0.8em;
+  background: var(--border);
+}
 
-  .muted {
-    color: var(--gray4);
-  }
+.muted {
+  color: var(--gray4);
+}
 
-  a {
-    color: var(--blue);
-  }
+a {
+  color: var(--blue);
+}
 
-  #stats {
-    margin: 0.6em 0;
-    font-size: 0.9em;
-    color: var(--gray2);
-  }
+#stats {
+  margin: 0.6em 0;
+  font-size: 0.9em;
+  color: var(--gray2);
+}
 
-  #pagination,
-  #pagination-bottom {
-    display: flex;
-    align-items: center;
-    gap: 0.8em;
-    margin: 0.8em 0;
-    font-size: 0.9em;
-  }
+#pagination,
+#pagination-bottom {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  margin: 0.8em 0;
+  font-size: 0.9em;
+}
 
-  #pagination button,
-  #pagination-bottom button {
-    padding: 6px 12px;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    background: var(--white);
-    cursor: pointer;
-  }
+#pagination button,
+#pagination-bottom button {
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--white);
+  cursor: pointer;
+}
 
-  #pagination button:disabled,
-  #pagination-bottom button:disabled {
-    opacity: 0.5;
-    cursor: default;
-  }
+#pagination button:disabled,
+#pagination-bottom button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
 
-  #pagination button:not(:disabled):hover,
-  #pagination-bottom button:not(:disabled):hover {
-    background: var(--border);
-  }
+#pagination button:not(:disabled):hover,
+#pagination-bottom button:not(:disabled):hover {
+  background: var(--border);
+}
 
-  #page-info,
-  #page-info-bottom {
-    color: var(--gray2);
-  }
+#page-info,
+#page-info-bottom {
+  color: var(--gray2);
+}
 
-  input{
-    background-color: var(--background-alt);
-    color: var(--text)
-  }
+input {
+  background-color: var(--background-alt);
+  color: var(--text)
+}
+
+#github-icon{
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
