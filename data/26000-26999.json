@@ -1035,7 +1035,7 @@
     "href": "26322-demonic-creatures-mod-version-v18-patch-v182",
     "status": "ported",
     "version": "Patch v1.82",
-    "updated": "2024-07-30T08:32:43Z",
+    "updated": "2025-09-21T08:48:16+0000",
     "sortable": "demonic creatures - mod version v1.8 -> patch",
     "tags": [
       "creature",
@@ -1059,8 +1059,10 @@
     "source": "tasairis",
     "automated": false,
     "update_history": [
-      "2024-07-30T08:32:43Z"
-    ]
+      "2024-07-30T08:32:43Z",
+      "2025-09-21T08:48:16+0000"
+    ],
+    "last_checked": "2026-09-05T21:39:55Z"
   },
   {
     "id": 26328,
