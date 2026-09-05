@@ -14,6 +14,8 @@
   --gray3: #999;
   --gray4: #ccc;
 
+  --svg-invert: 0;
+  --svg-brightness-hover: 1.2;
   @media (prefers-color-scheme: dark) {
     --text: #efefef;
     --subtext: #afafaf;
@@ -28,6 +30,9 @@
     --gray2: #999;
     --gray3: #666;
     --gray4: #333;
+
+    --svg-invert: 1;
+    --svg-brightness-hover: 0.8;
   }
 }
 
@@ -221,12 +226,14 @@ a {
   border-radius: 6px;
   background: var(--white);
   cursor: pointer;
+  color: var(--text);
 }
 
 #pagination button:disabled,
 #pagination-bottom button:disabled {
   opacity: 0.5;
   cursor: default;
+  color: var(--text);
 }
 
 #pagination button:not(:disabled):hover,
@@ -236,7 +243,7 @@ a {
 
 #page-info,
 #page-info-bottom {
-  color: var(--gray2);
+  color: var(--text);
 }
 
 input {
@@ -248,4 +255,9 @@ input {
   width: 32px;
   height: 32px;
   display: inline-block;
+  filter: invert(var(--svg-invert));
+}
+
+#github-icon:hover {
+  filter: invert(var(--svg-invert)) brightness(var(--svg-brightness-hover));
 }
