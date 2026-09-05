@@ -441,7 +441,7 @@
     "href": "35374-furniture-framework",
     "status": "incompatible",
     "version": "1.0.0",
-    "updated": "2024-07-30T13:24:00Z",
+    "updated": "2024-12-08T17:17:10+0000",
     "sortable": "furniture framework",
     "tags": [
       "furniture",
@@ -450,8 +450,10 @@
     "source": "tasairis",
     "automated": false,
     "update_history": [
-      "2024-07-30T13:24:00Z"
-    ]
+      "2024-07-30T13:24:00Z",
+      "2024-12-08T17:17:10+0000"
+    ],
+    "last_checked": "2026-09-05T17:06:23Z"
   },
   {
     "id": 35377,
