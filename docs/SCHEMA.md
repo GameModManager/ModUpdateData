@@ -61,6 +61,7 @@ Fields:
 - `source` (string) - `tasairis` for migrated, `rss` or `scrape` for future
 - `automated` (bool) - `false` for curated, `true` for RSS-discovered awaiting review
 - `update_history` (string[]) - ordered ISO-8601 timestamps
+- `last_checked` (string, optional) - ISO-8601 UTC of the last scraper check, written on every check even when nothing changed. Absent on migrated rows.
 - `obsolete_reason`, `obsolete_successor`, `obsolete_alternative` (string[], optional)
 - `note` (string[], optional)
 - `other_link` (object[], optional) - `{href, text?}`

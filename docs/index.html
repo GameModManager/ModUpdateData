@@ -48,11 +48,21 @@
           <th>
             🟤 Obsolete
           </th>
+          <th>
+            🔵 Convertible
+          </th>
         </tr>
       </table>
     </div>
   </div>
   <!---->
+    <div id="pagination" class="not-loading">
+    <button id="prev-page">Previous</button>
+    <span id="page-info"></span>
+    <button id="next-page">Next</button>
+    <label style="margin-left:1em;display:inline-flex;align-items:center;gap:0.35em;cursor:pointer;"><input
+        type="checkbox" id="show-all"> Show all</label>
+  </div>
   <table id="table" class="not-loading">
     <thead>
       <tr>
@@ -61,15 +71,16 @@
         <th>LL Category</th>
         <th data-sortable>Mod</th>
         <th data-sortable data-sortinv>Last Updated</th>
+        <th>Last Checked</th>
       </tr>
     </thead>
   </table>
-  <div id="pagination" class="not-loading">
-    <button id="prev-page">Previous</button>
-    <span id="page-info"></span>
-    <button id="next-page">Next</button>
+  <div id="pagination-bottom" class="not-loading">
+    <button id="prev-page-bottom">Previous</button>
+    <span id="page-info-bottom"></span>
+    <button id="next-page-bottom">Next</button>
     <label style="margin-left:1em;display:inline-flex;align-items:center;gap:0.35em;cursor:pointer;"><input
-        type="checkbox" id="show-all"> Show all</label>
+        type="checkbox" id="show-all-bottom"> Show all</label>
   </div>
 
   <div id="details-popup-template">

@@ -120,6 +120,12 @@ function createRow(m) {
     }
   }));
   tr.appendChild(el("TD", td => { td.dataset.sort = m.updated; td.textContent = new Date(m.updated).toDateString(); }));
+  // Last Checked: ISO timestamp written by the scraper on every check, even
+  // when nothing changed. Absent on migrated rows - shows a dash, not a guess.
+  tr.appendChild(el("TD", td => {
+    if (m.last_checked) { td.dataset.sort = m.last_checked; td.textContent = new Date(m.last_checked).toDateString(); }
+    else { td.dataset.sort = ""; td.textContent = "—"; }
+  }));
   return tr;
 }
 
@@ -154,26 +160,29 @@ function updateStats() {
 
 function updatePaginationControls() {
   const pageCount = getPageCount();
-  const prev = document.getElementById("prev-page");
-  const next = document.getElementById("next-page");
-  const info = document.getElementById("page-info");
-  if (showAll) {
-    if (prev) { prev.disabled = true; prev.style.display = "none"; }
-    if (next) { next.disabled = true; next.style.display = "none"; }
-    if (info) {
-      if (filteredMods.length === 0) info.textContent = "No results";
-      else info.textContent = "All on one page";
+  // Top and bottom bars stay in sync - same shared state, both ends work.
+  for (const suffix of ["", "-bottom"]) {
+    const prev = document.getElementById("prev-page" + suffix);
+    const next = document.getElementById("next-page" + suffix);
+    const info = document.getElementById("page-info" + suffix);
+    if (showAll) {
+      if (prev) { prev.disabled = true; prev.style.display = "none"; }
+      if (next) { next.disabled = true; next.style.display = "none"; }
+      if (info) {
+        if (filteredMods.length === 0) info.textContent = "No results";
+        else info.textContent = "All on one page";
+      }
+      continue;
+    } else {
+      if (prev) prev.style.display = "";
+      if (next) next.style.display = "";
     }
-    return;
-  } else {
-    if (prev) prev.style.display = "";
-    if (next) next.style.display = "";
-  }
-  if (prev) prev.disabled = currentPage <= 1;
-  if (next) next.disabled = currentPage >= pageCount || filteredMods.length === 0;
-  if (info) {
-    if (filteredMods.length === 0) info.textContent = "No results - Page 0 of 0";
-    else info.textContent = `Page ${currentPage} of ${pageCount}`;
+    if (prev) prev.disabled = currentPage <= 1;
+    if (next) next.disabled = currentPage >= pageCount || filteredMods.length === 0;
+    if (info) {
+      if (filteredMods.length === 0) info.textContent = "No results - Page 0 of 0";
+      else info.textContent = `Page ${currentPage} of ${pageCount}`;
+    }
   }
 }
 
@@ -211,16 +220,25 @@ function setupPagination() {
   document.getElementById("prev-page").addEventListener("click", () => {
     if (currentPage > 1) renderPage(currentPage - 1);
   });
+  document.getElementById("prev-page-bottom").addEventListener("click", () => {
+    if (currentPage > 1) renderPage(currentPage - 1);
+  });
   document.getElementById("next-page").addEventListener("click", () => {
     if (currentPage < getPageCount()) renderPage(currentPage + 1);
   });
+  document.getElementById("next-page-bottom").addEventListener("click", () => {
+    if (currentPage < getPageCount()) renderPage(currentPage + 1);
+  });
   const showAllEl = document.getElementById("show-all");
-  if (showAllEl) {
-    showAllEl.addEventListener("change", () => {
-      showAll = showAllEl.checked;
-      renderPage(1);
-    });
-  }
+  const showAllElBottom = document.getElementById("show-all-bottom");
+  const onShowAll = (checked) => {
+    showAll = checked;
+    if (showAllEl) showAllEl.checked = checked;
+    if (showAllElBottom) showAllElBottom.checked = checked;
+    renderPage(1);
+  };
+  if (showAllEl) showAllEl.addEventListener("change", () => onShowAll(showAllEl.checked));
+  if (showAllElBottom) showAllElBottom.addEventListener("change", () => onShowAll(showAllElBottom.checked));
 }
 
 function applySortable() {
