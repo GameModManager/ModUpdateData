@@ -36,8 +36,8 @@ let sortInfo = { thIndex: -1, state: 0, asc: true }; // active sort for re-apply
 let showAll = false;
 // Game switcher: ALL (default) or one of the supported game tags. Persisted
 // to URL hash #game=FO4 and localStorage so refresh / share restores the view.
-// Legacy ??? rows live only in the ALL view (no option in the picker).
-const GAME_VALUES = ["ALL", "SE", "LE", "FO4", "SF", "OB", "OBR", "S4", "S3"];
+// ??? isolates game-unknown rows from ALL.
+const GAME_VALUES = ["ALL", "SE", "LE", "FO4", "SF", "OB", "OBR", "S4", "S3", "???"];
 let currentGame = "ALL";
 
 async function fetchJson(urls) {
