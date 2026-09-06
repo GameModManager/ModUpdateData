@@ -11,7 +11,11 @@ function shardUrl(file) {
 
 function icon(game, status) {
   if (status === "deleted") return "\u26AB";
-  if (game === "SE") return "\uD83D\uDFE2";
+  // per-game accent (only used when a row carries a non-SE game, which the
+  // "made for SE" status badge below checks for); default falls through to
+  // the status palette so existing behaviour is preserved.
+  const GAME_ICON = { SE: "\uD83D\uDFE2", LE: "\uD83D\uDD35", FO4: "\u2622\uFE0F", SF: "\uD83D\uDE80", OB: "\uD83D\uDEE1\uFE0F", OBR: "\uD83D\uDEE1\uFE0F", S4: "\uD83D\uDD35", S3: "\uD83D\uDD35" };
+  if (GAME_ICON[game]) return GAME_ICON[game];
   return ({ compatible: "\uD83D\uDFE2", convertible: "\uD83D\uDD35", incompatible: "\uD83D\uDD34", "legacy-compatible": "\uD83D\uDFE2", new: "\uD83D\uDFE2", obsolete: "\uD83D\uDFE4", ported: "\uD83D\uDFE2", unknown: "\u26AA" })[status] || "\u26AA";
 }
 
@@ -30,6 +34,11 @@ const canonicalIndexMap = new Map(); // id -> original index for stable sort res
 let currentQuery = "";
 let sortInfo = { thIndex: -1, state: 0, asc: true }; // active sort for re-apply after filter
 let showAll = false;
+// Game switcher: ALL (default) or one of the supported game tags. Persisted
+// to URL hash #game=FO4 and localStorage so refresh / share restores the view.
+// Legacy ??? rows live only in the ALL view (no option in the picker).
+const GAME_VALUES = ["ALL", "SE", "LE", "FO4", "SF", "OB", "OBR", "S4", "S3"];
+let currentGame = "ALL";
 
 async function fetchJson(urls) {
   let lastErr;
@@ -69,13 +78,24 @@ async function load() {
   filteredMods = canonicalMods.slice();
 
   document.getElementById("meta-text").textContent =
-    `${manifest.generated_at.slice(0, 10)} - ${manifest.total_mods} mods in ${manifest.total_shards} shards - source ${manifest.source || ""}`;
+    `${manifest.generated_at.slice(0, 10)} - ${manifest.total_mods} mods in ${manifest.total_shards} shards - ${formatByGame(manifest.by_game)} - source ${manifest.source || ""}`;
+
+  // restore game selection from hash (shareable) then localStorage (sticky)
+  const hashGame = new URLSearchParams(location.hash.slice(1)).get("game");
+  if (hashGame && GAME_VALUES.includes(hashGame)) currentGame = hashGame;
+  else {
+    const stored = localStorage.getItem("mudd_game");
+    if (stored && GAME_VALUES.includes(stored)) currentGame = stored;
+  }
+  const sel = document.getElementById("game-filter");
+  if (sel) sel.value = currentGame;
 
   ensureTbody();
   renderPage(1);
   delete document.body.dataset.loading;
   applySortable();
   setupFilter();
+  setupGameFilter();
   setupPagination();
   setupPopup();
 }
@@ -288,13 +308,37 @@ function matchesFilter(mod, q) {
   return hay.includes(q);
 }
 
+function setupFilter() {
+  const inp = document.getElementById("search");
+  let debounceTimer = null;
+  const DEBOUNCE_MS = 300;
+  inp.addEventListener("input", () => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
+      const q = inp.value.trim().toLowerCase();
+      applyFilter(q);
+    }, DEBOUNCE_MS);
+  });
+}
+
+function formatByGame(byGame) {
+  // stable, declaration-order: SE, LE, FO4, SF, OB, OBR, S4, S3, ???
+  if (!byGame) return "";
+  const order = ["SE", "LE", "FO4", "SF", "OB", "OBR", "S4", "S3", "???"];
+  const parts = order.filter(g => byGame[g] !== undefined).map(g => `${g}:${byGame[g]}`);
+  return "by game " + parts.join(" ");
+}
+
+function gameMatches(mod) {
+  return currentGame === "ALL" || mod.game === currentGame;
+}
+
 function applyFilter(q) {
   currentQuery = q;
-  if (!q) {
-    filteredMods = canonicalMods.slice();
-  } else {
-    filteredMods = canonicalMods.filter(m => matchesFilter(m, q));
-  }
+  // compose: game filter first (cheap, indexed by manifest), then text
+  let pool = canonicalMods.filter(gameMatches);
+  if (q) pool = pool.filter(m => matchesFilter(m, q));
+  filteredMods = pool;
   // re-apply current sort if header is in sorted state
   if (sortInfo.state !== 0) {
     const isModCol = sortInfo.thIndex === 3;
@@ -308,17 +352,22 @@ function applyFilter(q) {
   renderPage(1);
 }
 
-function setupFilter() {
-  const inp = document.getElementById("search");
-  let debounceTimer = null;
-  const DEBOUNCE_MS = 300;
-  inp.addEventListener("input", () => {
-    clearTimeout(debounceTimer);
-    debounceTimer = setTimeout(() => {
-      const q = inp.value.trim().toLowerCase();
-      applyFilter(q);
-    }, DEBOUNCE_MS);
-  });
+function applyGameFilter(g) {
+  if (!GAME_VALUES.includes(g)) g = "ALL";
+  currentGame = g;
+  // persist: hash is the shareable link, localStorage is the sticky default
+  try { localStorage.setItem("mudd_game", g); } catch (_) {}
+  const params = new URLSearchParams(location.hash.slice(1));
+  if (g === "ALL") params.delete("game"); else params.set("game", g);
+  const newHash = params.toString() ? "#" + params.toString() : "";
+  if (newHash !== location.hash) history.replaceState(null, "", newHash || location.pathname + location.search);
+  applyFilter(currentQuery);
+}
+
+function setupGameFilter() {
+  const sel = document.getElementById("game-filter");
+  if (!sel) return;
+  sel.addEventListener("change", () => applyGameFilter(sel.value));
 }
 
 function setupPopup() {
