@@ -1599,10 +1599,10 @@
     "id": 5279,
     "canonical": 5279,
     "title": "Skyrim Chain Beasts",
-    "category": "WIP / Beta",
-    "game": "LE",
+    "category": "Adult Mods",
+    "game": "SE",
     "href": "5279-skyrim-chain-beasts",
-    "status": "compatible",
+    "status": "ported",
     "version": "V0.8.5",
     "updated": "2026-01-24T11:10:26Z",
     "sortable": "skyrim chain beasts",
@@ -1610,6 +1610,12 @@
       "bondage",
       "chainbeast",
       "zap"
+    ],
+    "other_link": [
+      {
+      "href": "https://www.loverslab.com/files/file/37545-skyrim-chain-beasts-seaevr/",
+      "text": Skyrim Chain Beasts AE SE VR
+      }
     ],
     "source": "tasairis",
     "automated": false,
