@@ -9,13 +9,8 @@ function shardUrl(file) {
   return rawBase + file;
 }
 
-function icon(game, status) {
+function icon(_game, status) {
   if (status === "deleted") return "\u26AB";
-  // per-game accent (only used when a row carries a non-SE game, which the
-  // "made for SE" status badge below checks for); default falls through to
-  // the status palette so existing behaviour is preserved.
-  const GAME_ICON = { SE: "\uD83D\uDFE2", LE: "\uD83D\uDD35", FO4: "\u2622\uFE0F", SF: "\uD83D\uDE80", OB: "\uD83D\uDEE1\uFE0F", OBR: "\uD83D\uDEE1\uFE0F", S4: "\uD83D\uDD35", S3: "\uD83D\uDD35" };
-  if (GAME_ICON[game]) return GAME_ICON[game];
   return ({ compatible: "\uD83D\uDFE2", convertible: "\uD83D\uDD35", incompatible: "\uD83D\uDD34", "legacy-compatible": "\uD83D\uDFE2", new: "\uD83D\uDFE2", obsolete: "\uD83D\uDFE4", ported: "\uD83D\uDFE2", unknown: "\u26AA" })[status] || "\u26AA";
 }
 
