@@ -251,7 +251,7 @@
     "href": "14089-slsf-fame-comments",
     "status": "new",
     "version": "3.6 SE / 3.63 LE",
-    "updated": "2026-08-08T06:20:10+0000",
+    "updated": "2026-08-08T06:20:10Z",
     "sortable": "slsf fame comments",
     "tags": [
       "comments",
@@ -261,7 +261,7 @@
     "automated": false,
     "update_history": [
       "2024-07-28T23:48:37Z",
-      "2026-08-08T06:20:10+0000"
+      "2026-08-08T06:20:10Z"
     ],
     "last_checked": "2026-09-05T21:46:49Z"
   },

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Validate ModUpdateData dataset: schema, sorted, ISO dates, shard hashes."""
+"""Validate ModUpdateData dataset: schema, sorted, ISO dates, shard hashes,
+and per-game index artifacts."""
 import json, pathlib, hashlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
@@ -36,6 +37,7 @@ for k in ["schema_version","generated_at","total_mods","total_shards","shards"]:
         errors.append(f"manifest missing {k}")
 
 total = 0
+game_counts = {}
 for shard in manifest.get("shards", []):
     f = shard.get("file","")
     p = ROOT / f
@@ -73,13 +75,35 @@ for shard in manifest.get("shards", []):
             errors.append(f"{f} id {mid}: missing or non-bool automated")
         if "source" not in m:
             errors.append(f"{f} id {mid}: missing source")
+        # tally for by_game cross-check
+        g = m.get("game")
+        if g in ALLOWED_GAME:
+            game_counts[g] = game_counts.get(g, 0) + 1
     total += len(mods)
     # also verify index
 if manifest.get("total_mods") != total:
     errors.append(f"manifest total_mods {manifest.get('total_mods')} != actual {total}")
 
+# by_game cross-check
+manifest_by_game = manifest.get("by_game", {})
+if not isinstance(manifest_by_game, dict):
+    errors.append("manifest by_game must be an object")
+else:
+    if sum(manifest_by_game.values()) != total:
+        errors.append(
+            f"manifest by_game sum {sum(manifest_by_game.values())} != total {total}"
+        )
+    for g, n in manifest_by_game.items():
+        actual = game_counts.get(g, 0)
+        if actual != n:
+            errors.append(f"manifest by_game[{g}]={n} != actual {actual}")
+    for g in game_counts:
+        if g not in manifest_by_game:
+            errors.append(f"manifest by_game missing game {g}")
+
 # index
 index_path = DATA / "index.json"
+idx = {}
 if index_path.exists():
     idx = json.loads(index_path.read_text())
     if len(idx) != total:
@@ -88,6 +112,60 @@ if index_path.exists():
         if not k.isdigit():
             errors.append(f"index key not numeric {k!r}")
         check_iso(v, f"index {k}")
+else:
+    errors.append("missing data/index.json")
+
+# per-game index files: subset of global, hash matches manifest entry.
+per_game_index = manifest.get("per_game_index", {})
+if not isinstance(per_game_index, dict):
+    errors.append("manifest per_game_index must be an object")
+else:
+    for g, entry in per_game_index.items():
+        if g not in ALLOWED_GAME:
+            errors.append(f"per_game_index key {g!r} not in ALLOWED_GAME")
+        rel = entry.get("file", "") if isinstance(entry, dict) else ""
+        if not rel or not rel.startswith("data/"):
+            errors.append(f"per_game_index[{g}] bad file {rel!r}")
+            continue
+        p = ROOT / rel
+        if not p.exists():
+            errors.append(f"per_game_index[{g}] missing file {rel}")
+            continue
+        raw = p.read_bytes()
+        if entry.get("bytes") != len(raw):
+            errors.append(
+                f"per_game_index[{g}]: bytes mismatch "
+                f"manifest {entry.get('bytes')} vs actual {len(raw)}"
+            )
+        h = hashlib.sha256(raw).hexdigest()
+        if entry.get("sha256") != h:
+            errors.append(f"per_game_index[{g}]: sha256 mismatch")
+        sub = json.loads(raw.decode())
+        if not isinstance(sub, dict):
+            errors.append(f"per_game_index[{g}]: not a JSON object")
+            continue
+        for k, v in sub.items():
+            if k not in idx:
+                errors.append(f"per_game_index[{g}]: key {k} not in global index")
+            elif idx[k] != v:
+                errors.append(
+                    f"per_game_index[{g}]: value for {k} differs from global"
+                )
+            check_iso(v, f"per_game_index[{g}] {k}")
+        if len(sub) != game_counts.get(g, 0):
+            errors.append(
+                f"per_game_index[{g}]: size {len(sub)} != by_game count "
+                f"{game_counts.get(g, 0)}"
+            )
+    # Every game with rows must have a per_game_index entry (catch stale
+    # manifests that were regenerated without the new fields).
+    for g, n in game_counts.items():
+        if n > 0 and g not in per_game_index:
+            errors.append(f"per_game_index missing entry for game {g} ({n} rows)")
+    # And every per_game_index entry must have rows.
+    for g in per_game_index:
+        if game_counts.get(g, 0) == 0:
+            errors.append(f"per_game_index[{g}] present but no rows in dataset")
 
 # bucket (optional)
 bucket_dir = ROOT / "bucket"
@@ -108,4 +186,11 @@ if errors:
     for e in errors:
         print(f"ERROR: {e}", file=sys.stderr)
     sys.exit(1)
-print(f"OK: {total} mods, {len(manifest.get('shards',[]))} shards validated")
+per_game_msg = ""
+if per_game_index:
+    per_game_msg = f", {len(per_game_index)} per-game indexes"
+print(
+    f"OK: {total} mods, {len(manifest.get('shards',[]))} shards"
+    f", {len(per_game_index)} per-game indexes validated"
+)
+

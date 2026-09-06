@@ -4,11 +4,15 @@ on:
     paths:
       - 'data/**'
       - 'bucket/**'
+      - 'tools/**'
+      - '.github/workflows/validate.py'
   push:
     branches: [main]
     paths:
       - 'data/**'
       - 'bucket/**'
+      - 'tools/**'
+      - '.github/workflows/validate.py'
   workflow_dispatch:
 
 jobs:

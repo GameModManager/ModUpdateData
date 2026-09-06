@@ -7,13 +7,18 @@ Version: 1
 ```json
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T00:00:00Z",
+  "generated_at": "2026-09-06T00:00:00Z",
   "source": "tasairis/compat-data (2024-08-04)",
   "total_mods": 7277,
   "total_shards": 36,
   "shard_size": 1000,
-  "shards": [{ "file": "data/00000-00999.json", "range": "00000-00999", "count": 467, "bytes": 259505, "sha256": "..." }],
-  "index": { "file": "data/index.json", "bytes": 250969, "sha256": "..." }
+  "shards": [{ "file": "data/00000-00999.json", "range": "00000-00999", "count": 467, "bytes": 259989, "sha256": "..." }],
+  "index": { "file": "data/index.json", "bytes": 260125, "sha256": "..." },
+  "by_game": { "SE": 2940, "LE": 4328, "FO4": 0, "SF": 0, "OB": 0, "OBR": 0, "S4": 0, "S3": 0, "???": 9 },
+  "per_game_index": {
+    "SE": { "file": "data/index.SE.json", "bytes": 102586, "sha256": "..." },
+    "LE": { "file": "data/index.LE.json", "bytes": 148071, "sha256": "..." }
+  }
 }
 ```
 

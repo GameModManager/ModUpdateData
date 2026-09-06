@@ -1936,13 +1936,13 @@
     "href": "31728-various-sse-mods-ru",
     "status": "incompatible",
     "version": "1.0",
-    "updated": "2026-04-21T08:26:10+0000",
+    "updated": "2026-04-21T08:26:10Z",
     "sortable": "various sse mods ru",
     "source": "tasairis",
     "automated": false,
     "update_history": [
       "2024-07-27T17:27:53Z",
-      "2026-04-21T08:26:10+0000"
+      "2026-04-21T08:26:10Z"
     ],
     "last_checked": "2026-09-05T21:50:52Z"
   },
@@ -2239,13 +2239,13 @@
     "href": "31907-comment-manager",
     "status": "incompatible",
     "version": "3.2.1",
-    "updated": "2026-05-23T23:40:34+0000",
+    "updated": "2026-05-23T23:40:34Z",
     "sortable": "comment manager",
     "source": "tasairis",
     "automated": false,
     "update_history": [
       "2024-07-27T23:04:37Z",
-      "2026-05-23T23:40:34+0000"
+      "2026-05-23T23:40:34Z"
     ],
     "last_checked": "2026-09-05T21:50:00Z"
   },
@@ -2341,13 +2341,13 @@
     "href": "31993-paf-fixes-and-addons",
     "status": "incompatible",
     "version": "3.2.2",
-    "updated": "2026-07-25T03:03:25+0000",
+    "updated": "2026-07-25T03:03:25Z",
     "sortable": "paf fixes and addons",
     "source": "tasairis",
     "automated": false,
     "update_history": [
       "2024-07-28T19:00:03Z",
-      "2026-07-25T03:03:25+0000"
+      "2026-07-25T03:03:25Z"
     ],
     "last_checked": "2026-09-05T21:48:10Z"
   }

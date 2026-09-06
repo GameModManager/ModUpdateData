@@ -1604,7 +1604,7 @@
     "href": "5279-skyrim-chain-beasts",
     "status": "compatible",
     "version": "V0.8.5",
-    "updated": "2026-01-24T11:10:26+0000",
+    "updated": "2026-01-24T11:10:26Z",
     "sortable": "skyrim chain beasts",
     "tags": [
       "bondage",
@@ -1615,7 +1615,7 @@
     "automated": false,
     "update_history": [
       "2024-07-28T19:56:51Z",
-      "2026-01-24T11:10:26+0000"
+      "2026-01-24T11:10:26Z"
     ],
     "last_checked": "2026-09-05T21:47:42Z"
   },
@@ -3040,7 +3040,7 @@
     "href": "5464-more-nasty-critters-specialanniversary-edition",
     "status": "ported",
     "version": "V15.5",
-    "updated": "2026-09-02T07:24:48+0000",
+    "updated": "2026-09-02T07:24:48Z",
     "sortable": "more nasty critters special/anniversary edition",
     "tags": [
       "creatures",
@@ -3061,7 +3061,7 @@
     "automated": false,
     "update_history": [
       "2024-07-29T10:50:40Z",
-      "2026-09-02T07:24:48+0000"
+      "2026-09-02T07:24:48Z"
     ],
     "last_checked": "2026-09-05T21:45:52Z"
   },

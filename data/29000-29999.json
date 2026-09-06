@@ -508,7 +508,7 @@
     "href": "29295-collectible-waifu-cards",
     "status": "incompatible",
     "version": "2.4.0",
-    "updated": "2025-02-03T09:59:23+0000",
+    "updated": "2025-02-03T09:59:23Z",
     "sortable": "collectible waifu cards",
     "tags": [
       "anime",
@@ -523,7 +523,7 @@
     "automated": false,
     "update_history": [
       "2024-07-27T16:11:40Z",
-      "2025-02-03T09:59:23+0000"
+      "2025-02-03T09:59:23Z"
     ],
     "last_checked": "2026-09-05T21:51:19Z"
   },
@@ -615,7 +615,7 @@
     "href": "29357-licenses-player-oppression",
     "status": "incompatible",
     "version": "1.17.1",
-    "updated": "2026-04-26T16:05:53+0000",
+    "updated": "2026-04-26T16:05:53Z",
     "sortable": "licenses - player oppression",
     "tags": [
       "crime",
@@ -629,7 +629,7 @@
     "automated": false,
     "update_history": [
       "2024-07-29T19:59:14Z",
-      "2026-04-26T16:05:53+0000"
+      "2026-04-26T16:05:53Z"
     ],
     "last_checked": "2026-09-05T21:41:18Z",
     "last_checked": "2026-09-05T21:42:30Z"
