@@ -6,7 +6,17 @@ ROOT = pathlib.Path(__file__).resolve().parents[2]
 DATA = ROOT / "data"
 ISO_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$")
 ALLOWED_STATUS = {"unknown","compatible","incompatible","deleted","ported","new","convertible","needs-patch","obsolete","legacy-compatible"}
-ALLOWED_GAME = {"SE","LE","???"}
+# Game values:
+#   SE  - Skyrim Special Edition
+#   LE  - Skyrim Legendary Edition (legacy)
+#   FO4 - Fallout 4
+#   SF  - Starfield
+#   OB  - Oblivion
+#   OBR - Oblivion Remastered
+#   S4  - The Sims 4
+#   S3  - The Sims 3
+#   ???  - legacy fallback for rows whose game could not be determined
+ALLOWED_GAME = {"SE","LE","FO4","SF","OB","OBR","S4","S3","???"}
 
 errors = []
 
