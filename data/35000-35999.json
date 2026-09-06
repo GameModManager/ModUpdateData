@@ -58,7 +58,8 @@
     "automated": false,
     "update_history": [
       "2024-07-20T22:19:00Z"
-    ]
+    ],
+    "last_checked": "2026-09-06T11:32:12Z"
   },
   {
     "id": 35033,
@@ -114,7 +115,8 @@
     "automated": false,
     "update_history": [
       "2024-07-19T20:59:07Z"
-    ]
+    ],
+    "last_checked": "2026-09-06T11:58:46Z"
   },
   {
     "id": 35116,
@@ -174,7 +176,8 @@
     "automated": false,
     "update_history": [
       "2024-07-21T02:49:15Z"
-    ]
+    ],
+    "last_checked": "2026-09-06T11:23:08Z"
   },
   {
     "id": 35166,
@@ -195,7 +198,8 @@
     "automated": false,
     "update_history": [
       "2024-07-20T12:04:36Z"
-    ]
+    ],
+    "last_checked": "2026-09-06T11:50:10Z"
   },
   {
     "id": 35179,
@@ -212,7 +216,8 @@
     "automated": false,
     "update_history": [
       "2024-07-20T18:04:08Z"
-    ]
+    ],
+    "last_checked": "2026-09-06T11:41:22Z"
   },
   {
     "id": 35219,
@@ -232,7 +237,8 @@
     "automated": false,
     "update_history": [
       "2024-07-22T16:23:29Z"
-    ]
+    ],
+    "last_checked": "2026-09-06T11:04:28Z"
   },
   {
     "id": 35258,
@@ -243,7 +249,7 @@
     "href": "35258-bimbos-of-skyrim-bimboskin",
     "status": "incompatible",
     "version": "2.0 BETA",
-    "updated": "2024-07-27T18:50:13Z",
+    "updated": "2025-12-11T18:04:44+0000",
     "sortable": "bimbos of skyrim - bimboskin",
     "tags": [
       "bimbo",
@@ -254,8 +260,10 @@
     "source": "tasairis",
     "automated": false,
     "update_history": [
-      "2024-07-27T18:50:13Z"
-    ]
+      "2024-07-27T18:50:13Z",
+      "2025-12-11T18:04:44+0000"
+    ],
+    "last_checked": "2026-09-05T21:50:26Z"
   },
   {
     "id": 35275,
@@ -266,13 +274,15 @@
     "href": "35275-binding-wip",
     "status": "compatible",
     "version": "0.1.02",
-    "updated": "2024-07-27T04:28:08Z",
+    "updated": "2026-02-16T13:03:21Z",
     "sortable": "binding [wip]",
     "source": "tasairis",
     "automated": false,
     "update_history": [
-      "2024-07-27T04:28:08Z"
-    ]
+      "2024-07-27T04:28:08Z",
+      "2026-02-16T13:03:21Z"
+    ],
+    "last_checked": "2026-09-06T09:43:32Z"
   },
   {
     "id": 35297,
@@ -283,7 +293,7 @@
     "href": "35297-animal-research-the-insatiable-scholar",
     "status": "compatible",
     "version": "0.163",
-    "updated": "2024-07-27T04:01:05Z",
+    "updated": "2026-07-18T01:03:44Z",
     "sortable": "animal research: the insatiable scholar",
     "tags": [
       "creature",
@@ -293,8 +303,10 @@
     "source": "tasairis",
     "automated": false,
     "update_history": [
-      "2024-07-27T04:01:05Z"
-    ]
+      "2024-07-27T04:01:05Z",
+      "2026-07-18T01:03:44Z"
+    ],
+    "last_checked": "2026-09-06T09:48:12Z"
   },
   {
     "id": 35313,
@@ -311,7 +323,8 @@
     "automated": false,
     "update_history": [
       "2024-07-27T02:54:20Z"
-    ]
+    ],
+    "last_checked": "2026-09-06T09:52:31Z"
   },
   {
     "id": 35322,
@@ -333,7 +346,8 @@
     "automated": false,
     "update_history": [
       "2024-07-27T12:10:11Z"
-    ]
+    ],
+    "last_checked": "2026-09-05T21:51:48Z"
   },
   {
     "id": 35350,
@@ -367,7 +381,8 @@
     "automated": false,
     "update_history": [
       "2024-07-28T15:45:12Z"
-    ]
+    ],
+    "last_checked": "2026-09-05T21:49:05Z"
   },
   {
     "id": 35356,
@@ -402,7 +417,7 @@
     "href": "35361-cbbe-3ba-with-bhunp-vagina",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-07-29T07:15:12Z",
+    "updated": "2024-08-03T08:14:49+0000",
     "sortable": "cbbe 3ba with bhunp vagina",
     "tags": [
       "3ba",
@@ -412,8 +427,10 @@
     "source": "tasairis",
     "automated": false,
     "update_history": [
-      "2024-07-29T07:15:12Z"
-    ]
+      "2024-07-29T07:15:12Z",
+      "2024-08-03T08:14:49+0000"
+    ],
+    "last_checked": "2026-09-05T21:46:22Z"
   },
   {
     "id": 35365,
@@ -430,7 +447,8 @@
     "automated": false,
     "update_history": [
       "2024-07-28T23:25:36Z"
-    ]
+    ],
+    "last_checked": "2026-09-05T21:47:14Z"
   },
   {
     "id": 35374,
@@ -454,7 +472,8 @@
       "2024-12-08T17:17:10+0000"
     ],
     "last_checked": "2026-09-05T17:06:23Z",
-    "last_checked": "2026-09-05T21:39:26Z"
+    "last_checked": "2026-09-05T21:39:26Z",
+    "last_checked": "2026-09-05T21:43:25Z"
   },
   {
     "id": 35377,
@@ -472,6 +491,7 @@
     "update_history": [
       "2024-07-30T00:52:48Z"
     ],
-    "last_checked": "2026-09-05T21:40:22Z"
+    "last_checked": "2026-09-05T21:40:22Z",
+    "last_checked": "2026-09-05T21:44:54Z"
   }
 ]

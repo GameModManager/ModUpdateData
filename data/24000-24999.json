@@ -342,7 +342,7 @@
     "href": "24180-triss-merigold-hd-texture-overhaul",
     "status": "incompatible",
     "version": "1.5",
-    "updated": "2024-07-23T04:28:08Z",
+    "updated": "2024-09-06T07:58:14Z",
     "sortable": "triss merigold hd texture overhaul",
     "tags": [
       "body",
@@ -356,8 +356,10 @@
     "source": "tasairis",
     "automated": false,
     "update_history": [
-      "2024-07-23T04:28:08Z"
-    ]
+      "2024-07-23T04:28:08Z",
+      "2024-09-06T07:58:14Z"
+    ],
+    "last_checked": "2026-09-06T10:50:39Z"
   },
   {
     "id": 24192,

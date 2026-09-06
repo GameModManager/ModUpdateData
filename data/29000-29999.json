@@ -508,7 +508,7 @@
     "href": "29295-collectible-waifu-cards",
     "status": "incompatible",
     "version": "2.4.0",
-    "updated": "2024-07-27T16:11:40Z",
+    "updated": "2025-02-03T09:59:23+0000",
     "sortable": "collectible waifu cards",
     "tags": [
       "anime",
@@ -522,8 +522,10 @@
     "source": "tasairis",
     "automated": false,
     "update_history": [
-      "2024-07-27T16:11:40Z"
-    ]
+      "2024-07-27T16:11:40Z",
+      "2025-02-03T09:59:23+0000"
+    ],
+    "last_checked": "2026-09-05T21:51:19Z"
   },
   {
     "id": 29307,
@@ -629,7 +631,8 @@
       "2024-07-29T19:59:14Z",
       "2026-04-26T16:05:53+0000"
     ],
-    "last_checked": "2026-09-05T21:41:18Z"
+    "last_checked": "2026-09-05T21:41:18Z",
+    "last_checked": "2026-09-05T21:42:30Z"
   },
   {
     "id": 29362,
@@ -1255,7 +1258,8 @@
     "automated": false,
     "update_history": [
       "2024-07-26T21:23:51Z"
-    ]
+    ],
+    "last_checked": "2026-09-06T10:02:25Z"
   },
   {
     "id": 29620,
@@ -1927,7 +1931,7 @@
     "href": "29983-adventures-with-balazar-balazars-bitch-beta",
     "status": "compatible",
     "version": "0.933b SE/LE",
-    "updated": "2024-07-26T02:23:06Z",
+    "updated": "2025-09-24T02:10:29Z",
     "sortable": "adventures with balazar (balazar's bitch",
     "tags": [
       "creature",
@@ -1940,8 +1944,10 @@
     "source": "tasairis",
     "automated": false,
     "update_history": [
-      "2024-07-26T02:23:06Z"
-    ]
+      "2024-07-26T02:23:06Z",
+      "2025-09-24T02:10:29Z"
+    ],
+    "last_checked": "2026-09-06T10:11:47Z"
   },
   {
     "id": 29989,

@@ -208,7 +208,7 @@
     "href": "23037-mark-of-arkay-death-alternative",
     "status": "unknown",
     "version": "3.48",
-    "updated": "2024-07-18T10:10:11Z",
+    "updated": "2025-02-06T05:14:55Z",
     "sortable": "mark of arkay - death alternative",
     "tags": [
       "death alternate",
@@ -217,8 +217,10 @@
     "source": "tasairis",
     "automated": false,
     "update_history": [
-      "2024-07-18T10:10:11Z"
-    ]
+      "2024-07-18T10:10:11Z",
+      "2025-02-06T05:14:55Z"
+    ],
+    "last_checked": "2026-09-06T12:17:03Z"
   },
   {
     "id": 23038,
@@ -964,7 +966,7 @@
     "href": "23173-soulgem-oven-4-integration-fork",
     "status": "incompatible",
     "version": "1.8",
-    "updated": "2024-07-22T10:38:44Z",
+    "updated": "2026-08-27T14:47:36Z",
     "sortable": "soulgem oven 4: integration fork",
     "tags": [
       "lactation",
@@ -974,8 +976,10 @@
     "source": "tasairis",
     "automated": false,
     "update_history": [
-      "2024-07-22T10:38:44Z"
-    ]
+      "2024-07-22T10:38:44Z",
+      "2026-08-27T14:47:36Z"
+    ],
+    "last_checked": "2026-09-06T11:09:24Z"
   },
   {
     "id": 23188,
@@ -1751,7 +1755,8 @@
     "automated": false,
     "update_history": [
       "2024-07-23T05:30:03Z"
-    ]
+    ],
+    "last_checked": "2026-09-06T10:36:33Z"
   },
   {
     "id": 23545,

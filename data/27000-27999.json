@@ -1246,13 +1246,15 @@
     "href": "27337-karlossos-the-riekling",
     "status": "compatible",
     "version": "Karlossos Sandbox V3",
-    "updated": "2024-07-22T10:16:21Z",
+    "updated": "2026-08-10T11:48:24Z",
     "sortable": "karlossos the riekling",
     "source": "tasairis",
     "automated": false,
     "update_history": [
-      "2024-07-22T10:16:21Z"
-    ]
+      "2024-07-22T10:16:21Z",
+      "2026-08-10T11:48:24Z"
+    ],
+    "last_checked": "2026-09-06T11:13:37Z"
   },
   {
     "id": 27339,
@@ -2000,7 +2002,8 @@
     "automated": false,
     "update_history": [
       "2024-07-26T22:41:24Z"
-    ]
+    ],
+    "last_checked": "2026-09-06T09:57:29Z"
   },
   {
     "id": 27613,

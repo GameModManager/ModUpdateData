@@ -983,7 +983,7 @@
     "href": "4130-more-nasty-critters-legendary-edition",
     "status": "ported",
     "version": "V15.5",
-    "updated": "2024-07-24T19:25:54Z",
+    "updated": "2026-09-06T08:48:57Z",
     "sortable": "more nasty critters",
     "tags": [
       "mnc",
@@ -993,8 +993,10 @@
     "source": "tasairis",
     "automated": false,
     "update_history": [
-      "2024-07-24T19:25:54Z"
-    ]
+      "2024-07-24T19:25:54Z",
+      "2026-09-06T08:48:57Z"
+    ],
+    "last_checked": "2026-09-06T10:21:56Z"
   },
   {
     "id": 4135,

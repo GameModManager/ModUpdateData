@@ -375,7 +375,7 @@
     "href": "22231-the-trappings-of-fate",
     "status": "compatible",
     "version": "2.0.3 (BETA)",
-    "updated": "2024-07-23T14:23:43Z",
+    "updated": "2026-04-27T21:24:48Z",
     "sortable": "trappings of fate",
     "tags": [
       "bdsm",
@@ -387,8 +387,10 @@
     "source": "tasairis",
     "automated": false,
     "update_history": [
-      "2024-07-23T14:23:43Z"
-    ]
+      "2024-07-23T14:23:43Z",
+      "2026-04-27T21:24:48Z"
+    ],
+    "last_checked": "2026-09-06T10:31:41Z"
   },
   {
     "id": 22236,
@@ -1936,7 +1938,7 @@
     "href": "22648-simple-player-prostitution",
     "status": "unknown",
     "version": "1.2.7",
-    "updated": "2024-07-20T19:27:14Z",
+    "updated": "2025-05-15T10:49:03Z",
     "sortable": "simple player prostitution",
     "tags": [
       "flowergirls",
@@ -1947,8 +1949,10 @@
     "source": "tasairis",
     "automated": false,
     "update_history": [
-      "2024-07-20T19:27:14Z"
-    ]
+      "2024-07-20T19:27:14Z",
+      "2025-05-15T10:49:03Z"
+    ],
+    "last_checked": "2026-09-06T11:36:27Z"
   },
   {
     "id": 22653,
@@ -2312,7 +2316,8 @@
       "2024-07-29T20:58:20Z",
       "2024-11-30T21:48:28+0000"
     ],
-    "last_checked": "2026-09-05T21:40:48Z"
+    "last_checked": "2026-09-05T21:40:48Z",
+    "last_checked": "2026-09-05T21:43:53Z"
   },
   {
     "id": 22787,

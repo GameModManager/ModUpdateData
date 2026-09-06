@@ -1510,7 +1510,7 @@
     "href": "21517-being-a-cow-alternate-version",
     "status": "compatible",
     "version": "2.0.10",
-    "updated": "2024-07-27T07:41:11Z",
+    "updated": "2026-09-05T07:13:51Z",
     "sortable": "being a cow (alternate version",
     "tags": [
       "cattle",
@@ -1524,8 +1524,10 @@
     "source": "tasairis",
     "automated": false,
     "update_history": [
-      "2024-07-27T07:41:11Z"
-    ]
+      "2024-07-27T07:41:11Z",
+      "2026-09-05T07:13:51Z"
+    ],
+    "last_checked": "2026-09-06T09:38:57Z"
   },
   {
     "id": 21518,
