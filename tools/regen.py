@@ -2,7 +2,7 @@
 """ModUpdateData dataset pipeline: rebuild manifest + indexes in place.
 
 Idempotent. Run from the repo root (or pass --data-dir). Used by CI to repair
-drift (bytes/sha256 stale after manual edits) and by the scraper to refresh
+drift (bytes/sha256 stale after manual edits) and to refresh
 manifest hashes after a push.
 
 Pipeline:
@@ -18,10 +18,10 @@ Pipeline:
      map. Schema_version stays at 1 (additive only).
   5. Stash current HEAD commit in manifest['commit'] for traceability.
 
-Scraper hook: this module is importable. The scraper can do
+This module is importable.
 ``from regen import regen_manifest_and_index`` (or sys.path-add the tools
 dir) and call it after a push instead of running its own copy. Signature
-matches the scraper's existing regen_manifest_and_index(data_dir, log=print).
+matches regen_manifest_and_index(data_dir, log=print).
 
 Returns dict with shards/mods/timestamps_fixed/per_game_indexed keys.
 """
