@@ -16,21 +16,3 @@ python3 tools/regen.py
 ```
 
 Idempotent. Safe to re-run; only writes when something changed.
-
-### Scraper hook
-
-The scraper (`projects/scraper/scrape.py`) currently ships its own
-`regen_manifest_and_index()`. To avoid drift, that function should be
-delegated to this module:
-
-```python
-import sys
-sys.path.insert(0, "/path/to/ModUpdateData/tools")
-from regen import regen_manifest_and_index
-regen_manifest_and_index(data_dir)
-```
-
-The signature here matches the scraper's (data_dir, log=print). After
-the scraper is updated to import this, deleting the scraper's copy is
-the next step (filed as a follow-up scraper change; do not touch the
-scraper repo from this ticket).
