@@ -7,7 +7,6 @@ The bucket defines all tracked mods. One file per mod: `bucket/<id>.json`
 ```
 
 - PRs add files to `bucket/` to request tracking of a new mod.
-- The scraper reads `bucket/` as the tracking set (plus all mods already in `data/` shards).
 - For the initial release the bucket is empty - all 7277 migrated mods are already tracked in `data/`.
 - Validation workflow checks numeric id and JSON validity.
 
