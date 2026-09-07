@@ -8,7 +8,7 @@ Version: 1
 {
   "schema_version": 1,
   "generated_at": "2026-09-06T00:00:00Z",
-  "source": "tasairis/compat-data (2024-08-04)",
+  "source": "migrated (2024-08-04)",
   "total_mods": 7277,
   "total_shards": 36,
   "shard_size": 1000,
@@ -39,7 +39,7 @@ Array of mod records, sorted by `id` ascending.
   "updated": "2023-02-20T07:50:59Z",
   "sortable": "...",
   "tags": ["2b", "werewolf"],
-  "source": "tasairis",
+  "source": "migrated",
   "automated": false,
   "update_history": ["2023-02-20T07:50:59Z"],
   "obsolete_reason": ["..."],
@@ -78,11 +78,11 @@ Fields:
 - `version` (string)
 - `updated` (string) - ISO-8601 UTC
 - `sortable` (string, optional) - lowercased title for sorting
-- `tags` (string[], optional) - from tasairis `tag`
-- `source` (string) - `tasairis` for migrated, `rss` or `scrape` for future
+- `tags` (string[], optional) - mod keywords
+- `source` (string) - data origin (`migrated` for initial import, `loverslab` for RSS-discovered)
 - `automated` (bool) - `false` for curated, `true` for RSS-discovered awaiting review
 - `update_history` (string[]) - ordered ISO-8601 timestamps
-- `last_checked` (string, optional) - ISO-8601 UTC of the last scraper check, written on every check even when nothing changed. Absent on migrated rows.
+- `last_checked` (string, optional) - ISO-8601 UTC of the last check, updated on every check even when nothing changed. Absent on legacy rows.
 - `obsolete_reason`, `obsolete_successor`, `obsolete_alternative` (string[], optional)
 - `note` (string[], optional)
 - `other_link` (object[], optional) - `{href, text?}`
