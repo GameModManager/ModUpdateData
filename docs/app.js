@@ -66,7 +66,7 @@ async function load() {
   });
   const shardArrays = await Promise.all(shardFetches);
   allData = shardArrays.flat();
-  // Sort like tasairis: by sortable
+  // Sort alphabetically by sortable/title
   allData.sort((a, b) => (a.sortable || a.title || "").localeCompare(b.sortable || b.title || ""));
   canonicalMods = allData.filter(m => m.id === m.canonical);
   canonicalMods.forEach((m, i) => canonicalIndexMap.set(m.id, i));
@@ -135,7 +135,7 @@ function createRow(m) {
     }
   }));
   tr.appendChild(el("TD", td => { td.dataset.sort = m.updated; td.textContent = new Date(m.updated).toDateString(); }));
-  // Last Checked: ISO timestamp written by the scraper on every check, even
+  // Last Checked: ISO timestamp updated on every check, even
   // when nothing changed. Absent on migrated rows - shows a dash, not a guess.
   tr.appendChild(el("TD", td => {
     if (m.last_checked) { td.dataset.sort = m.last_checked; td.textContent = new Date(m.last_checked).toDateString(); }
