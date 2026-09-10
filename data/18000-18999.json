@@ -3571,6 +3571,23 @@
     ]
   },
   {
+    "id": 18604,
+    "canonical": 18604,
+    "title": "OCBP for Fallout 4",
+    "category": "",
+    "game": "FO4",
+    "href": "18604-ocbp-for-fallout-4",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-10T04:26:46Z",
+    "sortable": "ocbp for fallout 4",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-10T04:35:16Z"
+  },
+  {
     "id": 18610,
     "canonical": 18610,
     "title": "Heavy Stalhrim Shield",

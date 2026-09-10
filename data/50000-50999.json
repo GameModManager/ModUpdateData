@@ -57,6 +57,23 @@
     "last_checked": "2026-09-09T20:28:41Z"
   },
   {
+    "id": 50264,
+    "canonical": 50264,
+    "title": "SLO VE",
+    "category": "",
+    "game": "SE",
+    "href": "50264-slo-ve",
+    "status": "compatible",
+    "version": "",
+    "updated": "2026-09-10T04:26:46Z",
+    "sortable": "slo ve",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-10T04:30:53Z"
+  },
+  {
     "id": 50377,
     "canonical": 50377,
     "title": "Leash Framework",

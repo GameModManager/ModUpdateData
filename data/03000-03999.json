@@ -9462,7 +9462,7 @@
     "href": "3999-billyys-slal-animations-2024-7-1",
     "status": "compatible",
     "version": "1.0",
-    "updated": "2024-07-02T16:49:12Z",
+    "updated": "2026-09-04T22:16:05Z",
     "sortable": "billyy's slal animations",
     "tags": [
       "animation",
@@ -9471,7 +9471,9 @@
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-02T16:49:12Z"
-    ]
+      "2024-07-02T16:49:12Z",
+      "2026-09-04T22:16:05Z"
+    ],
+    "last_checked": "2026-09-10T05:04:38Z"
   }
 ]

@@ -3123,21 +3123,23 @@
     "href": "20724-love-sickness-lese",
     "status": "compatible",
     "version": "1.2",
-    "updated": "2024-07-03T02:53:32Z",
+    "updated": "2026-06-14T00:40:46Z",
     "sortable": "love sickness le/se",
     "tags": [
-      "consequence",
-      "insemination",
-      "peril",
-      "semen",
       "sex",
-      "skill loss"
+      "consequence",
+      "peril",
+      "skill loss",
+      "semen",
+      "insemination"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-03T02:53:32Z"
-    ]
+      "2024-07-03T02:53:32Z",
+      "2026-06-14T00:40:46Z"
+    ],
+    "last_checked": "2026-09-10T04:56:05Z"
   },
   {
     "id": 20729,

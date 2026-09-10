@@ -1,5 +1,27 @@
 [
   {
+    "id": 15000,
+    "canonical": 15000,
+    "title": "Human Resources",
+    "category": "",
+    "game": "FO4",
+    "href": "15000-human-resources",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-10T02:27:20Z",
+    "sortable": "human resources",
+    "tags": [
+      "settlements",
+      "brothel",
+      "aaf",
+      "slave market"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-10T02:32:16Z"
+  },
+  {
     "id": 15001,
     "canonical": 15001,
     "title": "Pet Collar Remover",
