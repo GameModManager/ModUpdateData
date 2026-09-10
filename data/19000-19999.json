@@ -714,6 +714,26 @@
     ]
   },
   {
+    "id": 19121,
+    "canonical": 19121,
+    "title": "Commonwealth Captives Outfit Injector",
+    "category": "",
+    "game": "FO4",
+    "href": "19121-commonwealth-captives-outfit-injector",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T08:21:44Z",
+    "sortable": "commonwealth captives outfit injector",
+    "tags": [
+      "outfit list",
+      "injection"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T09:25:11Z"
+  },
+  {
     "id": 19122,
     "canonical": 19122,
     "title": "Schlongs of Skyrim Uncloaked",
@@ -4106,6 +4126,22 @@
     "update_history": [
       "2021-11-11T21:11:50Z"
     ]
+  },
+  {
+    "id": 19955,
+    "canonical": 19955,
+    "title": "The Will of Atom",
+    "category": "",
+    "game": "FO4",
+    "href": "19955-the-will-of-atom",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T12:26:14Z",
+    "sortable": "the will of atom",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": []
   },
   {
     "id": 19956,

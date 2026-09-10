@@ -1271,20 +1271,22 @@
     "href": "31540-sexcraft-a-speechcraft-overhaul-beta",
     "status": "compatible",
     "version": "0.13.0",
-    "updated": "2024-07-12T11:03:50Z",
+    "updated": "2025-01-19T01:17:28Z",
     "sortable": "sexcraft - a speechcraft overhaul [beta]",
     "tags": [
-      "beta",
       "perks",
       "pplus",
       "sexlab",
+      "beta",
       "sla"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-12T11:03:50Z"
-    ]
+      "2024-07-12T11:03:50Z",
+      "2025-01-19T01:17:28Z"
+    ],
+    "last_checked": "2026-09-09T21:54:14Z"
   },
   {
     "id": 31543,
@@ -1491,7 +1493,8 @@
     "automated": false,
     "update_history": [
       "2024-07-06T15:37:06Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T23:03:32Z"
   },
   {
     "id": 31588,
@@ -1877,21 +1880,23 @@
     "href": "31716-the-lady-serah-of-clan-volkihar-milf-addon",
     "status": "compatible",
     "version": "2.0.7",
-    "updated": "2024-07-11T08:14:23Z",
+    "updated": "2024-08-19T10:08:17Z",
     "sortable": "lady serah of clan volkihar + milf addon",
     "tags": [
-      "custom follower",
-      "custom voiced",
       "follower",
+      "custom voiced",
+      "custom follower",
+      "voice pack",
       "serana",
-      "vigilant",
-      "voice pack"
+      "vigilant"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-11T08:14:23Z"
-    ]
+      "2024-07-11T08:14:23Z",
+      "2024-08-19T10:08:17Z"
+    ],
+    "last_checked": "2026-09-09T22:18:44Z"
   },
   {
     "id": 31717,
@@ -1965,6 +1970,23 @@
     "update_history": [
       "2024-02-02T05:11:55Z"
     ]
+  },
+  {
+    "id": 31750,
+    "canonical": 31750,
+    "title": "Adult Work Enterprises - Escort Career",
+    "category": "",
+    "game": "S4",
+    "href": "31750-adult-work-enterprises-escort-career",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T19:26:22Z",
+    "sortable": "adult work enterprises - escort career",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T19:51:08Z"
   },
   {
     "id": 31766,
@@ -2197,21 +2219,23 @@
     "href": "31870-assorted-futanari-texture-patches",
     "status": "compatible",
     "version": "- July 15th, PB's Silky added",
-    "updated": "2024-07-14T18:15:24Z",
+    "updated": "2024-11-07T02:10:13Z",
     "sortable": "assorted futanari texture patches",
     "tags": [
-      "cbbe",
-      "cbbe se",
       "futa",
       "futanari",
+      "cbbe",
+      "cbbe se",
       "sos",
       "sos se"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-14T18:15:24Z"
-    ]
+      "2024-07-14T18:15:24Z",
+      "2024-11-07T02:10:13Z"
+    ],
+    "last_checked": "2026-09-09T21:19:47Z"
   },
   {
     "id": 31892,

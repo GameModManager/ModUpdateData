@@ -22,6 +22,28 @@
     ]
   },
   {
+    "id": 33026,
+    "canonical": 33026,
+    "title": "MonocoDoll's Vile Ventures",
+    "category": "",
+    "game": "S3",
+    "href": "33026-monocodolls-vile-ventures",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T21:26:04Z",
+    "sortable": "monocodoll's vile ventures",
+    "tags": [
+      "drugs",
+      "drug dealing",
+      "monocodoll",
+      "vile ventures"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T21:40:18Z"
+  },
+  {
     "id": 33074,
     "canonical": 33074,
     "title": "Schlongs_of_Skyrim_AE it 100 percent works '...'",
@@ -382,6 +404,40 @@
     ]
   },
   {
+    "id": 33377,
+    "canonical": 33377,
+    "title": "SCEA Dream House",
+    "category": "",
+    "game": "FO4",
+    "href": "33377-scea-dream-house",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T11:26:11Z",
+    "sortable": "scea dream house",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T11:41:19Z"
+  },
+  {
+    "id": 33378,
+    "canonical": 33378,
+    "title": "SCEE Japanese House Redux",
+    "category": "",
+    "game": "FO4",
+    "href": "33378-scee-japanese-house-redux",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T11:26:11Z",
+    "sortable": "scee japanese house redux",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T11:37:31Z"
+  },
+  {
     "id": 33385,
     "canonical": 33385,
     "title": "Lust and Desire (3BA BodySlide Preset)",
@@ -630,17 +686,21 @@
     "href": "33620-captive-followers",
     "status": "compatible",
     "version": "1.5",
-    "updated": "2024-07-16T10:24:30Z",
+    "updated": "2026-04-04T11:13:46Z",
     "sortable": "captive followers",
     "tags": [
       "followers",
-      "zaz"
+      "zaz",
+      "dungeons",
+      "captivity"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-16T10:24:30Z"
-    ]
+      "2024-07-16T10:24:30Z",
+      "2026-04-04T11:13:46Z"
+    ],
+    "last_checked": "2026-09-09T21:17:33Z"
   },
   {
     "id": 33638,
@@ -1116,7 +1176,8 @@
     "automated": false,
     "update_history": [
       "2024-07-11T00:41:34Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T22:41:42Z"
   },
   {
     "id": 33866,

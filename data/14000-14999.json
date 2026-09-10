@@ -243,6 +243,28 @@
     ]
   },
   {
+    "id": 14085,
+    "canonical": 14085,
+    "title": "Real-Time Body Physics (DirectX 11)",
+    "category": "",
+    "game": "S4",
+    "href": "14085-real-time-body-physics-directx-11",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T18:26:30Z",
+    "sortable": "real-time body physics (directx 11)",
+    "tags": [
+      "experimental",
+      "boobs",
+      "butt",
+      "hook"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T18:43:22Z"
+  },
+  {
     "id": 14089,
     "canonical": 14089,
     "title": "SLSF Fame Comments",
@@ -1019,6 +1041,27 @@
     ]
   },
   {
+    "id": 14263,
+    "canonical": 14263,
+    "title": "Random Overlay Framework",
+    "category": "",
+    "game": "FO4",
+    "href": "14263-random-overlay-framework",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T09:25:11Z",
+    "sortable": "random overlay framework",
+    "tags": [
+      "overlays",
+      "tattoos",
+      "pubic hair"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T20:17:46Z"
+  },
+  {
     "id": 14265,
     "canonical": 17888,
     "title": "Naked Defeat LE",
@@ -1235,6 +1278,37 @@
     "update_history": [
       "2020-09-20T12:28:59Z"
     ]
+  },
+  {
+    "id": 14295,
+    "canonical": 14295,
+    "title": "Cursed Armour EV 0.85 (All Merge, .83-87) English Version",
+    "category": "",
+    "game": "OB",
+    "href": "14295-cursed-armour-ev-085-all-merge-83-87-english-version",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T14:25:10Z",
+    "sortable": "cursed armour ev 0.85 (all merge, .83-87) english version",
+    "tags": [
+      "cursed",
+      "armour",
+      "ev",
+      "0.85",
+      "all merge",
+      "83",
+      "87",
+      "stgmilleralive",
+      "wolfzq",
+      "symon",
+      "merge",
+      "eggs",
+      "goddess"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T14:47:30Z"
   },
   {
     "id": 14303,
@@ -1573,6 +1647,30 @@
     "update_history": [
       "2020-09-28T03:01:14Z"
     ]
+  },
+  {
+    "id": 14380,
+    "canonical": 14380,
+    "title": "Macrosoft",
+    "category": "",
+    "game": "FO4",
+    "href": "14380-macrosoft",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T10:23:00Z",
+    "sortable": "macrosoft",
+    "tags": [
+      "macrosoft",
+      "textures",
+      "immersive",
+      "immersion",
+      "corona",
+      "covid 19"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T11:01:32Z"
   },
   {
     "id": 14390,

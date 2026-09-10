@@ -204,6 +204,26 @@
     ]
   },
   {
+    "id": 32073,
+    "canonical": 32073,
+    "title": "[Characters] Big dick male and huge tits female",
+    "category": "",
+    "game": "SF",
+    "href": "32073-shemales",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T12:26:14Z",
+    "sortable": "[characters] big dick male and huge tits female",
+    "tags": [
+      "nudemod",
+      "shemale mods"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T13:04:08Z"
+  },
+  {
     "id": 32075,
     "canonical": 32075,
     "title": "UBE SE 2.0 J3 Latex",
@@ -563,17 +583,19 @@
     "href": "32245-simple-player-prostitution-voice-pack",
     "status": "compatible",
     "version": "1.1",
-    "updated": "2024-07-16T15:04:00Z",
+    "updated": "2025-05-09T05:50:20Z",
     "sortable": "simple player prostitution voice pack",
     "tags": [
-      "mod",
-      "voice"
+      "voice",
+      "mod"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-16T15:04:00Z"
-    ]
+      "2024-07-16T15:04:00Z",
+      "2025-05-09T05:50:20Z"
+    ],
+    "last_checked": "2026-09-09T21:13:25Z"
   },
   {
     "id": 32257,
@@ -726,6 +748,28 @@
     "update_history": [
       "2024-03-05T00:21:51Z"
     ]
+  },
+  {
+    "id": 32332,
+    "canonical": 32332,
+    "title": "[Animation] Gray Animations (Mod Development Examples)",
+    "category": "",
+    "game": "SF",
+    "href": "32332-gray-animations-mod-development-examples",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T13:24:37Z",
+    "sortable": "[animation] gray animations (mod development examples)",
+    "tags": [
+      "animations",
+      "bdsm",
+      "modding tools",
+      "nsfw"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T13:34:18Z"
   },
   {
     "id": 32334,
@@ -1825,6 +1869,28 @@
     "update_history": [
       "2024-03-29T11:22:57Z"
     ]
+  },
+  {
+    "id": 32791,
+    "canonical": 32791,
+    "title": "KFT - Kziitd Fetish Toolset",
+    "category": "",
+    "game": "FO4",
+    "href": "32791-kft-kziitd-fetish-toolset",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T10:23:00Z",
+    "sortable": "kft - kziitd fetish toolset",
+    "tags": [
+      "bondage",
+      "fetish",
+      "restraints",
+      "framework"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T10:38:35Z"
   },
   {
     "id": 32798,

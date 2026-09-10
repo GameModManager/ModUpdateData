@@ -2229,6 +2229,31 @@
     ]
   },
   {
+    "id": 27661,
+    "canonical": 27661,
+    "title": "[AAF] Voicepacks and SFX",
+    "category": "",
+    "game": "FO4",
+    "href": "27661-aaf-voicepacks-and-sfx",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T11:26:11Z",
+    "sortable": "[aaf] voicepacks and sfx",
+    "tags": [
+      "soundfx",
+      "audio",
+      "sound",
+      "sound fx",
+      "bugfixes",
+      "fx",
+      "sexfx"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T12:07:11Z"
+  },
+  {
     "id": 27666,
     "canonical": 27666,
     "title": "(FNIS) Dragon Vore Killmoves",
@@ -2420,6 +2445,30 @@
     "update_history": [
       "2023-06-25T01:23:30Z"
     ]
+  },
+  {
+    "id": 27723,
+    "canonical": 27723,
+    "title": "Enhanced Bodies for All Ages and Genders + Penis + Male underwear bulges + Sliders",
+    "category": "",
+    "game": "S3",
+    "href": "27723-enhanced-bodies-for-all-ages-and-genders-penis-male-underwear-bulges-sliders",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T20:26:44Z",
+    "sortable": "enhanced bodies for all ages and genders + penis + male underwear bulges + sliders",
+    "tags": [
+      "geometry",
+      "meshes",
+      "bottoms",
+      "tops",
+      "all ages",
+      "all genders"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T20:54:20Z"
   },
   {
     "id": 27726,
@@ -2849,6 +2898,23 @@
     "update_history": [
       "2023-07-27T20:03:02Z"
     ]
+  },
+  {
+    "id": 27859,
+    "canonical": 27859,
+    "title": "RohZima Fallout 4 Sex Animations for AAF",
+    "category": "",
+    "game": "FO4",
+    "href": "27859-rohzima-fallout-4-sex-animations-for-aaf",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T09:25:11Z",
+    "sortable": "rohzima fallout 4 sex animations for aaf",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T10:19:13Z"
   },
   {
     "id": 27862,

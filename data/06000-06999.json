@@ -907,12 +907,12 @@
     "href": "6217-sexlab-horrible-harassment-expansion-lese",
     "status": "legacy-compatible",
     "version": "3.82",
-    "updated": "2024-07-10T09:19:54Z",
+    "updated": "2025-11-27T09:16:42Z",
     "sortable": "sexlab horrible harassment expansion le/se",
     "tags": [
-      "assault",
       "harassment",
-      "rape"
+      "rape",
+      "assault"
     ],
     "other_link": [
       {
@@ -922,8 +922,10 @@
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-10T09:19:54Z"
-    ]
+      "2024-07-10T09:19:54Z",
+      "2025-11-27T09:16:42Z"
+    ],
+    "last_checked": "2026-09-09T22:43:41Z"
   },
   {
     "id": 6226,
@@ -1840,6 +1842,26 @@
     ]
   },
   {
+    "id": 6547,
+    "canonical": 6547,
+    "title": "Rogue Sexbot",
+    "category": "",
+    "game": "FO4",
+    "href": "6547-rogue-sexbot",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T12:26:14Z",
+    "sortable": "rogue sexbot",
+    "tags": [
+      "sexbot",
+      "aaf"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T12:40:15Z"
+  },
+  {
     "id": 6550,
     "canonical": 6550,
     "title": "Gallery 140 patterns",
@@ -2240,6 +2262,30 @@
     "update_history": [
       "2018-10-07T16:02:09Z"
     ]
+  },
+  {
+    "id": 6657,
+    "canonical": 6657,
+    "title": "AAF Violate",
+    "category": "",
+    "game": "FO4",
+    "href": "6657-aaf-violate",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T10:23:00Z",
+    "sortable": "aaf violate",
+    "tags": [
+      "rape",
+      "combat",
+      "surrender",
+      "violate",
+      "fallout4",
+      "devious devices"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T15:25:33Z"
   },
   {
     "id": 6661,

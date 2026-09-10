@@ -184,20 +184,22 @@
     "href": "23032-follower-slavery-mod-fsm-07072024",
     "status": "compatible",
     "version": "1.611",
-    "updated": "2024-07-07T13:41:30Z",
+    "updated": "2025-12-14T14:44:45Z",
     "sortable": "follower slavery mod (fsm) (07/07/2024",
     "tags": [
+      "slavery",
       "followers",
       "role play",
       "sexlab",
-      "slavery",
-      "toys&love"
+      "toys&amp;love"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-07T13:41:30Z"
-    ]
+      "2024-07-07T13:41:30Z",
+      "2025-12-14T14:44:45Z"
+    ],
+    "last_checked": "2026-09-09T22:55:19Z"
   },
   {
     "id": 23037,
@@ -569,20 +571,21 @@
     "href": "23123-yamete-kudasai",
     "status": "compatible",
     "version": "2.2.1.2",
-    "updated": "2024-07-05T20:36:19Z",
+    "updated": "2025-05-15T14:38:25Z",
     "sortable": "yamete kudasai",
     "tags": [
-      "acheron",
       "combat",
       "defeat",
-      "playeraggressor",
-      "rape"
+      "rape",
+      "playeraggressor"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-05T20:36:19Z"
-    ]
+      "2024-07-05T20:36:19Z",
+      "2025-05-15T14:38:25Z"
+    ],
+    "last_checked": "2026-09-09T23:07:25Z"
   },
   {
     "id": 23124,

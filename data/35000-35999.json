@@ -17,7 +17,8 @@
     "automated": false,
     "update_history": [
       "2024-07-13T20:00:38Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T21:42:10Z"
   },
   {
     "id": 35012,
@@ -28,20 +29,22 @@
     "href": "35012-wizard6-animation-pack",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-07-14T12:42:31Z",
+    "updated": "2024-08-08T17:06:16Z",
     "sortable": "wizard6 animation pack",
     "tags": [
+      "wizard6",
       "animation",
       "pack",
       "sexlab",
-      "slal",
-      "wizard6"
+      "slal"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-14T12:42:31Z"
-    ]
+      "2024-07-14T12:42:31Z",
+      "2024-08-08T17:06:16Z"
+    ],
+    "last_checked": "2026-09-09T21:23:52Z"
   },
   {
     "id": 35013,
@@ -76,7 +79,8 @@
     "automated": false,
     "update_history": [
       "2024-07-16T15:43:02Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T21:11:20Z"
   },
   {
     "id": 35084,
@@ -91,14 +95,14 @@
     "sortable": "gargoyle statues erect",
     "tags": [
       "models",
-      "sse",
       "statue"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-07-17T09:31:33Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T08:21:44Z"
   },
   {
     "id": 35097,
@@ -137,7 +141,8 @@
     "automated": false,
     "update_history": [
       "2024-07-17T18:13:00Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T08:16:43Z"
   },
   {
     "id": 35117,
@@ -154,7 +159,8 @@
     "automated": false,
     "update_history": [
       "2024-07-17T18:42:25Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T08:12:23Z"
   },
   {
     "id": 35162,
@@ -218,6 +224,58 @@
       "2024-07-20T18:04:08Z"
     ],
     "last_checked": "2026-09-06T11:41:22Z"
+  },
+  {
+    "id": 35186,
+    "canonical": 35186,
+    "title": "Human Cattle Beta Version (WIP)",
+    "category": "",
+    "game": "FO4",
+    "href": "35186-human-cattle-beta-version-wip",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T20:26:44Z",
+    "sortable": "human cattle beta version (wip)",
+    "tags": [
+      "aaf",
+      "hucow",
+      "sex",
+      "human cow",
+      "milking",
+      "domination",
+      "fetish",
+      "slavery",
+      "quest",
+      "humor",
+      "vault-tec",
+      "human cattle"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T20:35:08Z"
+  },
+  {
+    "id": 35191,
+    "canonical": 35191,
+    "title": "[Missions] Issues of Spacefarer",
+    "category": "",
+    "game": "SF",
+    "href": "35191-issues-of-spacefarer",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T12:26:14Z",
+    "sortable": "[missions] issues of spacefarer",
+    "tags": [
+      "humiliation",
+      "encounters",
+      "quests",
+      "followers"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T12:47:10Z"
   },
   {
     "id": 35219,
@@ -490,5 +548,68 @@
       "2024-07-30T00:52:48Z"
     ],
     "last_checked": "2026-09-05T21:44:54Z"
+  },
+  {
+    "id": 35419,
+    "canonical": 35419,
+    "title": "[Characters] males people of Starfield...",
+    "category": "",
+    "game": "SF",
+    "href": "35419-males-people-of-starfield",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T13:24:37Z",
+    "sortable": "[characters] males people of starfield...",
+    "tags": [
+      "crowd",
+      "character"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T14:03:28Z"
+  },
+  {
+    "id": 35874,
+    "canonical": 35874,
+    "title": "Sexlab Sexual Fame RELOADED",
+    "category": "",
+    "game": "SE",
+    "href": "35874-sexlab-sexual-fame-reloaded",
+    "status": "compatible",
+    "version": "",
+    "updated": "2026-09-09T08:21:44Z",
+    "sortable": "sexlab sexual fame reloaded",
+    "tags": [
+      "skyrim",
+      "special edition",
+      "fame",
+      "slsf",
+      "sexlab",
+      "sexual",
+      "reloaded",
+      "sse"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T08:35:41Z"
+  },
+  {
+    "id": 35989,
+    "canonical": 35989,
+    "title": "SlaveTatsNG",
+    "category": "",
+    "game": "SE",
+    "href": "35989-slavetatsng",
+    "status": "compatible",
+    "version": "",
+    "updated": "2026-09-09T08:21:44Z",
+    "sortable": "slavetatsng",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T08:26:02Z"
   }
 ]

@@ -34,6 +34,22 @@
     "last_checked": "2026-09-05T21:01:22Z"
   },
   {
+    "id": 15,
+    "canonical": 15,
+    "title": "Diablo Elf 6 in 1 omod",
+    "category": "",
+    "game": "OB",
+    "href": "15-ff-custom-skins",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T15:25:33Z",
+    "sortable": "diablo elf 6 in 1 omod",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": []
+  },
+  {
     "id": 19,
     "canonical": 19,
     "title": "FNIS Ero Idle Spell",
@@ -59,6 +75,52 @@
       "2014-02-02T16:48:13Z"
     ],
     "last_checked": "2026-09-05T21:01:46Z"
+  },
+  {
+    "id": 51,
+    "canonical": 51,
+    "title": "BU Armors Compilation",
+    "category": "",
+    "game": "OB",
+    "href": "51-break-armor-framework",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T14:25:10Z",
+    "sortable": "bu armors compilation",
+    "tags": [
+      "OblivionBreakUndies",
+      "BreakArmor",
+      "Break Undies",
+      "Break Armor"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T15:00:30Z"
+  },
+  {
+    "id": 52,
+    "canonical": 52,
+    "title": "Setbody Reloaded",
+    "category": "",
+    "game": "OB",
+    "href": "52-setbody-reloaded",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T14:25:10Z",
+    "sortable": "setbody reloaded",
+    "tags": [
+      "GMRA",
+      "AGHGEC",
+      "DMRA",
+      "LAB",
+      "Set Body",
+      "Auto Set Body"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T14:50:53Z"
   },
   {
     "id": 60,
@@ -204,6 +266,29 @@
     "last_checked": "2026-09-05T21:04:23Z"
   },
   {
+    "id": 73,
+    "canonical": 73,
+    "title": "Tamago Setbody Reboot",
+    "category": "",
+    "game": "OB",
+    "href": "73-tamago-setbody-reboot",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T15:25:33Z",
+    "sortable": "tamago setbody reboot",
+    "tags": [
+      "TamagoClub",
+      "TamagoSetbody",
+      "Setbody",
+      "Pregnant",
+      "Conversion"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T20:06:58Z"
+  },
+  {
     "id": 80,
     "canonical": 80,
     "title": "Nemea Shield",
@@ -223,6 +308,23 @@
       "2015-10-28T17:55:32Z"
     ],
     "last_checked": "2026-09-05T21:04:46Z"
+  },
+  {
+    "id": 83,
+    "canonical": 83,
+    "title": "Alice Madness Returns Clothes",
+    "category": "",
+    "game": "OB",
+    "href": "83-alternative-esp-for-alicemadnessreturns-dress-pack",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T15:25:33Z",
+    "sortable": "alice madness returns clothes",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T15:43:11Z"
   },
   {
     "id": 85,
@@ -299,6 +401,49 @@
     ]
   },
   {
+    "id": 92,
+    "canonical": 92,
+    "title": "Player Slave Encounters (Updated Oct 18)",
+    "category": "",
+    "game": "OB",
+    "href": "92-player-slave-encounters-updated-oct-18",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T16:49:10Z",
+    "sortable": "player slave encounters (updated oct 18)",
+    "tags": [
+      "pse",
+      "lovers with pk",
+      "slavery"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T17:18:07Z"
+  },
+  {
+    "id": 113,
+    "canonical": 113,
+    "title": "MemPoserplug",
+    "category": "",
+    "game": "OB",
+    "href": "113-memposerplug",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T17:26:17Z",
+    "sortable": "memposerplug",
+    "tags": [
+      "utility",
+      "LoverswPK",
+      "animationtest",
+      "LAPF"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T17:41:18Z"
+  },
+  {
     "id": 121,
     "canonical": 121,
     "title": "Me4Fan's Companions",
@@ -349,6 +494,23 @@
     "update_history": [
       "2013-03-31T08:59:20Z"
     ]
+  },
+  {
+    "id": 128,
+    "canonical": 128,
+    "title": "LoversBitch Gone Wild 1.51 BB fix",
+    "category": "",
+    "game": "OB",
+    "href": "128-loversbitch-gone-wild",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T16:49:10Z",
+    "sortable": "loversbitch gone wild 1.51 bb fix",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T17:26:17Z"
   },
   {
     "id": 129,
@@ -1411,6 +1573,26 @@
     ]
   },
   {
+    "id": 223,
+    "canonical": 223,
+    "title": "Lovers Hooker - Dukky Version",
+    "category": "",
+    "game": "OB",
+    "href": "223-lovershooker",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T16:49:10Z",
+    "sortable": "lovers hooker - dukky version",
+    "tags": [
+      "Lovers",
+      "Hooker"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T17:15:38Z"
+  },
+  {
     "id": 224,
     "canonical": 224,
     "title": "SexAddicts",
@@ -2029,6 +2211,25 @@
     ]
   },
   {
+    "id": 271,
+    "canonical": 271,
+    "title": "LoversGGBlackmail",
+    "category": "",
+    "game": "OB",
+    "href": "271-loversggblackmail",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T17:26:17Z",
+    "sortable": "loversggblackmail",
+    "tags": [
+      "adult quest"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T17:43:46Z"
+  },
+  {
     "id": 274,
     "canonical": 6179,
     "title": "Vigilant of Stendarr",
@@ -2056,6 +2257,23 @@
     "update_history": [
       "2015-06-08T14:48:51Z"
     ]
+  },
+  {
+    "id": 276,
+    "canonical": 276,
+    "title": "Lovers Horse Rider fejeena edition",
+    "category": "",
+    "game": "OB",
+    "href": "276-creatures-replacers-with-dicks",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T16:49:10Z",
+    "sortable": "lovers horse rider fejeena edition",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T17:23:44Z"
   },
   {
     "id": 278,
@@ -2149,6 +2367,28 @@
     "update_history": [
       "2016-07-24T12:57:55Z"
     ]
+  },
+  {
+    "id": 291,
+    "canonical": 291,
+    "title": "Devious Devices RC8 Male Addon",
+    "category": "",
+    "game": "FO4",
+    "href": "291-atomic-muscle-legacy-a-male-body-for-big-guys",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T08:21:44Z",
+    "sortable": "devious devices rc8 male addon",
+    "tags": [
+      "x117",
+      "mbp",
+      "wig",
+      "hair"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T09:07:27Z"
   },
   {
     "id": 292,
@@ -2899,6 +3139,23 @@
     ]
   },
   {
+    "id": 334,
+    "canonical": 334,
+    "title": "Alien vs Predator Races",
+    "category": "",
+    "game": "OB",
+    "href": "334-alien-vs-predator-races",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T15:25:33Z",
+    "sortable": "alien vs predator races",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T15:40:09Z"
+  },
+  {
     "id": 335,
     "canonical": 335,
     "title": "SOS - Equipable Schlong - and more",
@@ -3177,6 +3434,25 @@
     "update_history": [
       "2015-12-30T14:36:26Z"
     ]
+  },
+  {
+    "id": 355,
+    "canonical": 355,
+    "title": "LAPF",
+    "category": "",
+    "game": "OB",
+    "href": "355-lovers-supplemental-plugin-pack",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T15:25:33Z",
+    "sortable": "lapf",
+    "tags": [
+      "LAPF addons"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T19:24:06Z"
   },
   {
     "id": 360,
@@ -9957,6 +10233,27 @@
     "update_history": [
       "2014-03-19T07:35:26Z"
     ]
+  },
+  {
+    "id": 863,
+    "canonical": 863,
+    "title": "LoverFolllowersMJDJJ",
+    "category": "",
+    "game": "OB",
+    "href": "863-loverfolllowersmjdjj",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T16:49:10Z",
+    "sortable": "loverfolllowersmjdjj",
+    "tags": [
+      "Follower",
+      "Companion",
+      "LAPF"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T17:20:57Z"
   },
   {
     "id": 865,

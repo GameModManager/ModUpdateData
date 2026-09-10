@@ -4014,6 +4014,23 @@
     ]
   },
   {
+    "id": 1263,
+    "canonical": 1263,
+    "title": "zipp suit zkec & \\ hgec",
+    "category": "",
+    "game": "OB",
+    "href": "1263-zipp-suit-zkec-hgec",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T14:25:10Z",
+    "sortable": "zipp suit zkec & \\ hgec",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T14:53:50Z"
+  },
+  {
     "id": 1265,
     "canonical": 1265,
     "title": "Seeing Yellow",
@@ -5641,20 +5658,22 @@
     "href": "1355-sd-cages-le",
     "status": "ported",
     "version": "3.159.3 [July 11, 2024]",
-    "updated": "2024-07-12T01:39:46Z",
+    "updated": "2025-09-25T03:08:11Z",
     "sortable": "sd cages (le",
     "tags": [
       "cages",
-      "enslavement",
-      "npcs",
       "sd",
-      "slavery"
+      "slavery",
+      "enslavement",
+      "npcs"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-12T01:39:46Z"
-    ]
+      "2024-07-12T01:39:46Z",
+      "2025-09-25T03:08:11Z"
+    ],
+    "last_checked": "2026-09-09T22:14:43Z"
   },
   {
     "id": 1356,
@@ -6181,22 +6200,24 @@
     "href": "1386-sanguine%E2%80%99s-debauchery-patches",
     "status": "compatible",
     "version": "3.63.0 [July 11, 2024]",
-    "updated": "2024-07-12T01:37:10Z",
+    "updated": "2025-09-12T04:45:20Z",
     "sortable": "sanguine’s debauchery patches",
     "tags": [
-      "devious devices",
       "domination",
-      "enslavement",
-      "master",
+      "submission",
       "slave",
+      "master",
+      "devious devices",
       "slavery",
-      "submission"
+      "enslavement"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-12T01:37:10Z"
-    ]
+      "2024-07-12T01:37:10Z",
+      "2025-09-12T04:45:20Z"
+    ],
+    "last_checked": "2026-09-09T22:16:41Z"
   },
   {
     "id": 1390,
@@ -14272,23 +14293,25 @@
     "href": "1935-prison-overhaul-patched-le",
     "status": "ported",
     "version": "6.2.6 [July 11, 2024]",
-    "updated": "2024-07-12T01:51:10Z",
+    "updated": "2025-09-12T04:48:05Z",
     "sortable": "prison overhaul patched (le",
     "tags": [
       "bdsm",
-      "bondage",
-      "chains",
-      "overhaul",
-      "pillory",
       "prison",
-      "sexlab",
-      "slave"
+      "overhaul",
+      "chains",
+      "bondage",
+      "slave",
+      "pillory",
+      "sexlab"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-12T01:51:10Z"
-    ]
+      "2024-07-12T01:51:10Z",
+      "2025-09-12T04:48:05Z"
+    ],
+    "last_checked": "2026-09-09T22:08:25Z"
   },
   {
     "id": 1937,
@@ -14788,6 +14811,28 @@
     "update_history": [
       "2018-12-31T15:41:12Z"
     ]
+  },
+  {
+    "id": 1973,
+    "canonical": 1973,
+    "title": "HiyokoGeneratorGeneForge",
+    "category": "",
+    "game": "OB",
+    "href": "1973-hiyokogeneratorgeneforge",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T16:49:10Z",
+    "sortable": "hiyokogeneratorgeneforge",
+    "tags": [
+      "TamagoClub",
+      "HiyokoClub",
+      "HiyokoGenerator",
+      "Blockhead"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T18:11:27Z"
   },
   {
     "id": 1974,

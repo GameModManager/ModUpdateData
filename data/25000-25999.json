@@ -695,13 +695,15 @@
     "href": "25318-sexlab-p",
     "status": "compatible",
     "version": "2.10.2.1",
-    "updated": "2024-07-13T08:51:51Z",
+    "updated": "2026-03-31T14:18:45Z",
     "sortable": "sexlab p+",
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-13T08:51:51Z"
-    ]
+      "2024-07-13T08:51:51Z",
+      "2026-03-31T14:18:45Z"
+    ],
+    "last_checked": "2026-09-09T21:46:05Z"
   },
   {
     "id": 25325,
@@ -2031,20 +2033,22 @@
     "href": "25864-devious-devices-tbd",
     "status": "compatible",
     "version": "0.11",
-    "updated": "2024-07-07T02:38:46Z",
+    "updated": "2025-09-15T23:50:55Z",
     "sortable": "devious devices - tbd",
     "tags": [
-      "bodyslide",
-      "dd",
-      "devious devices",
+      "touched by dibella",
       "tbd",
-      "touched by dibella"
+      "bodyslide",
+      "devious devices",
+      "dd"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-07T02:38:46Z"
-    ]
+      "2024-07-07T02:38:46Z",
+      "2025-09-15T23:50:55Z"
+    ],
+    "last_checked": "2026-09-09T23:01:28Z"
   },
   {
     "id": 25874,

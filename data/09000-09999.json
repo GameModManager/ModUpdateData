@@ -297,6 +297,32 @@
     ]
   },
   {
+    "id": 9123,
+    "canonical": 9123,
+    "title": "Kritical´s Naughty Collection Archive",
+    "category": "",
+    "game": "S4",
+    "href": "9123-kritical%C2%B4s-naughty-collection-archive",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T19:26:22Z",
+    "sortable": "kritical´s naughty collection archive",
+    "tags": [
+      "sims 4",
+      "clothing",
+      "naughty",
+      "skimpy",
+      "sexy",
+      "eve",
+      "revealing",
+      "furniture bondage"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T19:48:44Z"
+  },
+  {
     "id": 9130,
     "canonical": 9130,
     "title": "Kerrigan Wings replacer for Animated Dragon Wings",
@@ -316,6 +342,23 @@
     "update_history": [
       "2019-05-19T12:10:25Z"
     ]
+  },
+  {
+    "id": 9134,
+    "canonical": 9134,
+    "title": "[AAF] RSE II: Combat Surrender and Abductions (12/30/19)",
+    "category": "",
+    "game": "FO4",
+    "href": "9134-aaf-rse-ii-combat-surrender-and-abductions-123019",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T11:26:11Z",
+    "sortable": "[aaf] rse ii: combat surrender and abductions (12/30/19)",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T11:59:24Z"
   },
   {
     "id": 9143,
@@ -2164,6 +2207,27 @@
     "update_history": [
       "2019-07-27T19:24:44Z"
     ]
+  },
+  {
+    "id": 9729,
+    "canonical": 9729,
+    "title": "TAMAGO / HIYOKO MASTER SET",
+    "category": "",
+    "game": "OB",
+    "href": "9729-tamago-hiyoko-master-set",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T16:49:10Z",
+    "sortable": "tamago / hiyoko master set",
+    "tags": [
+      "tamago",
+      "hiyoko",
+      "pregnancy"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T17:13:02Z"
   },
   {
     "id": 9738,

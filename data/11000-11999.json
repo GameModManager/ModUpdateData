@@ -1151,6 +1151,25 @@
     ]
   },
   {
+    "id": 11260,
+    "canonical": 11260,
+    "title": "Meet Companion Ivy",
+    "category": "",
+    "game": "FO4",
+    "href": "11260-meet-companion-ivy",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T08:21:44Z",
+    "sortable": "meet companion ivy",
+    "tags": [
+      "quests"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T09:11:59Z"
+  },
+  {
     "id": 11265,
     "canonical": 11265,
     "title": "Ulri's Hagraven Replacer - Special Edition Version",
@@ -2691,6 +2710,26 @@
     "update_history": [
       "2020-01-16T11:23:57Z"
     ]
+  },
+  {
+    "id": 11538,
+    "canonical": 11538,
+    "title": "[AAF] Tattoo After Rape (1/18/2020)",
+    "category": "",
+    "game": "FO4",
+    "href": "11538-aaf-tattoo-after-rape-1182020",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T11:26:11Z",
+    "sortable": "[aaf] tattoo after rape (1/18/2020)",
+    "tags": [
+      "tattoo",
+      "rape"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T11:48:42Z"
   },
   {
     "id": 11540,

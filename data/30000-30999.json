@@ -450,6 +450,50 @@
     ]
   },
   {
+    "id": 30296,
+    "canonical": 30296,
+    "title": "[Visuals] Sexplicit textures for SF",
+    "category": "",
+    "game": "SF",
+    "href": "30296-sexplicit-textures-for-sf",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T13:24:37Z",
+    "sortable": "[visuals] sexplicit textures for sf",
+    "tags": [
+      "adult",
+      "texture",
+      "sex",
+      "nude",
+      "cum"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T13:27:55Z"
+  },
+  {
+    "id": 30336,
+    "canonical": 30336,
+    "title": "[Clothing] Naked Spacesuit",
+    "category": "",
+    "game": "SF",
+    "href": "30336-naked-spacesuit",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T12:26:14Z",
+    "sortable": "[clothing] naked spacesuit",
+    "tags": [
+      "spacesuit",
+      "naked",
+      "latex"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T12:50:26Z"
+  },
+  {
     "id": 30338,
     "canonical": 30338,
     "title": "Ciri Voice for Intelligent Voiced Dirty Talk 1.3.0 (IVDT)",
@@ -530,13 +574,32 @@
     "href": "30373-simple-slavery-rebuild",
     "status": "compatible",
     "version": "1.1.0",
-    "updated": "2024-07-07T06:56:58Z",
+    "updated": "2024-10-22T14:10:39Z",
     "sortable": "simple slavery rebuild",
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-07T06:56:58Z"
-    ]
+      "2024-07-07T06:56:58Z",
+      "2024-10-22T14:10:39Z"
+    ],
+    "last_checked": "2026-09-09T22:57:13Z"
+  },
+  {
+    "id": 30388,
+    "canonical": 30388,
+    "title": "[Characters] More or less diverse Constellation",
+    "category": "",
+    "game": "SF",
+    "href": "30388-more-or-less-diverse-constellation",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T14:25:10Z",
+    "sortable": "[characters] more or less diverse constellation",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T14:38:24Z"
   },
   {
     "id": 30402,
@@ -579,6 +642,27 @@
       "2024-08-21T02:18:51Z"
     ],
     "last_checked": "2026-09-05T21:44:24Z"
+  },
+  {
+    "id": 30428,
+    "canonical": 30428,
+    "title": "Femboy Race Armor",
+    "category": "",
+    "game": "OB",
+    "href": "30428-femboy-race-armor",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T13:24:37Z",
+    "sortable": "femboy race armor",
+    "tags": [
+      "femboy",
+      "armor",
+      "clothing"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T14:09:40Z"
   },
   {
     "id": 30432,
@@ -1596,6 +1680,23 @@
     "update_history": [
       "2023-12-17T23:47:44Z"
     ]
+  },
+  {
+    "id": 30929,
+    "canonical": 30929,
+    "title": "Vacant Houses",
+    "category": "",
+    "game": "OB",
+    "href": "30929-vacant-houses",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T14:25:10Z",
+    "sortable": "vacant houses",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T15:09:58Z"
   },
   {
     "id": 30940,

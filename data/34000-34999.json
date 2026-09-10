@@ -412,16 +412,26 @@
     "href": "34298-advanced-nudity-detection",
     "status": "compatible",
     "version": "0.8",
-    "updated": "2024-07-16T11:33:18Z",
+    "updated": "2026-09-04T15:15:35Z",
     "sortable": "advanced nudity detection",
     "tags": [
-      "framework"
+      "framework",
+      "skyrim",
+      "special editon",
+      "sse",
+      "nude",
+      "naked",
+      "nudity",
+      "detection",
+      "advanced"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-16T11:33:18Z"
-    ]
+      "2024-07-16T11:33:18Z",
+      "2026-09-04T15:15:35Z"
+    ],
+    "last_checked": "2026-09-09T21:15:27Z"
   },
   {
     "id": 34300,
@@ -586,6 +596,25 @@
     ]
   },
   {
+    "id": 34385,
+    "canonical": 34385,
+    "title": "Oniki Kay’s Kinky World - Jvsmith Edition build 500",
+    "category": "",
+    "game": "S3",
+    "href": "34385-oniki-kay%E2%80%99s-kinky-world-jvsmith-edition-build",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T20:26:44Z",
+    "sortable": "oniki kay’s kinky world - jvsmith edition build 500",
+    "tags": [
+      "kinkyworld"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T20:56:30Z"
+  },
+  {
     "id": 34392,
     "canonical": 34392,
     "title": "Skyrim Relationship",
@@ -594,19 +623,21 @@
     "href": "34392-skyrim-relationship",
     "status": "compatible",
     "version": "1.2.6",
-    "updated": "2024-07-12T09:04:01Z",
+    "updated": "2024-11-30T09:03:05Z",
     "sortable": "skyrim relationship",
     "tags": [
-      "dialogue sex",
       "relationship",
+      "relationshps",
       "relationshiprank",
-      "relationshps"
+      "dialogue sex"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-12T09:04:01Z"
-    ]
+      "2024-07-12T09:04:01Z",
+      "2024-11-30T09:03:05Z"
+    ],
+    "last_checked": "2026-09-09T21:56:25Z"
   },
   {
     "id": 34405,
@@ -673,6 +704,40 @@
     ]
   },
   {
+    "id": 34432,
+    "canonical": 34432,
+    "title": "[Characters] Adoring Fangirl for Starfield",
+    "category": "",
+    "game": "SF",
+    "href": "34432-adoring-fangirl-for-starfield",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T13:24:37Z",
+    "sortable": "[characters] adoring fangirl for starfield",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T13:37:17Z"
+  },
+  {
+    "id": 34458,
+    "canonical": 34458,
+    "title": "[Other] Skill Challenges Removed",
+    "category": "",
+    "game": "SF",
+    "href": "34458-skill-challenges-removed",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T13:24:37Z",
+    "sortable": "[other] skill challenges removed",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T14:06:41Z"
+  },
+  {
     "id": 34470,
     "canonical": 34470,
     "title": "Moles and Tanlines for SlaveTats",
@@ -705,6 +770,29 @@
     "update_history": [
       "2024-06-19T17:56:45Z"
     ]
+  },
+  {
+    "id": 34481,
+    "canonical": 34481,
+    "title": "[Gameplay] GalBank+",
+    "category": "",
+    "game": "SF",
+    "href": "34481-galbank",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T13:24:37Z",
+    "sortable": "[gameplay] galbank+",
+    "tags": [
+      "galbank",
+      "finance",
+      "difficulty",
+      "realistic",
+      "taxes"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T13:50:29Z"
   },
   {
     "id": 34484,
@@ -774,18 +862,18 @@
     "updated": "2024-07-13T20:10:33Z",
     "sortable": "adventures with balazar (balazar's bitch) se/le - dd patch",
     "tags": [
-      "creature",
-      "dungeon",
-      "follower",
-      "patch",
       "quest",
+      "follower",
+      "dungeon",
+      "creature",
       "submissive"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-07-13T20:10:33Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T21:26:04Z"
   },
   {
     "id": 34505,
@@ -883,6 +971,23 @@
       "2024-07-24T20:15:48Z"
     ],
     "last_checked": "2026-09-06T10:16:52Z"
+  },
+  {
+    "id": 34608,
+    "canonical": 34608,
+    "title": "[Missions] The Auction House",
+    "category": "",
+    "game": "SF",
+    "href": "34608-neon-descent-preview",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T12:26:14Z",
+    "sortable": "[missions] the auction house",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T12:53:58Z"
   },
   {
     "id": 34672,
@@ -1250,19 +1355,20 @@
     "updated": "2024-07-05T20:24:28Z",
     "sortable": "better latex",
     "tags": [
-      "catsuit",
-      "cursedloot",
-      "devices",
-      "devious",
-      "deviousdevices",
       "latex",
+      "catsuit",
+      "deviousdevices",
+      "devious",
+      "devices",
+      "cursedloot",
       "rubber"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-07-05T20:24:28Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T23:09:14Z"
   },
   {
     "id": 34812,
@@ -1273,20 +1379,39 @@
     "href": "34812-buxom-wench-yuriana-156-beta-y-immersive-wenches-17-fixes-mas-especial-de-navidad-2023-traducci%C3%B3n-completa-espa%C3%B1ol-todo",
     "status": "compatible",
     "version": "1.5.6",
-    "updated": "2024-07-06T01:55:40Z",
+    "updated": "2025-08-16T15:23:09Z",
     "sortable": "buxom wench yuriana 1.5.6 beta y immersive wenches 1.7 -fixes- mas especial de navidad 2023 traducción completa español todo",
     "tags": [
-      "español",
       "traduccion",
-      "video",
+      "español",
+      "wenches",
       "wench",
-      "wenches"
+      "video"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-06T01:55:40Z"
-    ]
+      "2024-07-06T01:55:40Z",
+      "2025-08-16T15:23:09Z"
+    ],
+    "last_checked": "2026-09-09T23:05:30Z"
+  },
+  {
+    "id": 34837,
+    "canonical": 34837,
+    "title": "[Other] NPC Enhancer Gun",
+    "category": "",
+    "game": "SF",
+    "href": "34837-npc-enhancer-gun",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T13:24:37Z",
+    "sortable": "[other] npc enhancer gun",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T13:53:41Z"
   },
   {
     "id": 34841,
@@ -1303,7 +1428,25 @@
     "automated": false,
     "update_history": [
       "2024-07-07T14:05:58Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T22:53:12Z"
+  },
+  {
+    "id": 34852,
+    "canonical": 34852,
+    "title": "[Other] Sextreme Statues (Update 22-08-2024)",
+    "category": "",
+    "game": "SF",
+    "href": "34852-sextreme-statues-update-22-08-2024",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T12:26:14Z",
+    "sortable": "[other] sextreme statues (update 22-08-2024)",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T13:07:37Z"
   },
   {
     "id": 34900,
@@ -1314,7 +1457,7 @@
     "href": "34900-voiceover-collection-elevenlabs",
     "status": "compatible",
     "version": "1.0",
-    "updated": "2024-07-09T15:21:14Z",
+    "updated": "2025-01-08T16:25:20Z",
     "sortable": "voiceover collection (elevenlabs",
     "tags": [
       "voice",
@@ -1324,8 +1467,10 @@
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-09T15:21:14Z"
-    ]
+      "2024-07-09T15:21:14Z",
+      "2025-01-08T16:25:20Z"
+    ],
+    "last_checked": "2026-09-09T22:49:22Z"
   },
   {
     "id": 34908,
@@ -1365,7 +1510,8 @@
     "automated": false,
     "update_history": [
       "2024-07-11T02:59:45Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T22:25:19Z"
   },
   {
     "id": 34937,
@@ -1379,16 +1525,17 @@
     "updated": "2024-07-11T06:18:16Z",
     "sortable": "more nasty critters - draugrs - new models and textures patch",
     "tags": [
-      "draugr",
       "mnc",
       "morenastycritters",
+      "draugr",
       "patch"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-07-11T06:18:16Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T22:23:04Z"
   },
   {
     "id": 34938,
@@ -1404,15 +1551,16 @@
     "tags": [
       "mnc",
       "morenastycritters",
-      "patch",
+      "skeletons",
       "skeleton",
-      "skeletons"
+      "patch"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-07-11T06:18:17Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T22:20:52Z"
   },
   {
     "id": 34960,
@@ -1429,7 +1577,8 @@
     "automated": false,
     "update_history": [
       "2024-07-12T01:55:33Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T22:04:35Z"
   },
   {
     "id": 34966,
@@ -1446,7 +1595,8 @@
     "automated": false,
     "update_history": [
       "2024-07-12T15:35:50Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T21:52:23Z"
   },
   {
     "id": 34974,
@@ -1460,16 +1610,17 @@
     "updated": "2024-07-12T21:55:11Z",
     "sortable": "nymras ostim sa complet se fourth volume",
     "tags": [
-      "animation",
+      "sexlab",
       "ostim",
       "pack",
-      "sexlab"
+      "animation"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-07-12T21:55:11Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T21:50:22Z"
   },
   {
     "id": 34975,
@@ -1483,8 +1634,8 @@
     "updated": "2024-07-12T22:07:08Z",
     "sortable": "nymras ostim sa 0-3 se fifth volume \"a.k.a naked defeat animation\"",
     "tags": [
-      "animating",
       "ostim",
+      "animating",
       "pack",
       "sexlab"
     ],
@@ -1492,7 +1643,8 @@
     "automated": false,
     "update_history": [
       "2024-07-12T22:07:08Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T21:48:11Z"
   },
   {
     "id": 34994,
@@ -1512,6 +1664,7 @@
     "automated": false,
     "update_history": [
       "2024-07-13T16:17:09Z"
-    ]
+    ],
+    "last_checked": "2026-09-09T21:44:02Z"
   }
 ]

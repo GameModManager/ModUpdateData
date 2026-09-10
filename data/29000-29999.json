@@ -290,6 +290,23 @@
     ]
   },
   {
+    "id": 29185,
+    "canonical": 29185,
+    "title": "[Visuals] BLACKED Tattoos",
+    "category": "",
+    "game": "SF",
+    "href": "29185-blacked-tattoos",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T14:25:10Z",
+    "sortable": "[visuals] blacked tattoos",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T14:35:00Z"
+  },
+  {
     "id": 29205,
     "canonical": 29205,
     "title": "Porny DarkBrotherhood stuff",
@@ -350,6 +367,25 @@
     ]
   },
   {
+    "id": 29234,
+    "canonical": 29234,
+    "title": "[Other] German strings without *",
+    "category": "",
+    "game": "SF",
+    "href": "29234-german-strings-without",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T14:25:10Z",
+    "sortable": "[other] german strings without *",
+    "tags": [
+      "german translation"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T14:41:19Z"
+  },
+  {
     "id": 29235,
     "canonical": 29235,
     "title": "[Jmel']SN_parfume",
@@ -365,6 +401,23 @@
     "update_history": [
       "2023-09-19T15:32:22Z"
     ]
+  },
+  {
+    "id": 29253,
+    "canonical": 29253,
+    "title": "[Other] Drab to Fab: Magazine Edition By Nuverotic",
+    "category": "",
+    "game": "SF",
+    "href": "29253-drab-to-fab-magazine-edition-by-nuverotic",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T14:25:10Z",
+    "sortable": "[other] drab to fab: magazine edition by nuverotic",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T14:31:39Z"
   },
   {
     "id": 29263,
@@ -632,6 +685,28 @@
       "2026-04-26T16:05:53Z"
     ],
     "last_checked": "2026-09-05T21:42:30Z"
+  },
+  {
+    "id": 29361,
+    "canonical": 29361,
+    "title": "[Visuals] Lusty Lore-Friendly Posters by Nuverotic",
+    "category": "",
+    "game": "SF",
+    "href": "29361-lusty-lore-friendly-posters-by-nuverotic",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T13:24:37Z",
+    "sortable": "[visuals] lusty lore-friendly posters by nuverotic",
+    "tags": [
+      "nsfw",
+      "textures",
+      "replacer",
+      "images"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T13:31:10Z"
   },
   {
     "id": 29362,

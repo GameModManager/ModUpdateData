@@ -572,21 +572,23 @@
     "href": "24311-maidens-of-darkness",
     "status": "compatible",
     "version": "1.0.9a",
-    "updated": "2024-07-14T13:51:37Z",
+    "updated": "2026-08-25T12:36:21Z",
     "sortable": "maidens of darkness",
     "tags": [
-      "busty",
-      "buxom",
-      "darkness",
-      "female",
       "follower",
-      "followers"
+      "followers",
+      "busty",
+      "female",
+      "darkness",
+      "buxom"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-07-14T13:51:37Z"
-    ]
+      "2024-07-14T13:51:37Z",
+      "2026-08-25T12:36:21Z"
+    ],
+    "last_checked": "2026-09-09T21:21:47Z"
   },
   {
     "id": 24314,
@@ -858,6 +860,23 @@
     "update_history": [
       "2022-12-10T13:15:22Z"
     ]
+  },
+  {
+    "id": 24429,
+    "canonical": 24429,
+    "title": "Commonwealth Slavers",
+    "category": "",
+    "game": "FO4",
+    "href": "24429-commonwealth-slavers",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T08:21:44Z",
+    "sortable": "commonwealth slavers",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T09:03:08Z"
   },
   {
     "id": 24430,
@@ -1505,6 +1524,33 @@
     "update_history": [
       "2024-01-23T23:21:28Z"
     ]
+  },
+  {
+    "id": 24708,
+    "canonical": 24708,
+    "title": "Unhealthy Craving",
+    "category": "",
+    "game": "FO4",
+    "href": "24708-unhealthy-craving",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T09:25:11Z",
+    "sortable": "unhealthy craving",
+    "tags": [
+      "weightgain",
+      "eating disorders",
+      "fetish",
+      "shame",
+      "selfharm",
+      "exercise",
+      "weightloss",
+      "morphing",
+      "mcm"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T10:07:00Z"
   },
   {
     "id": 24709,

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 46235,
+    "canonical": 46235,
+    "title": "Pole Activator Framework",
+    "category": "",
+    "game": "FO4",
+    "href": "46235-pole-activator-framework",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T09:25:11Z",
+    "sortable": "pole activator framework",
+    "tags": [
+      "naf bridge",
+      "pole",
+      "stripdance",
+      "savagecabbage"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T10:02:32Z"
+  },
+  {
+    "id": 46556,
+    "canonical": 46556,
+    "title": "Simple Jobs",
+    "category": "",
+    "game": "FO4",
+    "href": "46556-simple-jobs",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T10:23:00Z",
+    "sortable": "simple jobs",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T10:57:27Z"
+  },
+  {
+    "id": 46559,
+    "canonical": 46559,
+    "title": "Titshirt",
+    "category": "",
+    "game": "FO4",
+    "href": "46559-titshirt",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T09:25:11Z",
+    "sortable": "titshirt",
+    "tags": [
+      "bodyslide",
+      "outfit"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T20:22:13Z"
+  },
+  {
+    "id": 46580,
+    "canonical": 46580,
+    "title": "Schlongs of Skyrim AE-NG",
+    "category": "",
+    "game": "SE",
+    "href": "46580-schlongs-of-skyrim-ae-ng",
+    "status": "compatible",
+    "version": "",
+    "updated": "2026-09-09T07:25:27Z",
+    "sortable": "schlongs of skyrim ae-ng",
+    "tags": [
+      "sos",
+      "ae"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T07:57:50Z"
+  },
+  {
+    "id": 46836,
+    "canonical": 46836,
+    "title": "OpenCBP for Fallout 4 AE",
+    "category": "",
+    "game": "FO4",
+    "href": "46836-opencbp-for-fallout-4-ae",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T09:25:11Z",
+    "sortable": "opencbp for fallout 4 ae",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T20:20:06Z"
+  }
+]

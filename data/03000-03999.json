@@ -1466,6 +1466,23 @@
     ]
   },
   {
+    "id": 3155,
+    "canonical": 3155,
+    "title": "Draenei Race",
+    "category": "",
+    "game": "OB",
+    "href": "3155-mesh-extended-swap-system",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T14:25:10Z",
+    "sortable": "draenei race",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T15:06:56Z"
+  },
+  {
     "id": 3156,
     "canonical": 3156,
     "title": "hand-sculpted faces",
@@ -1586,6 +1603,23 @@
     "update_history": [
       "2016-08-25T04:30:51Z"
     ]
+  },
+  {
+    "id": 3169,
+    "canonical": 3169,
+    "title": "[Sims 4] Skarrds Perverted Expansion Pack (Update to 3.0.0 March/7 2026)",
+    "category": "",
+    "game": "S4",
+    "href": "3169-wickedwhims",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T20:26:44Z",
+    "sortable": "[sims 4] skarrds perverted expansion pack (update to 3.0.0 march/7 2026)",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T20:37:11Z"
   },
   {
     "id": 3170,
@@ -2524,6 +2558,25 @@
     "update_history": [
       "2016-09-23T17:51:13Z"
     ]
+  },
+  {
+    "id": 3249,
+    "canonical": 3249,
+    "title": "School Template for Oniki Kay's KinkyWorld",
+    "category": "",
+    "game": "S3",
+    "href": "3249-school-template-for-oniki-kays-kinkyworld",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T20:26:44Z",
+    "sortable": "school template for oniki kay's kinkyworld",
+    "tags": [
+      "Sims 3"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T21:05:13Z"
   },
   {
     "id": 3250,
@@ -6306,6 +6359,25 @@
     ]
   },
   {
+    "id": 3589,
+    "canonical": 3589,
+    "title": "Vault-Tech Slave Gear(Texture Pack)",
+    "category": "",
+    "game": "FO4",
+    "href": "3589-vault-tech-slave-geartexture-pack",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T17:26:17Z",
+    "sortable": "vault-tech slave gear(texture pack)",
+    "tags": [
+      "textures"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T17:33:33Z"
+  },
+  {
     "id": 3591,
     "canonical": 3591,
     "title": "Sexy Male Prisoners & A Bard",
@@ -8791,6 +8863,32 @@
     "update_history": [
       "2017-04-01T19:48:51Z"
     ]
+  },
+  {
+    "id": 3925,
+    "canonical": 3925,
+    "title": "Four-Play",
+    "category": "",
+    "game": "FO4",
+    "href": "3925-four-play-mindless-sex-fo4s-gotta-fuck-em-all",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T08:21:44Z",
+    "sortable": "four-play",
+    "tags": [
+      "mindless",
+      "four-play",
+      "pc-npc",
+      "npc-npc",
+      "solo",
+      "sex",
+      "orgy",
+      "multiple scenes"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T09:20:54Z"
   },
   {
     "id": 3932,

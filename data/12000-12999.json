@@ -288,6 +288,28 @@
     ]
   },
   {
+    "id": 12062,
+    "canonical": 12062,
+    "title": "Rad Morphing Redux",
+    "category": "",
+    "game": "FO4",
+    "href": "12062-rad-morphing-redux",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T09:25:11Z",
+    "sortable": "rad morphing redux",
+    "tags": [
+      "bodyslide",
+      "morphing",
+      "mcm",
+      "framework"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T20:15:36Z"
+  },
+  {
     "id": 12071,
     "canonical": 12071,
     "title": "C5Kev's \"Top Her In Copper\" Witch Elf Armor UUNP",
@@ -3690,6 +3712,29 @@
     "update_history": [
       "2020-12-13T03:32:39Z"
     ]
+  },
+  {
+    "id": 12781,
+    "canonical": 12781,
+    "title": "Speedbuster's Curvaceous Body Modified",
+    "category": "",
+    "game": "OB",
+    "href": "12781-speedbusters-curvaceous-body-modified",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T14:25:10Z",
+    "sortable": "speedbuster's curvaceous body modified",
+    "tags": [
+      "body",
+      "oblivion",
+      "bbw",
+      "curvaceous",
+      "speedbuster"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T14:57:12Z"
   },
   {
     "id": 12782,

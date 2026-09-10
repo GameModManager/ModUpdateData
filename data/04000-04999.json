@@ -2374,6 +2374,28 @@
     ]
   },
   {
+    "id": 4317,
+    "canonical": 4317,
+    "title": "[Dev/Test/Beta] LL FourPlay community F4SE plugin",
+    "category": "",
+    "game": "FO4",
+    "href": "4317-devtestbeta-ll-fourplay-community-f4se-plugin",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T10:23:00Z",
+    "sortable": "[dev/test/beta] ll fourplay community f4se plugin",
+    "tags": [
+      "fo4",
+      "f4se",
+      "four_play",
+      "wip"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T10:49:41Z"
+  },
+  {
     "id": 4318,
     "canonical": 4318,
     "title": "PAH - And you get a slave! (LE/SE)",
@@ -2584,6 +2606,28 @@
     "update_history": [
       "2022-09-10T12:26:28Z"
     ]
+  },
+  {
+    "id": 4353,
+    "canonical": 4353,
+    "title": "Passion [Requires patch level 1.63+]",
+    "category": "",
+    "game": "S3",
+    "href": "4353-passion-requires-patch-level-163",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T21:26:04Z",
+    "sortable": "passion [requires patch level 1.63+]",
+    "tags": [
+      "passion",
+      "sims 3",
+      "alfiechan",
+      "superstorm"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T21:28:03Z"
   },
   {
     "id": 4367,

@@ -1665,6 +1665,23 @@
     ]
   },
   {
+    "id": 17362,
+    "canonical": 17362,
+    "title": "LoversRaperS - Dukky Edition",
+    "category": "",
+    "game": "OB",
+    "href": "17362-loversrapers-dukky-edition",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T15:25:33Z",
+    "sortable": "loversrapers - dukky edition",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T19:26:22Z"
+  },
+  {
     "id": 17364,
     "canonical": 17364,
     "title": "Minou Aradia Bikini SE CBBE (3BA)",
@@ -2428,6 +2445,23 @@
     "update_history": [
       "2021-05-10T14:11:39Z"
     ]
+  },
+  {
+    "id": 17521,
+    "canonical": 17521,
+    "title": "Companion Margarete Lena V5 plus English Patch",
+    "category": "",
+    "game": "OB",
+    "href": "17521-companion-margarete-lena-v5-plus-english-patch",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T13:24:37Z",
+    "sortable": "companion margarete lena v5 plus english patch",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T14:25:10Z"
   },
   {
     "id": 17522,

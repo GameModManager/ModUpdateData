@@ -825,6 +825,23 @@
     ]
   },
   {
+    "id": 20191,
+    "canonical": 20191,
+    "title": "Lovers Creatures 2.5+",
+    "category": "",
+    "game": "OB",
+    "href": "20191-lovers-creatures-25",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T15:25:33Z",
+    "sortable": "lovers creatures 2.5+",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T19:21:34Z"
+  },
+  {
     "id": 20193,
     "canonical": 20193,
     "title": "Toys Workshop SE",

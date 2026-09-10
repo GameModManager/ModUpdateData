@@ -1,0 +1,65 @@
+[
+  {
+    "id": 36012,
+    "canonical": 36012,
+    "title": "Drinx DD-Posters Replacer",
+    "category": "",
+    "game": "FO4",
+    "href": "36012-drinx-dd-posters-replacer",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T09:25:11Z",
+    "sortable": "drinx dd-posters replacer",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T10:11:10Z"
+  },
+  {
+    "id": 36272,
+    "canonical": 36272,
+    "title": "Perkier Perk SFX - (Mostly) SFW Femme sounds for perk popups",
+    "category": "",
+    "game": "FO4",
+    "href": "36272-perkier-perk-sfx-mostly-sfw-femme-sounds-for-perk-popups",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T10:23:00Z",
+    "sortable": "perkier perk sfx - (mostly) sfw femme sounds for perk popups",
+    "tags": [
+      "sound",
+      "soundfx",
+      "perks",
+      "girly",
+      "femme",
+      "female",
+      "fx"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T11:09:35Z"
+  },
+  {
+    "id": 36543,
+    "canonical": 36543,
+    "title": "[Missions] enslaved (canceled)",
+    "category": "",
+    "game": "SF",
+    "href": "36543-enslaved-canceled",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-09T11:26:11Z",
+    "sortable": "[missions] enslaved (canceled)",
+    "tags": [
+      "prostitution",
+      "slavery",
+      "quest"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-09T15:22:23Z"
+  }
+]
