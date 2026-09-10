@@ -487,13 +487,15 @@
     "href": "15102-sexlab-sslanimationslots-3000-se",
     "status": "ported",
     "version": "3",
-    "updated": "2024-05-13T22:44:58Z",
+    "updated": "2026-06-16T07:05:52Z",
     "sortable": "sexlab sslanimationslots",
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-05-13T22:44:58Z"
-    ]
+      "2024-05-13T22:44:58Z",
+      "2026-06-16T07:05:52Z"
+    ],
+    "last_checked": "2026-09-10T16:44:47Z"
   },
   {
     "id": 15110,
@@ -537,18 +539,19 @@
     "href": "15135-demonic-creatures-mod-version-v180-patch-v184",
     "status": "ported",
     "version": "PATCH V1.84 LE",
-    "updated": "2024-06-27T14:17:27Z",
+    "updated": "2025-09-21T08:49:19Z",
     "sortable": "demonic creatures - mod version v1.80 patch",
     "tags": [
       "creature framework",
-      "creatures",
       "sexlab"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-06-27T14:17:27Z"
-    ]
+      "2024-06-27T14:17:27Z",
+      "2025-09-21T08:49:19Z"
+    ],
+    "last_checked": "2026-09-10T07:04:12Z"
   },
   {
     "id": 15136,
@@ -1398,17 +1401,17 @@
     "href": "15346-submissive-lola-the-resubmission-lese",
     "status": "compatible",
     "version": "2.1.5a",
-    "updated": "2024-06-26T00:07:33Z",
+    "updated": "2026-08-13T18:54:32Z",
     "sortable": "submissive lola: the resubmission le/se",
     "tags": [
       "bdsm",
+      "submission",
+      "submissive",
+      "lola",
       "consensual",
       "enslavement",
-      "lola",
-      "ponygirl",
       "prostitution",
-      "submission",
-      "submissive"
+      "ponygirl"
     ],
     "other_link": [
       {
@@ -1423,8 +1426,10 @@
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-06-26T00:07:33Z"
-    ]
+      "2024-06-26T00:07:33Z",
+      "2026-08-13T18:54:32Z"
+    ],
+    "last_checked": "2026-09-10T07:08:36Z"
   },
   {
     "id": 15356,

@@ -326,23 +326,25 @@
     "href": "8092-a-forsworn-story-se",
     "status": "ported",
     "version": "0.8",
-    "updated": "2024-04-20T14:43:48Z",
+    "updated": "2026-06-21T18:38:17Z",
     "sortable": "a forsworn story (se",
     "tags": [
-      "bestiality",
-      "cannibalism",
-      "forsworns",
+      "shamanism",
+      "slavery",
       "human sacrifice",
+      "forsworns",
+      "bestiality",
       "magic",
       "quest",
-      "shamanism",
-      "slavery"
+      "cannibalism"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-04-20T14:43:48Z"
-    ]
+      "2024-04-20T14:43:48Z",
+      "2026-06-21T18:38:17Z"
+    ],
+    "last_checked": "2026-09-10T20:37:34Z"
   },
   {
     "id": 8122,
@@ -2351,14 +2353,15 @@
     "updated": "2024-04-22T03:01:06Z",
     "sortable": "super paario",
     "tags": [
-      "charles martinet",
-      "dragon"
+      "dragon",
+      "charles martinet"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-04-22T03:01:06Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T20:15:39Z"
   },
   {
     "id": 8666,

@@ -2790,24 +2790,25 @@
     "href": "14694-devious-mimic-clothing-se",
     "status": "ported",
     "version": "4.1.2",
-    "updated": "2024-05-29T16:41:07Z",
+    "updated": "2026-03-01T06:58:51Z",
     "sortable": "devious mimic clothing",
     "tags": [
-      "clothes",
-      "clothing and armor",
-      "ddmim",
-      "devices",
       "devious",
-      "dmc",
+      "devices",
       "mimic",
-      "mrx",
-      "trap"
+      "clothing and armor",
+      "trap",
+      "ddmim",
+      "clothes",
+      "mrx"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-05-29T16:41:07Z"
-    ]
+      "2024-05-29T16:41:07Z",
+      "2026-03-01T06:58:51Z"
+    ],
+    "last_checked": "2026-09-10T14:08:45Z"
   },
   {
     "id": 14696,

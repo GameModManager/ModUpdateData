@@ -190,18 +190,20 @@
     "href": "32052-porny-book-covers",
     "status": "compatible",
     "version": "0.9",
-    "updated": "2024-04-25T19:04:15Z",
+    "updated": "2026-01-27T14:39:17Z",
     "sortable": "porny book covers",
     "tags": [
-      "book",
+      "texture",
       "replacer",
-      "texture"
+      "book"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-04-25T19:04:15Z"
-    ]
+      "2024-04-25T19:04:15Z",
+      "2026-01-27T14:39:17Z"
+    ],
+    "last_checked": "2026-09-10T19:42:29Z"
   },
   {
     "id": 32073,
@@ -316,7 +318,8 @@
     "automated": false,
     "update_history": [
       "2024-04-06T01:13:11Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T21:56:18Z"
   },
   {
     "id": 32150,
@@ -719,18 +722,19 @@
     "sortable": "forgotten heroines",
     "tags": [
       "busty",
-      "female",
       "follower",
       "followers",
+      "female",
+      "woman",
       "raven",
-      "thicc",
-      "woman"
+      "thicc"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-04-15T03:25:01Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T21:16:54Z"
   },
   {
     "id": 32318,
@@ -832,7 +836,8 @@
     "automated": false,
     "update_history": [
       "2024-05-04T10:29:42Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T18:16:35Z"
   },
   {
     "id": 32347,
@@ -1207,7 +1212,8 @@
     "automated": false,
     "update_history": [
       "2024-04-28T15:59:53Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T19:16:57Z"
   },
   {
     "id": 32534,
@@ -1221,17 +1227,18 @@
     "updated": "2024-06-08T13:39:13Z",
     "sortable": "magecore - tbd bodyslide",
     "tags": [
-      "bodyslide",
-      "mage",
+      "tbd",
       "outfit",
+      "mage",
       "sexyhot",
-      "tbd"
+      "bodyslide"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-06-08T13:39:13Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T10:05:03Z"
   },
   {
     "id": 32537,
@@ -1279,20 +1286,21 @@
     "href": "32554-the-circle-of-lust",
     "status": "compatible",
     "version": "1.8.1",
-    "updated": "2024-04-25T12:38:16Z",
+    "updated": "2026-08-13T18:13:57Z",
     "sortable": "circle of lust",
     "tags": [
-      "bdsm",
       "bondage",
+      "bdsm",
       "deviousdevices",
-      "unforgiving devices",
       "vampires"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-04-25T12:38:16Z"
-    ]
+      "2024-04-25T12:38:16Z",
+      "2026-08-13T18:13:57Z"
+    ],
+    "last_checked": "2026-09-10T19:48:27Z"
   },
   {
     "id": 32556,
@@ -1523,15 +1531,16 @@
     "updated": "2024-06-03T23:04:31Z",
     "sortable": "osimpleassault - ostim addon for acheron",
     "tags": [
-      "acheron",
       "ostim standalone",
+      "acheron",
       "sexual assault"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-06-03T23:04:31Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T11:04:59Z"
   },
   {
     "id": 32628,
@@ -1616,16 +1625,34 @@
     "updated": "2024-06-03T23:20:26Z",
     "sortable": "osimpledefeat - ostim addon for acheron",
     "tags": [
+      "ostim standalone",
       "acheron",
       "defeat",
-      "ostim standalone",
       "sexual assault"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-06-03T23:20:26Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T11:00:45Z"
+  },
+  {
+    "id": 32660,
+    "canonical": 32660,
+    "title": "Picsel's Spicy Periodicals",
+    "category": "",
+    "game": "FO4",
+    "href": "32660-picsels-spicy-periodicals",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-10T20:31:15Z",
+    "sortable": "picsel's spicy periodicals",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-10T20:34:19Z"
   },
   {
     "id": 32661,
@@ -1642,7 +1669,8 @@
     "automated": false,
     "update_history": [
       "2024-04-13T05:14:47Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T21:26:01Z"
   },
   {
     "id": 32669,
@@ -1679,9 +1707,9 @@
     "updated": "2024-05-25T06:39:55Z",
     "sortable": "beeingfemalese opt",
     "tags": [
-      "beeing female se",
-      "menstrual cycle",
       "pregnancy",
+      "menstrual cycle",
+      "beeing female se",
       "sexlab",
       "sexlab inflation"
     ],
@@ -1689,7 +1717,8 @@
     "automated": false,
     "update_history": [
       "2024-05-25T06:39:55Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T14:51:41Z"
   },
   {
     "id": 32681,
@@ -1851,7 +1880,8 @@
     "automated": false,
     "update_history": [
       "2024-04-05T14:59:32Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T21:59:03Z"
   },
   {
     "id": 32788,
@@ -1935,7 +1965,8 @@
     "automated": false,
     "update_history": [
       "2024-05-01T23:26:16Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T18:51:18Z"
   },
   {
     "id": 32802,
@@ -1952,7 +1983,8 @@
     "automated": false,
     "update_history": [
       "2024-05-04T10:34:27Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T17:56:52Z"
   },
   {
     "id": 32824,
@@ -2021,7 +2053,8 @@
     "automated": false,
     "update_history": [
       "2024-05-01T20:36:44Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T18:54:21Z"
   },
   {
     "id": 32830,
@@ -2055,7 +2088,7 @@
     "href": "32835-campp-tats",
     "status": "compatible",
     "version": "1.0.3",
-    "updated": "2024-06-11T10:59:47Z",
+    "updated": "2024-08-28T06:28:16Z",
     "sortable": "campp tats",
     "tags": [
       "slavetats",
@@ -2064,8 +2097,10 @@
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-06-11T10:59:47Z"
-    ]
+      "2024-06-11T10:59:47Z",
+      "2024-08-28T06:28:16Z"
+    ],
+    "last_checked": "2026-09-10T09:44:42Z"
   },
   {
     "id": 32840,
@@ -2278,7 +2313,8 @@
     "automated": false,
     "update_history": [
       "2024-05-04T10:29:10Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T18:19:38Z"
   },
   {
     "id": 32911,
@@ -2322,7 +2358,8 @@
     "automated": false,
     "update_history": [
       "2024-04-05T00:42:25Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T22:05:24Z"
   },
   {
     "id": 32952,
@@ -2339,7 +2376,8 @@
     "automated": false,
     "update_history": [
       "2024-04-05T11:29:05Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T22:02:10Z"
   },
   {
     "id": 32971,
@@ -2354,15 +2392,16 @@
     "sortable": "skyrim save file sorter",
     "tags": [
       "misc",
-      "script",
       "tool",
-      "tools"
+      "tools",
+      "script"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-04-07T23:38:49Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T21:47:18Z"
   },
   {
     "id": 32985,
@@ -2373,13 +2412,15 @@
     "href": "32985-cum-dreaming",
     "status": "compatible",
     "version": "2.0.1",
-    "updated": "2024-05-17T16:30:30Z",
+    "updated": "2025-12-11T07:31:10Z",
     "sortable": "cum dreaming",
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-05-17T16:30:30Z"
-    ]
+      "2024-05-17T16:30:30Z",
+      "2025-12-11T07:31:10Z"
+    ],
+    "last_checked": "2026-09-10T16:14:06Z"
   },
   {
     "id": 32987,
@@ -2390,18 +2431,20 @@
     "href": "32987-convoy-system-beta",
     "status": "compatible",
     "version": "1.1.0",
-    "updated": "2024-04-21T19:47:12Z",
+    "updated": "2024-08-01T14:33:34Z",
     "sortable": "convoy system [beta]",
     "tags": [
       "slave",
-      "slavery",
-      "slaves"
+      "slaves",
+      "slavery"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-04-21T19:47:12Z"
-    ]
+      "2024-04-21T19:47:12Z",
+      "2024-08-01T14:33:34Z"
+    ],
+    "last_checked": "2026-09-10T20:18:48Z"
   },
   {
     "id": 32992,
@@ -2418,6 +2461,7 @@
     "automated": false,
     "update_history": [
       "2024-04-27T08:55:11Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T19:29:38Z"
   }
 ]

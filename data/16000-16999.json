@@ -2690,7 +2690,7 @@
     "href": "16718-patch-for-mihails-succubus-and-radiant-prostitution",
     "status": "ported",
     "version": "1.0.0",
-    "updated": "2024-04-23T18:27:55Z",
+    "updated": "2026-04-10T21:05:12Z",
     "sortable": "patch for mihail's succubus and radiant prostitution",
     "tags": [
       "patches",
@@ -2700,8 +2700,10 @@
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-04-23T18:27:55Z"
-    ]
+      "2024-04-23T18:27:55Z",
+      "2026-04-10T21:05:12Z"
+    ],
+    "last_checked": "2026-09-10T20:03:37Z"
   },
   {
     "id": 16724,
@@ -2757,7 +2759,8 @@
     "automated": false,
     "update_history": [
       "2024-04-23T18:27:06Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T20:06:35Z"
   },
   {
     "id": 16732,

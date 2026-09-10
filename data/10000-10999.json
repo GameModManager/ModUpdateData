@@ -1390,22 +1390,24 @@
     "href": "10316-osmelmc-mod-tweaks",
     "status": "compatible",
     "version": "2024-04-21",
-    "updated": "2024-04-21T08:14:55Z",
+    "updated": "2024-09-22T20:00:45Z",
     "sortable": "osmelmc mod tweaks",
     "tags": [
-      "ahegao",
-      "aroused",
-      "bestiality",
+      "sexlab",
       "creatue",
+      "bestiality",
+      "sos addons",
+      "private needs",
+      "aroused",
+      "sanguine debauchery",
+      "milk mod",
+      "slate",
+      "ahegao",
       "furniture mod",
       "mias lair",
-      "milk mod",
       "misty skye",
-      "private needs",
-      "sanguine debauchery",
-      "sexlab",
-      "slate",
-      "sos addons"
+      "usmp",
+      "sda"
     ],
     "note": [
       "SexLab Utility Plus is ported, some patches are compatible, other patches are unknown"
@@ -1413,8 +1415,10 @@
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-04-21T08:14:55Z"
-    ]
+      "2024-04-21T08:14:55Z",
+      "2024-09-22T20:00:45Z"
+    ],
+    "last_checked": "2026-09-10T20:21:49Z"
   },
   {
     "id": 10318,
@@ -1859,15 +1863,16 @@
     "updated": "2024-04-28T21:59:47Z",
     "sortable": "blackthorn male patch",
     "tags": [
-      "all male",
       "npc replacer",
-      "player home"
+      "player home",
+      "all male"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-04-28T21:59:47Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T19:07:04Z"
   },
   {
     "id": 10407,

@@ -2443,20 +2443,22 @@
     "href": "7900-sexlab-dragons",
     "status": "compatible",
     "version": "V5.3A / V6WIP14",
-    "updated": "2024-05-23T13:42:13Z",
+    "updated": "2026-07-02T08:13:01Z",
     "sortable": "sexlab dragons",
     "tags": [
-      "dialogue",
+      "sexlab",
       "dragon",
       "dragons",
       "hcos",
-      "sexlab"
+      "dialogue"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-05-23T13:42:13Z"
-    ]
+      "2024-05-23T13:42:13Z",
+      "2026-07-02T08:13:01Z"
+    ],
+    "last_checked": "2026-09-10T15:11:55Z"
   },
   {
     "id": 7902,

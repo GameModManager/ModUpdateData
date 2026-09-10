@@ -540,13 +540,15 @@
     "href": "26181-followersaskforjoint",
     "status": "compatible",
     "version": "V5.0",
-    "updated": "2024-05-22T15:20:44Z",
+    "updated": "2026-03-27T14:45:42Z",
     "sortable": "followersaskforjoint",
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-05-22T15:20:44Z"
-    ]
+      "2024-05-22T15:20:44Z",
+      "2026-03-27T14:45:42Z"
+    ],
+    "last_checked": "2026-09-10T15:27:50Z"
   },
   {
     "id": 26185,
@@ -889,13 +891,15 @@
     "href": "26300-ivdt-140-hentai-edition-v4-voice-packs",
     "status": "compatible",
     "version": "4.2.0",
-    "updated": "2024-06-10T14:09:57Z",
+    "updated": "2025-10-18T03:18:16Z",
     "sortable": "ivdt 1.4.0 hentai edition v4 & voice packs",
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-06-10T14:09:57Z"
-    ]
+      "2024-06-10T14:09:57Z",
+      "2025-10-18T03:18:16Z"
+    ],
+    "last_checked": "2026-09-10T09:52:56Z"
   },
   {
     "id": 26304,
@@ -1943,21 +1947,23 @@
     "href": "26576-devious-interests",
     "status": "compatible",
     "version": "0.925a",
-    "updated": "2024-05-15T10:50:12Z",
+    "updated": "2025-01-03T22:19:33Z",
     "sortable": "devious interests",
     "tags": [
+      "devious devices",
       "bdsm",
       "bondage",
-      "devious devices",
+      "restraints",
       "dialogues",
-      "reactions",
-      "restraints"
+      "reactions"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-05-15T10:50:12Z"
-    ]
+      "2024-05-15T10:50:12Z",
+      "2025-01-03T22:19:33Z"
+    ],
+    "last_checked": "2026-09-10T16:34:34Z"
   },
   {
     "id": 26578,
@@ -2429,22 +2435,23 @@
     "href": "26722-dws-cbbe-3ba-with-ube-anus",
     "status": "compatible",
     "version": "1.43",
-    "updated": "2024-05-07T02:28:05Z",
+    "updated": "2024-08-29T01:41:57Z",
     "sortable": "dw's cbbe 3ba with ube anus",
     "tags": [
-      "3bav2",
+      "cbbe",
       "anus",
       "anus model",
       "anus texture",
       "bodyslide",
-      "cbbe",
       "outfit studio"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-05-07T02:28:05Z"
-    ]
+      "2024-05-07T02:28:05Z",
+      "2024-08-29T01:41:57Z"
+    ],
+    "last_checked": "2026-09-10T17:20:41Z"
   },
   {
     "id": 26726,
@@ -2534,7 +2541,8 @@
     "automated": false,
     "update_history": [
       "2024-05-10T06:01:45Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T17:04:25Z"
   },
   {
     "id": 26758,
@@ -2713,13 +2721,15 @@
     "href": "26817-skimpy-armor-and-clothing-for-here-there-be-monster-loose-version-cbbe-hdt-for-remodel-armor-aio",
     "status": "unknown",
     "version": "1.2",
-    "updated": "2024-06-05T06:02:07Z",
+    "updated": "2025-01-04T11:16:11Z",
     "sortable": "skimpy armor and clothing for here there be monster - loose version cbbe hdt for remodel armor aio",
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-06-05T06:02:07Z"
-    ]
+      "2024-06-05T06:02:07Z",
+      "2025-01-04T11:16:11Z"
+    ],
+    "last_checked": "2026-09-10T10:30:49Z"
   },
   {
     "id": 26827,
@@ -2980,7 +2990,8 @@
     "automated": false,
     "update_history": [
       "2024-06-19T18:35:01Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T08:33:24Z"
   },
   {
     "id": 26940,

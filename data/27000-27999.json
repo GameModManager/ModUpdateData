@@ -165,14 +165,15 @@
     "sortable": "skimpy outfit replacer for beyond reach cbbe hdt",
     "tags": [
       "beyond reach",
-      "cbbe hdt",
-      "skimpy"
+      "skimpy",
+      "cbbe hdt"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-05-06T05:56:21Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T17:40:41Z"
   },
   {
     "id": 27045,
@@ -1283,13 +1284,15 @@
     "href": "27362-from-the-deeps-new-version",
     "status": "ported",
     "version": "0.53",
-    "updated": "2024-06-20T20:09:45Z",
+    "updated": "2026-07-06T04:47:56Z",
     "sortable": "from the deeps (new version",
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-06-20T20:09:45Z"
-    ]
+      "2024-06-20T20:09:45Z",
+      "2026-07-06T04:47:56Z"
+    ],
+    "last_checked": "2026-09-10T08:24:52Z"
   },
   {
     "id": 27364,
@@ -1411,13 +1414,15 @@
     "href": "27407-sexlab-anim-stage-labels",
     "status": "compatible",
     "version": "2.0.11",
-    "updated": "2024-05-21T03:48:04Z",
+    "updated": "2024-12-16T13:06:11Z",
     "sortable": "sexlab anim stage labels",
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-05-21T03:48:04Z"
-    ]
+      "2024-05-21T03:48:04Z",
+      "2024-12-16T13:06:11Z"
+    ],
+    "last_checked": "2026-09-10T15:44:28Z"
   },
   {
     "id": 27416,
@@ -2263,19 +2268,21 @@
     "href": "27666-fnis-dragon-vore-killmoves",
     "status": "compatible",
     "version": "v2.12C",
-    "updated": "2024-05-23T13:43:19Z",
+    "updated": "2026-04-21T04:19:07Z",
     "sortable": "dragon vore killmoves",
     "tags": [
       "dragon",
-      "killmove",
+      "vore",
       "killmoves",
-      "vore"
+      "killmove"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-05-23T13:43:19Z"
-    ]
+      "2024-05-23T13:43:19Z",
+      "2026-04-21T04:19:07Z"
+    ],
+    "last_checked": "2026-09-10T15:08:41Z"
   },
   {
     "id": 27667,
@@ -3229,13 +3236,15 @@
     "href": "27958-simple-defeat",
     "status": "compatible",
     "version": "1.7.1",
-    "updated": "2024-06-29T19:40:41Z",
+    "updated": "2024-08-09T09:06:31Z",
     "sortable": "simple defeat",
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-06-29T19:40:41Z"
-    ]
+      "2024-06-29T19:40:41Z",
+      "2024-08-09T09:06:31Z"
+    ],
+    "last_checked": "2026-09-10T06:21:19Z"
   },
   {
     "id": 27959,

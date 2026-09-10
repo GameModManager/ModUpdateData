@@ -64,20 +64,21 @@
     "tags": [
       "cerinian",
       "katia race",
-      "krystal",
-      "nsfw",
-      "oldrim",
-      "prequel comic",
-      "racemenu",
+      "sse",
       "skeleton",
-      "skeleton-mod",
-      "sse"
+      "racemenu",
+      "prequel comic",
+      "krystal",
+      "oldrim",
+      "nsfw",
+      "skeleton-mod"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-04-16T23:46:48Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T21:04:55Z"
   },
   {
     "id": 17013,
@@ -2317,19 +2318,21 @@
     "href": "17496-babodialogue",
     "status": "compatible",
     "version": "5.47.2",
-    "updated": "2024-04-07T08:39:13Z",
+    "updated": "2024-09-05T14:17:44Z",
     "sortable": "babodialogue",
     "tags": [
-      "dialogue",
-      "female protagonist",
       "immersion",
-      "quests"
+      "quests",
+      "dialogue",
+      "female protagonist"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-04-07T08:39:13Z"
-    ]
+      "2024-04-07T08:39:13Z",
+      "2024-09-05T14:17:44Z"
+    ],
+    "last_checked": "2026-09-10T21:50:09Z"
   },
   {
     "id": 17499,

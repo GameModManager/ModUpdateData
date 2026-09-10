@@ -94,6 +94,44 @@
     "last_checked": "2026-09-09T22:29:14Z"
   },
   {
+    "id": 50488,
+    "canonical": 50488,
+    "title": "Roses Of Riverwood Dialogue Addon - ESL",
+    "category": "",
+    "game": "SE",
+    "href": "50488-roses-of-riverwood-dialogue-addon-esl",
+    "status": "compatible",
+    "version": "",
+    "updated": "2026-09-10T18:29:04Z",
+    "sortable": "roses of riverwood dialogue addon - esl",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-10T18:35:26Z"
+  },
+  {
+    "id": 50522,
+    "canonical": 50522,
+    "title": "Erotica book genre",
+    "category": "",
+    "game": "S4",
+    "href": "50522-erotica-book-genre",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-10T10:30:49Z",
+    "sortable": "erotica book genre",
+    "tags": [
+      "sims4",
+      "books",
+      "erotica"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-10T10:35:19Z"
+  },
+  {
     "id": 50533,
     "canonical": 50533,
     "title": "SMP Head",
@@ -244,6 +282,27 @@
     "automated": true,
     "update_history": [],
     "last_checked": "2026-09-09T10:53:33Z"
+  },
+  {
+    "id": 50949,
+    "canonical": 50949,
+    "title": "SL Gameplay Effects Workshop",
+    "category": "",
+    "game": "SE",
+    "href": "50949-sl-gameplay-effects-workshop",
+    "status": "compatible",
+    "version": "",
+    "updated": "2026-09-10T13:44:58Z",
+    "sortable": "sl gameplay effects workshop",
+    "tags": [
+      "sexlab",
+      "immersion",
+      "gameplay"
+    ],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-10T13:51:43Z"
   },
   {
     "id": 50952,

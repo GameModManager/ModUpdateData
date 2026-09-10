@@ -6727,20 +6727,21 @@
     "updated": "2024-05-12T21:38:43Z",
     "sortable": "petcollar",
     "tags": [
-      "bestiality",
-      "collar",
       "devious devices",
+      "collar",
+      "nude",
+      "sexlab",
+      "sex",
       "followers",
       "inventory",
-      "nude",
-      "sex",
-      "sexlab"
+      "bestiality"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-05-12T21:38:43Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T16:51:16Z"
   },
   {
     "id": 1424,
@@ -11889,23 +11890,25 @@
     "href": "1733-a-forsworn-story",
     "status": "ported",
     "version": "0.8",
-    "updated": "2024-04-20T13:51:51Z",
+    "updated": "2026-06-21T17:36:24Z",
     "sortable": "a forsworn story",
     "tags": [
-      "bestiality",
-      "cannibalism",
-      "forsworns",
+      "shamanism",
+      "slavery",
       "human sacrifices",
+      "forsworns",
+      "bestiality",
       "magic",
       "quest",
-      "shamanism",
-      "slavery"
+      "cannibalism"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-04-20T13:51:51Z"
-    ]
+      "2024-04-20T13:51:51Z",
+      "2026-06-21T17:36:24Z"
+    ],
+    "last_checked": "2026-09-10T20:40:32Z"
   },
   {
     "id": 1734,

@@ -222,7 +222,8 @@
     "automated": false,
     "update_history": [
       "2024-04-23T20:18:45Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T20:00:33Z"
   },
   {
     "id": 25101,
@@ -989,13 +990,15 @@
     "href": "25414-sexlab-nightlife",
     "status": "compatible",
     "version": "2.4.4",
-    "updated": "2024-06-23T08:39:50Z",
+    "updated": "2026-03-23T09:36:13Z",
     "sortable": "sexlab nightlife",
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-06-23T08:39:50Z"
-    ]
+      "2024-06-23T08:39:50Z",
+      "2026-03-23T09:36:13Z"
+    ],
+    "last_checked": "2026-09-10T07:58:44Z"
   },
   {
     "id": 25415,

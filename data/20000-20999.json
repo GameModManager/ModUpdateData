@@ -3705,7 +3705,7 @@
     "href": "20879-beware-of-the-eggs",
     "status": "compatible",
     "version": "Harvesting Adventures V10.3",
-    "updated": "2024-04-04T17:49:17Z",
+    "updated": "2026-02-23T14:37:31Z",
     "sortable": "beware of the eggs",
     "tags": [
       "gameplay"
@@ -3713,8 +3713,10 @@
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-04-04T17:49:17Z"
-    ]
+      "2024-04-04T17:49:17Z",
+      "2026-02-23T14:37:31Z"
+    ],
+    "last_checked": "2026-09-10T22:08:41Z"
   },
   {
     "id": 20888,

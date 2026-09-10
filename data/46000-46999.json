@@ -22,6 +22,23 @@
     "last_checked": "2026-09-09T10:02:32Z"
   },
   {
+    "id": 46346,
+    "canonical": 46346,
+    "title": "O.M.N.O.M.S - Not So Obvious Mimics in Skyrim",
+    "category": "",
+    "game": "SE",
+    "href": "46346-omnoms-not-so-obvious-mimics-in-skyrim",
+    "status": "compatible",
+    "version": "",
+    "updated": "2026-09-10T19:29:38Z",
+    "sortable": "o.m.n.o.m.s - not so obvious mimics in skyrim",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-10T19:32:53Z"
+  },
+  {
     "id": 46556,
     "canonical": 46556,
     "title": "Simple Jobs",
@@ -77,6 +94,23 @@
     "automated": true,
     "update_history": [],
     "last_checked": "2026-09-09T07:57:50Z"
+  },
+  {
+    "id": 46660,
+    "canonical": 46660,
+    "title": "Simplest Defeat -- A \"Stripped\" Down Defeat Mod.",
+    "category": "",
+    "game": "SE",
+    "href": "46660-simplest-defeat-a-stripped-down-defeat-mod",
+    "status": "compatible",
+    "version": "",
+    "updated": "2026-09-10T12:29:25Z",
+    "sortable": "simplest defeat -- a \"stripped\" down defeat mod.",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": [],
+    "last_checked": "2026-09-10T12:33:08Z"
   },
   {
     "id": 46836,

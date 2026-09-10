@@ -93,17 +93,16 @@
     "href": "6022-sexlab-aroused-creatures-se-2024-06-21",
     "status": "ported",
     "version": "v04.14",
-    "updated": "2024-06-24T03:41:28Z",
+    "updated": "2026-06-12T20:46:14Z",
     "sortable": "sexlab aroused creatures",
     "tags": [
+      "sexlab",
       "animals",
-      "aroused",
       "bestiality",
-      "creatures",
-      "gpl",
-      "opensource",
       "sex",
-      "sexlab"
+      "aroused",
+      "opensource",
+      "gpl"
     ],
     "other_link": [
       {
@@ -114,8 +113,10 @@
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-06-24T03:41:28Z"
-    ]
+      "2024-06-24T03:41:28Z",
+      "2026-06-12T20:46:14Z"
+    ],
+    "last_checked": "2026-09-10T07:45:41Z"
   },
   {
     "id": 6024,
@@ -2372,14 +2373,15 @@
     "sortable": "devious rubber masks: rebirth!",
     "tags": [
       "devious",
-      "masks",
-      "rubber"
+      "rubber",
+      "masks"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-04-03T20:21:10Z"
-    ]
+    ],
+    "last_checked": "2026-09-10T22:11:49Z"
   },
   {
     "id": 6670,
@@ -2415,13 +2417,15 @@
     "href": "6671-arousal-based-breast-adjuster-for-se-abba",
     "status": "compatible",
     "version": "7.0.4",
-    "updated": "2024-05-08T00:55:54Z",
+    "updated": "2024-08-16T21:59:45Z",
     "sortable": "arousal based breast adjuster for se (abba",
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-05-08T00:55:54Z"
-    ]
+      "2024-05-08T00:55:54Z",
+      "2024-08-16T21:59:45Z"
+    ],
+    "last_checked": "2026-09-10T17:14:16Z"
   },
   {
     "id": 6677,
