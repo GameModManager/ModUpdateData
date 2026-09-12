@@ -237,7 +237,7 @@
     "href": "20058-sexlab-se-sex-animation-framework-v166b-01182024",
     "status": "ported",
     "version": "1.66b",
-    "updated": "2024-03-14T01:47:09Z",
+    "updated": "2026-08-30T02:03:58Z",
     "sortable": "sexlab se - sex animation framework v1.66b - 01/18/2024",
     "note": [
       "You probably want SexLab Facial Expressions SE too",
@@ -333,8 +333,10 @@
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-03-14T01:47:09Z"
-    ]
+      "2024-03-14T01:47:09Z",
+      "2026-08-30T02:03:58Z"
+    ],
+    "last_checked": "2026-09-12T10:41:01Z"
   },
   {
     "id": 20060,
@@ -1495,13 +1497,15 @@
     "href": "20345-cotr-celebrities-for-fun-pack-5",
     "status": "compatible",
     "version": "2.2.0",
-    "updated": "2024-02-14T08:37:06Z",
+    "updated": "2026-07-01T21:42:35Z",
     "sortable": "cotr celebrities for fun pack",
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-02-14T08:37:06Z"
-    ]
+      "2024-02-14T08:37:06Z",
+      "2026-07-01T21:42:35Z"
+    ],
+    "last_checked": "2026-09-12T16:21:23Z"
   },
   {
     "id": 20348,
@@ -3611,7 +3615,7 @@
     "href": "20871-trx-sos-addon-male",
     "status": "compatible",
     "version": "2.0.3",
-    "updated": "2024-03-12T22:33:22Z",
+    "updated": "2026-09-12T10:45:08Z",
     "sortable": "trx - sos addon male",
     "tags": [
       "male",
@@ -3622,7 +3626,9 @@
     "automated": false,
     "update_history": [
       "2024-03-12T22:33:22Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-12T10:45:08Z"
   },
   {
     "id": 20874,

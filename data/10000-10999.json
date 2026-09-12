@@ -2065,13 +2065,13 @@
     "href": "10454-troubles-of-heroine",
     "status": "compatible",
     "version": "2.8.2",
-    "updated": "2024-03-05T09:39:17Z",
+    "updated": "2025-08-20T09:26:11Z",
     "sortable": "troubles of heroine",
     "tags": [
+      "sexlab",
       "companions",
       "encounters",
-      "quests",
-      "sexlab"
+      "quests"
     ],
     "other_link": [
       {
@@ -2082,8 +2082,10 @@
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-03-05T09:39:17Z"
-    ]
+      "2024-03-05T09:39:17Z",
+      "2025-08-20T09:26:11Z"
+    ],
+    "last_checked": "2026-09-12T13:34:20Z"
   },
   {
     "id": 10461,

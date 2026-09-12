@@ -167,13 +167,15 @@
     "href": "18022-better-boss-loot-sse-and-sle",
     "status": "compatible",
     "version": "1.65.2",
-    "updated": "2024-01-27T23:18:17Z",
+    "updated": "2026-09-12T20:51:30Z",
     "sortable": "better boss loot (sse and sle",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-01-27T23:18:17Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-12T20:51:30Z"
   },
   {
     "id": 18023,
@@ -1215,24 +1217,25 @@
     "updated": "2024-03-04T05:34:36Z",
     "sortable": "serana dialogue add-on",
     "tags": [
-      "add-on",
+      "skyrim",
+      "serana",
       "dialogue",
-      "english",
+      "add-on",
+      "immersive",
       "follower",
       "gameplay",
-      "immersive",
+      "english",
       "lore-friendly",
+      "voice-acting",
       "npcs",
-      "quests",
-      "serana",
-      "skyrim",
-      "voice-acting"
+      "quests"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-03-04T05:34:36Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T13:42:33Z"
   },
   {
     "id": 18214,
@@ -3046,7 +3049,8 @@
     "automated": false,
     "update_history": [
       "2024-02-05T16:15:55Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T19:25:42Z"
   },
   {
     "id": 18537,
@@ -3121,7 +3125,8 @@
     "automated": false,
     "update_history": [
       "2024-02-04T21:34:39Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T19:34:33Z"
   },
   {
     "id": 18543,

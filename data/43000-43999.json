@@ -174,6 +174,22 @@
     "last_checked": "2026-09-09T09:50:13Z"
   },
   {
+    "id": 43846,
+    "canonical": 43846,
+    "title": "Fallout 4: Forgotten Art",
+    "category": "",
+    "game": "FO4",
+    "href": "43846-fallout-4-forgotten-art",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-12T15:03:00Z",
+    "sortable": "fallout 4: forgotten art",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": []
+  },
+  {
     "id": 43923,
     "canonical": 43923,
     "title": "Slaverun Reloaded 5.3 18 07 2026",

@@ -100,7 +100,8 @@
     "automated": false,
     "update_history": [
       "2024-02-18T15:19:59Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T15:45:51Z"
   },
   {
     "id": 29059,
@@ -1390,18 +1391,20 @@
     "href": "29662-cbpc-vrsex",
     "status": "compatible",
     "version": "1.4.0",
-    "updated": "2024-03-05T21:17:14Z",
+    "updated": "2025-02-26T23:51:57Z",
     "sortable": "cbpc vrsex",
     "tags": [
-      "cbpc",
+      "vr",
       "defeat",
-      "vr"
+      "cbpc"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-03-05T21:17:14Z"
-    ]
+      "2024-03-05T21:17:14Z",
+      "2025-02-26T23:51:57Z"
+    ],
+    "last_checked": "2026-09-12T13:26:22Z"
   },
   {
     "id": 29692,
@@ -1927,17 +1930,18 @@
     "updated": "2024-02-02T05:04:11Z",
     "sortable": "priest outfit- cbbe 3ba smp",
     "tags": [
-      "3ba",
       "cbbe",
-      "outfit",
+      "3ba",
+      "witch",
       "smp",
-      "witch"
+      "outfit"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-02-02T05:04:11Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T20:04:08Z"
   },
   {
     "id": 29961,

@@ -2659,32 +2659,37 @@
     "href": "12508-pama%C2%B4s-deadly-furniture-scripts",
     "status": "compatible",
     "version": "2.4.0",
-    "updated": "2024-02-14T05:59:08Z",
+    "updated": "2026-09-12T11:22:47Z",
     "sortable": "pama´s deadly furniture (scripts",
     "tags": [
-      "asphyxiation",
-      "beheading",
-      "choking",
-      "death",
-      "decapitation",
       "execution",
-      "fingering",
-      "gallows",
       "garotte",
-      "guilloutine",
-      "hanging",
-      "impalement",
-      "resource",
-      "ryona",
+      "zap",
       "script",
+      "resource",
+      "beheading",
+      "ryona",
       "snuff",
-      "zap"
+      "guilloutine",
+      "gallows",
+      "hanging",
+      "asphyxiation",
+      "death",
+      "choking",
+      "impalement",
+      "decapitation",
+      "fingering",
+      "cannibalism",
+      "electrocution",
+      "humiliation"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-02-14T05:59:08Z"
-    ]
+      "2024-02-14T05:59:08Z",
+      "2026-09-12T11:22:47Z"
+    ],
+    "last_checked": "2026-09-12T16:25:21Z"
   },
   {
     "id": 12509,

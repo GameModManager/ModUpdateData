@@ -5025,13 +5025,15 @@
     "href": "11946-dark-arena-sse",
     "status": "ported",
     "version": "1.43",
-    "updated": "2024-02-11T14:10:14Z",
+    "updated": "2026-06-16T18:34:29Z",
     "sortable": "dark arena",
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-02-11T14:10:14Z"
-    ]
+      "2024-02-11T14:10:14Z",
+      "2026-06-16T18:34:29Z"
+    ],
+    "last_checked": "2026-09-12T16:41:20Z"
   },
   {
     "id": 11949,

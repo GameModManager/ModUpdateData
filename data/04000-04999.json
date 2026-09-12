@@ -198,6 +198,22 @@
     "last_checked": "2026-09-10T19:13:43Z"
   },
   {
+    "id": 4028,
+    "canonical": 4028,
+    "title": "Just Business [WIP]",
+    "category": "",
+    "game": "FO4",
+    "href": "4028-just-business-wip",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-12T03:02:12Z",
+    "sortable": "just business [wip]",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": []
+  },
+  {
     "id": 4029,
     "canonical": 4029,
     "title": "Corpus d' Oro",

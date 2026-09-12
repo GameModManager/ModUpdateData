@@ -4060,20 +4060,24 @@
     "href": "16942-michelle-pfeiffer-and-lucy-liu-for-cotr",
     "status": "compatible",
     "version": "2.0.0",
-    "updated": "2024-03-01T19:25:16Z",
+    "updated": "2025-04-14T17:06:37Z",
     "sortable": "michelle pfeiffer and lucy liu for cotr",
     "tags": [
       "celebrities",
+      "presets",
+      "racemenu",
       "cotr",
       "customrace",
-      "presets",
-      "racemenu"
+      "lucy liu",
+      "michelle pfeiffer"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-03-01T19:25:16Z"
-    ]
+      "2024-03-01T19:25:16Z",
+      "2025-04-14T17:06:37Z"
+    ],
+    "last_checked": "2026-09-12T14:02:56Z"
   },
   {
     "id": 16948,

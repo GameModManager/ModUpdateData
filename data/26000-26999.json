@@ -1448,20 +1448,21 @@
     "updated": "2024-03-10T14:34:15Z",
     "sortable": "petite to plenty - a cbpc config for realistic collisions and physics",
     "tags": [
-      "anus",
-      "breasts physics",
       "cbpc",
-      "collision",
-      "penis",
       "physics preset",
-      "tuning file",
-      "vagina"
+      "collision",
+      "anus",
+      "vagina",
+      "penis",
+      "breasts physics",
+      "tuning file"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-03-10T14:34:15Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T11:34:33Z"
   },
   {
     "id": 26452,
@@ -3168,14 +3169,15 @@
     "updated": "2024-03-06T18:47:36Z",
     "sortable": "baka motion data pack",
     "tags": [
-      "animation",
-      "resource pack"
+      "resource pack",
+      "animation"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-03-06T18:47:36Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T12:57:35Z"
   },
   {
     "id": 26994,

@@ -1084,15 +1084,16 @@
     "updated": "2024-02-26T18:35:52Z",
     "sortable": "animated beast's cocks(abc) for modders - 3ds max rigs",
     "tags": [
-      "animation",
       "modders resource",
+      "animation",
       "rig"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-02-26T18:35:52Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T14:50:53Z"
   },
   {
     "id": 7541,
@@ -1216,8 +1217,8 @@
     "updated": "2024-02-01T12:54:19Z",
     "sortable": "animated beast's cocks(abc) for users le /",
     "tags": [
-      "animation",
       "hdt",
+      "animation",
       "skeleton"
     ],
     "other_link": [
@@ -1234,7 +1235,8 @@
     "automated": false,
     "update_history": [
       "2024-02-01T12:54:19Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T20:12:57Z"
   },
   {
     "id": 7563,
@@ -2345,7 +2347,7 @@
     "href": "7827-argonian-to-anthro-dragon-tf-pack",
     "status": "convertible",
     "version": "1.2",
-    "updated": "2024-01-27T23:17:47Z",
+    "updated": "2026-09-12T20:54:12Z",
     "sortable": "argonian to anthro dragon tf pack",
     "note": [
       "Convert HKXs, or grab them from Animated Dragon Wings SE"
@@ -2354,7 +2356,9 @@
     "automated": false,
     "update_history": [
       "2024-01-27T23:17:47Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-12T20:54:12Z"
   },
   {
     "id": 7837,

@@ -370,13 +370,15 @@
     "href": "30177-gift-of-dibella-v2-cbbe-3ba-preset",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-03-16T01:25:17Z",
+    "updated": "2026-09-12T09:35:40Z",
     "sortable": "gift of dibella v2 - cbbe 3ba preset",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-03-16T01:25:17Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-12T09:35:40Z"
   },
   {
     "id": 30181,
@@ -563,7 +565,8 @@
     "automated": false,
     "update_history": [
       "2024-03-05T23:53:31Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T13:18:17Z"
   },
   {
     "id": 30373,
@@ -644,6 +647,22 @@
     "last_checked": "2026-09-05T21:44:24Z"
   },
   {
+    "id": 30417,
+    "canonical": 30417,
+    "title": "B.B.W WORSHIPPER",
+    "category": "",
+    "game": "S4",
+    "href": "30417-bbw-worshipper",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-12T19:04:22Z",
+    "sortable": "b.b.w worshipper",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": []
+  },
+  {
     "id": 30428,
     "canonical": 30428,
     "title": "Femboy Race Armor",
@@ -720,7 +739,8 @@
     "automated": false,
     "update_history": [
       "2024-02-08T00:35:37Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T18:54:50Z"
   },
   {
     "id": 30452,
@@ -790,19 +810,21 @@
     "href": "30509-dealing-with-daedra-redesigned",
     "status": "compatible",
     "version": "3.0",
-    "updated": "2024-02-29T00:19:31Z",
+    "updated": "2025-09-01T00:31:47Z",
     "sortable": "dealing with daedra redesigned",
     "tags": [
+      "locations",
       "bathing",
       "guilds",
-      "locations",
       "player homes"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-02-29T00:19:31Z"
-    ]
+      "2024-02-29T00:19:31Z",
+      "2025-09-01T00:31:47Z"
+    ],
+    "last_checked": "2026-09-12T14:23:05Z"
   },
   {
     "id": 30510,
@@ -1451,7 +1473,8 @@
     "automated": false,
     "update_history": [
       "2024-01-28T08:04:10Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T20:42:48Z"
   },
   {
     "id": 30806,
@@ -1542,14 +1565,15 @@
     "updated": "2024-02-02T05:06:25Z",
     "sortable": "shadowheart elegant robe - cbbe 3ba",
     "tags": [
-      "bg3",
-      "outfit"
+      "outfit",
+      "bg3"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-02-02T05:06:25Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T20:01:06Z"
   },
   {
     "id": 30908,
@@ -1634,7 +1658,8 @@
     "automated": false,
     "update_history": [
       "2024-01-28T05:31:19Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T20:45:26Z"
   },
   {
     "id": 30921,
@@ -1732,25 +1757,27 @@
     "href": "30951-alpia-scribbles-slavetats-pack",
     "status": "compatible",
     "version": "1.0",
-    "updated": "2024-03-16T20:50:08Z",
+    "updated": "2026-08-21T17:43:20Z",
     "sortable": "alpia scribbles slavetats pack",
     "tags": [
-      "rapetats",
-      "rapetattoos",
       "slavetat",
       "slavetats",
-      "slavetats tattoos",
       "slavetatstattoos",
-      "tattoo",
-      "tattoos",
+      "slavetats tattoos",
+      "rapetats",
+      "rapetattoos",
       "texture",
-      "textures"
+      "textures",
+      "tattoo",
+      "tattoos"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-03-16T20:50:08Z"
-    ]
+      "2024-03-16T20:50:08Z",
+      "2026-08-21T17:43:20Z"
+    ],
+    "last_checked": "2026-09-12T09:02:03Z"
   },
   {
     "id": 30964,

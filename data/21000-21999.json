@@ -767,22 +767,24 @@
     "href": "21236-cotr-evangeline-lilly-is-tauriel",
     "status": "compatible",
     "version": "final",
-    "updated": "2024-02-17T20:29:16Z",
+    "updated": "2026-07-09T12:10:01Z",
     "sortable": "cotr evangeline lilly is tauriel",
     "tags": [
-      "celebrity",
-      "cotr",
-      "customrace",
-      "lord of the rings",
-      "preset",
       "racememu",
+      "customrace",
+      "cotr",
+      "preset",
+      "celebrity",
+      "lord of the rings",
       "skyrim"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-02-17T20:29:16Z"
-    ]
+      "2024-02-17T20:29:16Z",
+      "2026-07-09T12:10:01Z"
+    ],
+    "last_checked": "2026-09-12T16:01:42Z"
   },
   {
     "id": 21238,
@@ -1535,13 +1537,13 @@
     "updated": "2026-09-05T07:13:51Z",
     "sortable": "being a cow (alternate version",
     "tags": [
-      "cattle",
       "cow",
-      "hucow",
       "milk",
+      "transformation",
+      "cattle",
       "quest",
       "slave",
-      "transformation"
+      "hucow"
     ],
     "source": "migrated",
     "automated": false,
@@ -1549,7 +1551,8 @@
       "2024-07-27T07:41:11Z",
       "2026-09-05T07:13:51Z"
     ],
-    "last_checked": "2026-09-06T09:38:57Z"
+    "last_checked": "2026-09-06T09:38:57Z",
+    "last_checked": "2026-09-12T00:08:53Z"
   },
   {
     "id": 21518,
@@ -1598,7 +1601,8 @@
     "automated": false,
     "update_history": [
       "2024-03-16T18:39:47Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T09:27:37Z"
   },
   {
     "id": 21533,

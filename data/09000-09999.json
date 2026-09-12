@@ -1967,21 +1967,23 @@
     "href": "9613-dark-arena",
     "status": "ported",
     "version": "1.43",
-    "updated": "2024-02-11T13:56:25Z",
+    "updated": "2024-11-12T11:06:41Z",
     "sortable": "dark arena",
     "tags": [
-      "arena",
+      "slavery",
       "casino",
       "pitfight",
+      "arena",
       "prostitution",
-      "quest",
-      "slavery"
+      "quest"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-02-11T13:56:25Z"
-    ]
+      "2024-02-11T13:56:25Z",
+      "2024-11-12T11:06:41Z"
+    ],
+    "last_checked": "2026-09-12T16:45:02Z"
   },
   {
     "id": 9620,

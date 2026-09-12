@@ -2502,19 +2502,21 @@
     "href": "19593-tdf-enhanced-prostitution",
     "status": "compatible",
     "version": "2.4.1",
-    "updated": "2024-03-15T18:11:52Z",
+    "updated": "2025-08-16T13:58:56Z",
     "sortable": "tdf enhancedprostitution",
     "tags": [
-      "hooker",
-      "pimp",
       "prostitution",
-      "whore"
+      "hooker",
+      "whore",
+      "pimp"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-03-15T18:11:52Z"
-    ]
+      "2024-03-15T18:11:52Z",
+      "2025-08-16T13:58:56Z"
+    ],
+    "last_checked": "2026-09-12T09:43:46Z"
   },
   {
     "id": 19601,

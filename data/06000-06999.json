@@ -384,13 +384,15 @@
     "href": "6129-unique-player-white-tiger-may-contain-nuts",
     "status": "unknown",
     "version": "1.2",
-    "updated": "2024-01-27T23:17:11Z",
+    "updated": "2026-09-12T20:56:53Z",
     "sortable": "unique player - white tiger (may contain nuts",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-01-27T23:17:11Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-12T20:56:53Z"
   },
   {
     "id": 6139,
@@ -1054,15 +1056,16 @@
     "updated": "2024-03-09T10:58:30Z",
     "sortable": "cocksmen village reborn",
     "tags": [
+      "quest",
       "gay",
-      "player home",
-      "quest"
+      "player home"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-03-09T10:58:30Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T11:59:42Z"
   },
   {
     "id": 6259,

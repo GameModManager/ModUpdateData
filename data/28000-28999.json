@@ -410,6 +410,22 @@
     ]
   },
   {
+    "id": 28136,
+    "canonical": 28136,
+    "title": "FO4 DOA6 Followers Bayman Honoka Marie Rose.",
+    "category": "",
+    "game": "FO4",
+    "href": "28136-fo4-doa6-followers-bayman-honoka-marie-rose",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-12T19:04:22Z",
+    "sortable": "fo4 doa6 followers bayman honoka marie rose.",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": []
+  },
+  {
     "id": 28148,
     "canonical": 28148,
     "title": "Dragon Quest and Crown Sorceress Outfit for CBBE HDT AIO",
@@ -743,16 +759,19 @@
     "href": "28217-toasts-guro-outfits",
     "status": "compatible",
     "version": "2.10.1",
-    "updated": "2024-01-28T03:45:11Z",
+    "updated": "2025-06-07T05:48:21Z",
     "sortable": "toast's guro outfits",
     "tags": [
-      "gore"
+      "gore",
+      "petrification"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-01-28T03:45:11Z"
-    ]
+      "2024-01-28T03:45:11Z",
+      "2025-06-07T05:48:21Z"
+    ],
+    "last_checked": "2026-09-12T20:48:27Z"
   },
   {
     "id": 28220,
@@ -1815,13 +1834,15 @@
     "href": "28596-wolfens-tattoos-for-slavetats-02012024",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-02-01T22:28:22Z",
+    "updated": "2025-12-26T22:07:01Z",
     "sortable": "wolfen's tattoos for slavetats 02/01/2024",
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-02-01T22:28:22Z"
-    ]
+      "2024-02-01T22:28:22Z",
+      "2025-12-26T22:07:01Z"
+    ],
+    "last_checked": "2026-09-12T20:07:20Z"
   },
   {
     "id": 28601,
@@ -2083,14 +2104,15 @@
     "updated": "2024-03-10T02:57:58Z",
     "sortable": "leah and sasha - botoxed",
     "tags": [
-      "cursed loot",
-      "follower"
+      "follower",
+      "cursed loot"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-03-10T02:57:58Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T11:38:38Z"
   },
   {
     "id": 28769,
@@ -2414,7 +2436,7 @@
     "href": "28935-babydoll-body-cbbe-3ba-bodyslide-preset",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-03-14T23:29:04Z",
+    "updated": "2026-09-12T10:17:03Z",
     "sortable": "babydoll body - cbbe 3ba bodyslide preset",
     "tags": [
       "3bav2",
@@ -2425,7 +2447,9 @@
     "automated": false,
     "update_history": [
       "2024-03-14T23:29:04Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-12T10:17:03Z"
   },
   {
     "id": 28946,
@@ -2458,7 +2482,7 @@
     "href": "28950-sexy-curvy-body-cbbe-3ba-preset",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-03-16T00:02:10Z",
+    "updated": "2026-09-12T09:39:56Z",
     "sortable": "sexy curvy body - cbbe 3ba preset",
     "tags": [
       "3bav2",
@@ -2469,7 +2493,9 @@
     "automated": false,
     "update_history": [
       "2024-03-16T00:02:10Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-12T09:39:56Z"
   },
   {
     "id": 28981,

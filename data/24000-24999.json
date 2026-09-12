@@ -88,7 +88,8 @@
     "automated": false,
     "update_history": [
       "2024-03-07T07:27:17Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T12:36:25Z"
   },
   {
     "id": 24069,
@@ -1024,13 +1025,15 @@
     "href": "24501-cheesecake-followers-of-culture",
     "status": "compatible",
     "version": "1.0.0a",
-    "updated": "2024-03-15T02:28:20Z",
+    "updated": "2026-09-12T10:09:08Z",
     "sortable": "cheesecake followers of culture",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-03-15T02:28:20Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-12T10:09:08Z"
   },
   {
     "id": 24504,
@@ -1781,7 +1784,8 @@
     "automated": false,
     "update_history": [
       "2024-02-02T05:10:11Z"
-    ]
+    ],
+    "last_checked": "2026-09-12T19:58:01Z"
   },
   {
     "id": 24771,

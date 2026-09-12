@@ -3254,20 +3254,23 @@
     "href": "17816-elizabeth-olsen-for-cotr",
     "status": "compatible",
     "version": "2.0.0",
-    "updated": "2024-03-09T14:32:03Z",
+    "updated": "2025-08-15T19:14:59Z",
     "sortable": "elizabeth olsen for cotr",
     "tags": [
-      "celebrity",
-      "cotr",
+      "racememu",
       "customrace",
+      "cotr",
+      "celebrity",
       "preset",
-      "racememu"
+      "elizabeth olsen"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-03-09T14:32:03Z"
-    ]
+      "2024-03-09T14:32:03Z",
+      "2025-08-15T19:14:59Z"
+    ],
+    "last_checked": "2026-09-12T11:51:32Z"
   },
   {
     "id": 17819,
@@ -3406,19 +3409,21 @@
     "href": "17837-bikini-armor-quest-eng-update",
     "status": "compatible",
     "version": "1.6",
-    "updated": "2024-02-13T11:03:11Z",
+    "updated": "2026-01-28T16:45:54Z",
     "sortable": "bikini armor quest - eng update",
     "tags": [
       "bikini armor",
       "bikini armor quest",
-      "eng",
-      "english"
+      "english",
+      "eng"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-02-13T11:03:11Z"
-    ]
+      "2024-02-13T11:03:11Z",
+      "2026-01-28T16:45:54Z"
+    ],
+    "last_checked": "2026-09-12T16:29:28Z"
   },
   {
     "id": 17838,
