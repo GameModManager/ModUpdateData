@@ -813,13 +813,15 @@
     "href": "30510-hd-4k-nordic-carved-armor",
     "status": "unknown",
     "version": "1.16",
-    "updated": "2024-04-20T01:44:13Z",
+    "updated": "2026-09-11T17:33:00Z",
     "sortable": "hd 4k nordic carved armor",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-04-20T01:44:13Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T17:33:00Z"
   },
   {
     "id": 30515,

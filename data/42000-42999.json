@@ -22,6 +22,22 @@
     "last_checked": "2026-09-09T17:48:32Z"
   },
   {
+    "id": 42296,
+    "canonical": 42296,
+    "title": "Bof's Babes n Bimbos - Bimbos of Skyrim NPC Replacer",
+    "category": "",
+    "game": "SE",
+    "href": "42296-bofs-babes-n-bimbos-bimbos-of-skyrim-npc-replacer",
+    "status": "compatible",
+    "version": "",
+    "updated": "2026-09-11T15:00:48Z",
+    "sortable": "bof's babes n bimbos - bimbos of skyrim npc replacer",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": []
+  },
+  {
     "id": 42312,
     "canonical": 42312,
     "title": "Bayman Honoka Marie Rose Followers Add On - Its a Long Road: John Rambo",
@@ -203,5 +219,37 @@
     "automated": true,
     "update_history": [],
     "last_checked": "2026-09-09T21:03:00Z"
+  },
+  {
+    "id": 42977,
+    "canonical": 42977,
+    "title": "ASF - Autonomous Sex Framework",
+    "category": "",
+    "game": "SE",
+    "href": "42977-asf-autonomous-sex-framework",
+    "status": "compatible",
+    "version": "",
+    "updated": "2026-09-11T13:00:07Z",
+    "sortable": "asf - autonomous sex framework",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": []
+  },
+  {
+    "id": 42979,
+    "canonical": 42979,
+    "title": "ASF - Furniture Lite (Addon)",
+    "category": "",
+    "game": "SE",
+    "href": "42979-asf-furniture-lite-addon",
+    "status": "compatible",
+    "version": "",
+    "updated": "2026-09-11T15:00:48Z",
+    "sortable": "asf - furniture lite (addon)",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": []
   }
 ]

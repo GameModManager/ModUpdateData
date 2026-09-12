@@ -87,5 +87,21 @@
     "automated": true,
     "update_history": [],
     "last_checked": "2026-09-09T12:26:13Z"
+  },
+  {
+    "id": 38862,
+    "canonical": 38862,
+    "title": "SexLab Stories SE (January 2025)",
+    "category": "",
+    "game": "SE",
+    "href": "38862-sexlab-stories-se-january-2025",
+    "status": "compatible",
+    "version": "",
+    "updated": "2026-09-11T23:02:06Z",
+    "sortable": "sexlab stories se (january 2025)",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": []
   }
 ]

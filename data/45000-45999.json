@@ -129,5 +129,21 @@
     "automated": true,
     "update_history": [],
     "last_checked": "2026-09-09T18:38:29Z"
+  },
+  {
+    "id": 45943,
+    "canonical": 45943,
+    "title": "RennasRanch",
+    "category": "",
+    "game": "SE",
+    "href": "45943-rennasranch",
+    "status": "compatible",
+    "version": "",
+    "updated": "2026-09-11T22:03:21Z",
+    "sortable": "rennasranch",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": []
   }
 ]

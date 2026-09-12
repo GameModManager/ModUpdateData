@@ -79,7 +79,8 @@
     "automated": false,
     "update_history": [
       "2024-03-20T21:24:02Z"
-    ]
+    ],
+    "last_checked": "2026-09-11T22:57:57Z"
   },
   {
     "id": 31042,
@@ -336,7 +337,7 @@
     "href": "31164-subtle-nutting-animation-for-sos",
     "status": "compatible",
     "version": "2.2",
-    "updated": "2024-05-17T02:23:46Z",
+    "updated": "2026-09-11T16:56:24Z",
     "sortable": "subtle nutting animation for sos",
     "tags": [
       "animation",
@@ -355,7 +356,9 @@
     "automated": false,
     "update_history": [
       "2024-05-17T02:23:46Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T16:56:24Z"
   },
   {
     "id": 31176,
@@ -911,7 +914,8 @@
     "automated": false,
     "update_history": [
       "2024-03-29T03:23:28Z"
-    ]
+    ],
+    "last_checked": "2026-09-11T20:54:47Z"
   },
   {
     "id": 31417,
@@ -1332,7 +1336,8 @@
     "automated": false,
     "update_history": [
       "2024-03-25T08:46:51Z"
-    ]
+    ],
+    "last_checked": "2026-09-11T21:55:03Z"
   },
   {
     "id": 31548,
@@ -1599,13 +1604,15 @@
     "href": "31620-immersive-lap-sitting-arousal",
     "status": "compatible",
     "version": "2.1.1b",
-    "updated": "2024-03-19T06:23:22Z",
+    "updated": "2024-08-17T04:31:56Z",
     "sortable": "immersive lap sitting arousal",
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-03-19T06:23:22Z"
-    ]
+      "2024-03-19T06:23:22Z",
+      "2024-08-17T04:31:56Z"
+    ],
+    "last_checked": "2026-09-11T23:36:33Z"
   },
   {
     "id": 31625,
@@ -1754,7 +1761,7 @@
     "href": "31679-cbbe-3babhunp-oviposition-resources",
     "status": "compatible",
     "version": "1.1.1",
-    "updated": "2024-07-07T20:02:52Z",
+    "updated": "2026-09-11T11:54:52Z",
     "sortable": "cbbe 3ba/bhunp oviposition resources",
     "tags": [
       "3bav2",
@@ -1767,7 +1774,9 @@
     "automated": false,
     "update_history": [
       "2024-07-07T20:02:52Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T11:54:52Z"
   },
   {
     "id": 31682,
@@ -2358,13 +2367,15 @@
     "href": "31981-avifwebp-animation-helper",
     "status": "compatible",
     "version": "1.0.4",
-    "updated": "2024-04-30T06:39:18Z",
+    "updated": "2026-09-11T17:19:09Z",
     "sortable": "avif/webp animation helper",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-04-30T06:39:18Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T17:19:09Z"
   },
   {
     "id": 31993,

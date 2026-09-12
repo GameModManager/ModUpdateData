@@ -326,13 +326,15 @@
     "href": "24174-soa-separate-orgasm-adventures",
     "status": "compatible",
     "version": "1.5.3",
-    "updated": "2024-05-21T13:12:15Z",
+    "updated": "2026-09-11T16:46:57Z",
     "sortable": "soa - separate orgasm adventures",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-05-21T13:12:15Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T16:46:57Z"
   },
   {
     "id": 24180,
@@ -905,25 +907,32 @@
     "href": "24435-bimbos-of-skyrim-lese",
     "status": "compatible",
     "version": "1.7.7.2",
-    "updated": "2024-03-20T11:06:36Z",
+    "updated": "2026-09-01T07:38:04Z",
     "sortable": "bimbos of skyrim le/se",
     "tags": [
       "bimbo",
       "bimbofication",
-      "body modification",
-      "dialogue",
-      "erotica",
-      "hypnosis",
-      "npcs",
+      "whore",
       "quest",
       "sexlab",
-      "whore"
+      "npcs",
+      "erotica",
+      "body modification",
+      "hypnosis",
+      "dialogue",
+      "genderbend",
+      "hypno",
+      "follower",
+      "transformaton",
+      "voiced follower"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-03-20T11:06:36Z"
-    ]
+      "2024-03-20T11:06:36Z",
+      "2026-09-01T07:38:04Z"
+    ],
+    "last_checked": "2026-09-11T23:02:06Z"
   },
   {
     "id": 24444,
@@ -1773,6 +1782,22 @@
     "update_history": [
       "2024-02-02T05:10:11Z"
     ]
+  },
+  {
+    "id": 24771,
+    "canonical": 24771,
+    "title": "Skarrds Perverted Expansion Pack",
+    "category": "",
+    "game": "S4",
+    "href": "24771-skarrds-perverted-expansion-pack",
+    "status": "unknown",
+    "version": "",
+    "updated": "2026-09-11T17:00:35Z",
+    "sortable": "skarrds perverted expansion pack",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": []
   },
   {
     "id": 24781,

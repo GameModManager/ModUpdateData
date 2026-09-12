@@ -523,7 +523,7 @@
     "href": "27094-ashley-breton-destruction-mage-follower-cbbe-3ba",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-03-26T23:23:23Z",
+    "updated": "2026-09-11T21:23:50Z",
     "sortable": "ashley - breton destruction mage follower - cbbe - 3ba",
     "tags": [
       "3bav2",
@@ -536,7 +536,9 @@
     "automated": false,
     "update_history": [
       "2024-03-26T23:23:23Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T21:23:50Z"
   },
   {
     "id": 27099,
@@ -1397,13 +1399,15 @@
     "href": "27406-immersive-persuasion-loverslab-patches",
     "status": "compatible",
     "version": "1.0.1",
-    "updated": "2024-03-22T11:47:15Z",
+    "updated": "2026-09-11T22:34:35Z",
     "sortable": "immersive persuasion - loverslab patches",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-03-22T11:47:15Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T22:34:35Z"
   },
   {
     "id": 27407,
@@ -2041,7 +2045,7 @@
     "href": "27614-anime-hentai-body-cbbe-3ba-bodyslide-preset",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-03-19T17:52:21Z",
+    "updated": "2026-09-11T23:25:13Z",
     "sortable": "anime - hentai body - cbbe 3ba bodyslide preset",
     "tags": [
       "3bav2",
@@ -2051,7 +2055,9 @@
     "automated": false,
     "update_history": [
       "2024-03-19T17:52:21Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T23:25:13Z"
   },
   {
     "id": 27622,
@@ -3077,13 +3083,15 @@
     "href": "27919-old-hroldan-farm-nsfw",
     "status": "ported",
     "version": "2.2.4",
-    "updated": "2024-05-28T09:36:26Z",
+    "updated": "2026-09-11T16:42:53Z",
     "sortable": "old hroldan farm (nsfw",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-05-28T09:36:26Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T16:42:53Z"
   },
   {
     "id": 27924,

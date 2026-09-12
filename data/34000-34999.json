@@ -82,13 +82,15 @@
     "href": "34076-naked-forsworn",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-05-28T22:52:13Z",
+    "updated": "2026-09-11T16:34:01Z",
     "sortable": "naked forsworn",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-05-28T22:52:13Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T16:34:01Z"
   },
   {
     "id": 34077,
@@ -838,13 +840,15 @@
     "href": "34484-bdor-elderwood-outfit",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-06-29T15:54:03Z",
+    "updated": "2026-09-11T13:40:17Z",
     "sortable": "bdor elderwood outfit",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-06-29T15:54:03Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T13:40:17Z"
   },
   {
     "id": 34493,
@@ -943,13 +947,15 @@
     "href": "34508-lost-ark-elgacia-outfit",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-06-29T15:53:51Z",
+    "updated": "2026-09-11T13:45:33Z",
     "sortable": "lost ark elgacia outfit",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-06-29T15:53:51Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T13:45:33Z"
   },
   {
     "id": 34528,
@@ -1038,13 +1044,15 @@
     "href": "34672-lost-ark-paladin-legendary-armor",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-06-29T15:53:31Z",
+    "updated": "2026-09-11T13:50:58Z",
     "sortable": "lost ark paladin legendary armor",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-06-29T15:53:31Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T13:50:58Z"
   },
   {
     "id": 34675,
@@ -1073,13 +1081,15 @@
     "href": "34680-lost-ark-sorceress-eternal-skin",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-06-29T15:55:26Z",
+    "updated": "2026-09-11T13:35:03Z",
     "sortable": "lost ark sorceress eternal skin",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-06-29T15:55:26Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T13:35:03Z"
   },
   {
     "id": 34690,
@@ -1262,13 +1272,15 @@
     "href": "34739-lost-ark-ealyn-outfit",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-07-02T15:56:48Z",
+    "updated": "2026-09-11T13:29:26Z",
     "sortable": "lost ark ealyn outfit",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-07-02T15:56:48Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T13:29:26Z"
   },
   {
     "id": 34741,
@@ -1385,13 +1397,15 @@
     "href": "34795-lost-ark-elgacia-b-outfit",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-07-05T03:34:51Z",
+    "updated": "2026-09-11T13:19:59Z",
     "sortable": "lost ark elgacia b outfit",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-07-05T03:34:51Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T13:19:59Z"
   },
   {
     "id": 34807,

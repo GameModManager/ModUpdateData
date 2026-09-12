@@ -61,6 +61,22 @@
     "last_checked": "2026-09-09T09:37:19Z"
   },
   {
+    "id": 48630,
+    "canonical": 48630,
+    "title": "Sexlab Horrible Harassment Expansion Ostim patch",
+    "category": "",
+    "game": "SE",
+    "href": "48630-sexlab-horrible-harassment-expansion-ostim-patch",
+    "status": "compatible",
+    "version": "",
+    "updated": "2026-09-11T19:01:46Z",
+    "sortable": "sexlab horrible harassment expansion ostim patch",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": []
+  },
+  {
     "id": 48737,
     "canonical": 48737,
     "title": "[Mod]RAO Fixes",

@@ -1482,7 +1482,7 @@
     "href": "6350-succubus-heart-se",
     "status": "ported",
     "version": "5.3.7 DEV (OStim Testing)",
-    "updated": "2024-04-18T05:19:49Z",
+    "updated": "2026-09-11T17:37:11Z",
     "sortable": "succubus heart",
     "tags": [
       "drain",
@@ -1494,7 +1494,9 @@
     "automated": false,
     "update_history": [
       "2024-04-18T05:19:49Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T17:37:11Z"
   },
   {
     "id": 6351,
@@ -2517,18 +2519,19 @@
     "href": "6707-bakafactorys-slal-animation-le-sse",
     "status": "compatible",
     "version": "6.50",
-    "updated": "2024-04-02T12:03:39Z",
+    "updated": "2026-06-06T09:32:37Z",
     "sortable": "bakafactory's slal animation le /",
     "tags": [
-      "animation",
       "sexlab",
-      "slal"
+      "animation"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-04-02T12:03:39Z"
-    ]
+      "2024-04-02T12:03:39Z",
+      "2026-06-06T09:32:37Z"
+    ],
+    "last_checked": "2026-09-11T19:30:39Z"
   },
   {
     "id": 6708,

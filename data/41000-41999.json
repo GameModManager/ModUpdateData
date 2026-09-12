@@ -147,6 +147,22 @@
     "last_checked": "2026-09-09T16:51:44Z"
   },
   {
+    "id": 41804,
+    "canonical": 41804,
+    "title": "Crajjjj patches hub",
+    "category": "",
+    "game": "SE",
+    "href": "41804-crajjjj-patches-hub",
+    "status": "compatible",
+    "version": "",
+    "updated": "2026-09-11T23:02:06Z",
+    "sortable": "crajjjj patches hub",
+    "tags": [],
+    "source": "loverslab-rss",
+    "automated": true,
+    "update_history": []
+  },
+  {
     "id": 41819,
     "canonical": 41819,
     "title": "[Mod]Invisible armor and clothing",

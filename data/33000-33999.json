@@ -164,13 +164,15 @@
     "href": "33162-jess-japanese-voice-with-english-subtitles-for-skyrim",
     "status": "compatible",
     "version": "0.1",
-    "updated": "2024-04-14T19:41:24Z",
+    "updated": "2026-09-11T17:41:54Z",
     "sortable": "jess - japanese voice with english subtitles for skyrim",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-04-14T19:41:24Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T17:41:54Z"
   },
   {
     "id": 33167,
@@ -372,7 +374,7 @@
     "href": "33294-strong-and-sexy-cbbe-3ba-bodyslide-preset",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-04-20T23:04:43Z",
+    "updated": "2026-09-11T17:28:28Z",
     "sortable": "strong and sexy - cbbe 3ba bodyslide preset",
     "tags": [
       "3bav2",
@@ -382,7 +384,9 @@
     "automated": false,
     "update_history": [
       "2024-04-20T23:04:43Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T17:28:28Z"
   },
   {
     "id": 33300,
@@ -412,13 +416,15 @@
     "href": "33305-zoeys-skyrim-content-compendium-sse-and-sle",
     "status": "compatible",
     "version": "3.0",
-    "updated": "2024-04-21T05:12:24Z",
+    "updated": "2026-09-11T17:23:47Z",
     "sortable": "zoey's skyrim content compendium (sse and sle",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-04-21T05:12:24Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T17:23:47Z"
   },
   {
     "id": 33377,
@@ -757,7 +763,7 @@
     "href": "33641-warrior-body-cbbe-3ba-preset",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-05-03T13:03:27Z",
+    "updated": "2026-09-11T17:14:53Z",
     "sortable": "warrior body - cbbe 3ba preset",
     "tags": [
       "3ba",
@@ -767,7 +773,9 @@
     "automated": false,
     "update_history": [
       "2024-05-03T13:03:27Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T17:14:53Z"
   },
   {
     "id": 33649,
@@ -889,7 +897,7 @@
     "href": "33681-wenches-wardrobe-sexlab-radiant-prostitution-patch-wear-new-tavern-clothes-to-serve-tables-on-the-job-as-a-barmaid",
     "status": "compatible",
     "version": "1.0.0",
-    "updated": "2024-05-06T15:30:36Z",
+    "updated": "2026-09-11T17:00:35Z",
     "sortable": "wenches wardrobe & sexlab radiant prostitution patch - wear new tavern clothes to serve tables on the job as a barmaid",
     "tags": [
       "barmaid",
@@ -923,7 +931,9 @@
     "automated": false,
     "update_history": [
       "2024-05-06T15:30:36Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T17:00:35Z"
   },
   {
     "id": 33689,
@@ -1371,13 +1381,15 @@
     "href": "33913-bloodline-a-fertility-mode-companion-mod",
     "status": "compatible",
     "version": "1.2.1",
-    "updated": "2024-07-04T23:45:54Z",
+    "updated": "2026-09-11T13:24:41Z",
     "sortable": "bloodline - a fertility mode companion mod",
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-07-04T23:45:54Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T13:24:41Z"
   },
   {
     "id": 33922,

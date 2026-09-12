@@ -7675,7 +7675,7 @@
     "href": "2465-tiefling",
     "status": "compatible",
     "version": "3.0.0",
-    "updated": "2024-05-28T13:20:16Z",
+    "updated": "2026-09-11T16:38:08Z",
     "sortable": "tiefling",
     "tags": [
       "adult",
@@ -7692,7 +7692,9 @@
     "automated": false,
     "update_history": [
       "2024-05-28T13:20:16Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T16:38:08Z"
   },
   {
     "id": 2467,
@@ -9791,16 +9793,17 @@
     "updated": "2024-03-22T11:15:26Z",
     "sortable": "rydin underwear for men pack",
     "tags": [
-      "clothing",
       "male-orientated",
+      "underwear",
       "textures",
-      "underwear"
+      "clothing"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
       "2024-03-22T11:15:26Z"
-    ]
+    ],
+    "last_checked": "2026-09-11T22:42:46Z"
   },
   {
     "id": 2663,

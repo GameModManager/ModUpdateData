@@ -248,25 +248,26 @@
     "href": "26082-races-of-nature-%E2%80%93-a-custom-race-collection",
     "status": "compatible",
     "version": "3.0.5",
-    "updated": "2024-03-24T16:32:33Z",
+    "updated": "2025-05-30T09:28:32Z",
     "sortable": "races of nature – a custom race collection",
     "tags": [
-      "anthro",
-      "furry",
       "race",
-      "race mod",
+      "races",
+      "racemod",
       "racemenu",
       "racemenu chargen",
       "racemenu preset",
-      "racemod",
-      "races",
+      "furry",
+      "anthro",
       "scalie"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-03-24T16:32:33Z"
-    ]
+      "2024-03-24T16:32:33Z",
+      "2025-05-30T09:28:32Z"
+    ],
+    "last_checked": "2026-09-11T21:59:14Z"
   },
   {
     "id": 26093,
@@ -293,18 +294,20 @@
     "href": "26096-deviously-accessible",
     "status": "compatible",
     "version": "10.1",
-    "updated": "2024-03-28T19:21:05Z",
+    "updated": "2024-09-27T22:25:02Z",
     "sortable": "deviously accessible",
     "tags": [
+      "devious devices",
       "bdsm",
-      "bondage",
-      "devious devices"
+      "bondage"
     ],
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-03-28T19:21:05Z"
-    ]
+      "2024-03-28T19:21:05Z",
+      "2024-09-27T22:25:02Z"
+    ],
+    "last_checked": "2026-09-11T20:59:10Z"
   },
   {
     "id": 26115,
@@ -597,7 +600,7 @@
     "href": "26210-old-hroldan-farm-nsfw",
     "status": "ported",
     "version": "2.2.4",
-    "updated": "2024-05-17T22:53:19Z",
+    "updated": "2026-09-11T16:51:49Z",
     "sortable": "old hroldan farm (nsfw",
     "tags": [
       "books",
@@ -623,7 +626,9 @@
     "automated": false,
     "update_history": [
       "2024-05-17T22:53:19Z"
-    ]
+    ],
+    "dead": true,
+    "last_checked": "2026-09-11T16:51:49Z"
   },
   {
     "id": 26212,
@@ -1137,7 +1142,7 @@
     "href": "26344-dealing-with-sexual-daedra",
     "status": "compatible",
     "version": "1.1",
-    "updated": "2024-03-28T16:06:29Z",
+    "updated": "2024-08-21T14:28:31Z",
     "sortable": "dealing with (sexual) daedra",
     "tags": [
       "sexlab",
@@ -1146,8 +1151,10 @@
     "source": "migrated",
     "automated": false,
     "update_history": [
-      "2024-03-28T16:06:29Z"
-    ]
+      "2024-03-28T16:06:29Z",
+      "2024-08-21T14:28:31Z"
+    ],
+    "last_checked": "2026-09-11T21:03:35Z"
   },
   {
     "id": 26352,
